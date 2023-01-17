@@ -1,67 +1,38 @@
-2023-01-17 19:19:55,995 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-17 19:19:59,988 - utils - INFO - Logged into API using cappero's profile
-2023-01-17 19:20:00,004 - utils - INFO - network info file has been created from 0
-2023-01-17 19:20:00,006 - utils - INFO - submitted invitation file has been created from 0
-2023-01-17 19:20:00,008 - utils - INFO - message file has been created from 0
-2023-01-17 19:20:00,010 - utils - INFO - submitted_call_to_action file has been created from 0
-2023-01-17 19:20:00,011 - utils - INFO - replies_note file has been created from 0
-2023-01-17 19:20:00,012 - utils - INFO - replies_call_to_action file has been created from 0
-2023-01-17 19:20:00,014 - utils - INFO - troubling_profiles file has been created from 0
-2023-01-17 19:20:00,014 - utils - INFO - read in all files
-2023-01-17 19:20:00,020 - utils - INFO - added new message to dataframe n0
-2023-01-17 19:20:00,025 - utils - INFO - added new message to dataframe n1
-2023-01-17 19:20:00,046 - utils - INFO - read in all files
-2023-01-17 19:20:04,026 - utils - INFO - Created row in network info for alberto-trashaj-31b26213a
-2023-01-17 19:20:04,030 - utils - INFO - alberto-trashaj-31b26213a for you is a connection of level OUT_OF_NETWORK
-2023-01-17 19:20:14,967 - utils - INFO - Sent invitation + note to alberto-trashaj-31b26213a
-2023-01-17 19:20:14,977 - utils - INFO - Created row in submitted_invitation for  alberto-trashaj-31b26213a
-2023-01-17 19:20:18,229 - utils - INFO - Created row in network info for michaeljamesmacfarlane
-2023-01-17 19:20:18,265 - utils - INFO - michaeljamesmacfarlane for you is a connection of level DISTANCE_3
-2023-01-17 19:20:28,558 - utils - INFO - Sent invitation + note to michaeljamesmacfarlane
-2023-01-17 19:20:28,574 - utils - INFO - Created row in submitted_invitation for  michaeljamesmacfarlane
-2023-01-17 19:20:32,864 - utils - INFO - Created row in network info for melissa-lester
-2023-01-17 19:20:32,871 - utils - INFO - melissa-lester for you is a connection of level DISTANCE_3
-2023-01-17 19:20:47,134 - utils - INFO - Sent invitation + note to melissa-lester
-2023-01-17 19:20:47,143 - utils - INFO - Created row in submitted_invitation for  melissa-lester
-2023-01-17 19:20:50,375 - utils - INFO - Created row in network info for ross-mason
-2023-01-17 19:20:50,381 - utils - INFO - ross-mason for you is a connection of level DISTANCE_3
-2023-01-17 19:21:02,461 - utils - INFO - Sent invitation + note to ross-mason
-2023-01-17 19:21:02,471 - utils - INFO - Created row in submitted_invitation for  ross-mason
-2023-01-17 19:21:06,705 - utils - INFO - Created row in network info for jay-ash-38484579
-2023-01-17 19:21:06,712 - utils - INFO - jay-ash-38484579 for you is a connection of level DISTANCE_3
-2023-01-17 19:21:19,654 - utils - INFO - Sent invitation + note to jay-ash-38484579
-2023-01-17 19:21:19,663 - utils - INFO - Created row in submitted_invitation for  jay-ash-38484579
-2023-01-17 19:21:23,882 - utils - INFO - Created row in network info for alistair-cairns-8a1422
-2023-01-17 19:21:23,889 - utils - INFO - alistair-cairns-8a1422 for you is a connection of level DISTANCE_3
-2023-01-17 19:21:34,915 - utils - INFO - Sent invitation + note to alistair-cairns-8a1422
-2023-01-17 19:21:34,925 - utils - INFO - Created row in submitted_invitation for  alistair-cairns-8a1422
-2023-01-17 19:21:40,152 - utils - ERROR - Proile susanne-van-nieuwenburg-69b38431 has not been found
-2023-01-17 19:21:43,424 - utils - INFO - Created row in network info for jack-mactaggart
-2023-01-17 19:21:43,430 - utils - INFO - jack-mactaggart for you is a connection of level DISTANCE_3
-2023-01-17 19:21:54,468 - utils - INFO - Sent invitation + note to jack-mactaggart
-2023-01-17 19:21:54,473 - utils - INFO - Created row in submitted_invitation for  jack-mactaggart
-2023-01-17 19:21:57,703 - utils - INFO - Created row in network info for william-laxton
-2023-01-17 19:21:57,714 - utils - INFO - william-laxton for you is a connection of level DISTANCE_3
-2023-01-17 19:22:11,879 - utils - INFO - Sent invitation + note to william-laxton
-2023-01-17 19:22:11,900 - utils - INFO - Created row in submitted_invitation for  william-laxton
-2023-01-17 19:22:17,144 - utils - INFO - Created row in network info for andrew-spence-6a638bb
-2023-01-17 19:22:17,147 - utils - INFO - andrew-spence-6a638bb for you is a connection of level DISTANCE_3
-2023-01-17 19:22:30,488 - utils - INFO - Created row in network info for george-renouf-13665014
-2023-01-17 19:22:30,492 - utils - INFO - george-renouf-13665014 for you is a connection of level DISTANCE_3
-2023-01-17 19:22:42,496 - utils - INFO - Sent invitation + note to george-renouf-13665014
-2023-01-17 19:22:42,509 - utils - INFO - Created row in submitted_invitation for  george-renouf-13665014
-2023-01-17 19:22:46,763 - utils - INFO - Created row in network info for harvey-s-aa473718a
-2023-01-17 19:22:46,767 - utils - INFO - harvey-s-aa473718a for you is a connection of level DISTANCE_3
-2023-01-17 19:22:56,734 - utils - INFO - Sent invitation + note to harvey-s-aa473718a
-2023-01-17 19:22:56,738 - utils - INFO - Created row in submitted_invitation for  harvey-s-aa473718a
-2023-01-17 19:23:02,006 - utils - INFO - connection level for profile alberto-trashaj-31b26213a has not changed
-2023-01-17 19:23:07,260 - utils - INFO - connection level for profile michaeljamesmacfarlane has not changed
-2023-01-17 19:23:10,477 - utils - INFO - connection level for profile melissa-lester has not changed
-2023-01-17 19:23:13,718 - utils - INFO - connection level for profile ross-mason has not changed
-2023-01-17 19:23:16,938 - utils - INFO - connection level for profile jay-ash-38484579 has not changed
-2023-01-17 19:23:21,284 - utils - INFO - connection level for profile alistair-cairns-8a1422 has not changed
-2023-01-17 19:23:23,501 - utils - INFO - connection level for profile jack-mactaggart has not changed
-2023-01-17 19:23:26,733 - utils - INFO - connection level for profile william-laxton has not changed
-2023-01-17 19:23:31,962 - utils - INFO - connection level for profile andrew-spence-6a638bb has not changed
-2023-01-17 19:23:34,186 - utils - INFO - connection level for profile george-renouf-13665014 has not changed
-2023-01-17 19:23:38,511 - utils - INFO - connection level for profile harvey-s-aa473718a has not changed
+2023-01-17 22:35:14,898 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-17 22:35:18,186 - utils - INFO - Logged into API using manuel's profile
+2023-01-17 22:35:18,206 - utils - INFO - network info file has been created from 0
+2023-01-17 22:35:18,208 - utils - INFO - submitted invitation file has been created from 0
+2023-01-17 22:35:18,209 - utils - INFO - message file has been created from 0
+2023-01-17 22:35:18,211 - utils - INFO - submitted_call_to_action file has been created from 0
+2023-01-17 22:35:18,212 - utils - INFO - troubling_profiles file has been created from 0
+2023-01-17 22:35:18,212 - utils - INFO - read in all files
+2023-01-17 22:35:18,215 - utils - INFO - added new message to dataframe n0
+2023-01-17 22:35:18,217 - utils - INFO - added new message to dataframe n1
+2023-01-17 22:35:21,962 - utils - INFO - caterina-mazzoni-bb982425a for you is a connection of level DISTANCE_1
+2023-01-17 22:35:25,180 - utils - ERROR - Proile jerme-stern-964128 has not been found
+2023-01-17 22:35:25,214 - utils - INFO - ['jer\x99me-stern-964128'] has been added to dataframe of troubling profiles
+2023-01-17 22:35:27,489 - utils - INFO - Created row in network info for dmitry-tomkin-61753578
+2023-01-17 22:35:27,496 - utils - INFO - dmitry-tomkin-61753578 for you is a connection of level DISTANCE_3
+2023-01-17 22:35:36,507 - utils - INFO - Sent invitation + note to dmitry-tomkin-61753578
+2023-01-17 22:35:36,521 - utils - INFO - Created row in submitted_invitation for  dmitry-tomkin-61753578
+2023-01-17 22:35:41,746 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
+2023-01-17 22:35:41,755 - utils - INFO - igor-yelnik-3ab5223 for you is a connection of level DISTANCE_2
+2023-01-17 22:35:54,812 - utils - INFO - Sent invitation + note to igor-yelnik-3ab5223
+2023-01-17 22:35:54,827 - utils - INFO - Created row in submitted_invitation for  igor-yelnik-3ab5223
+2023-01-17 22:36:00,066 - utils - INFO - Created row in network info for alexanderkalis
+2023-01-17 22:36:00,083 - utils - INFO - alexanderkalis for you is a connection of level DISTANCE_3
+2023-01-17 22:36:12,346 - utils - INFO - Sent invitation + note to alexanderkalis
+2023-01-17 22:36:12,357 - utils - INFO - Created row in submitted_invitation for  alexanderkalis
+2023-01-17 22:36:14,627 - utils - INFO - Created row in network info for simon-hopkins-9514791
+2023-01-17 22:36:14,636 - utils - INFO - simon-hopkins-9514791 for you is a connection of level DISTANCE_3
+2023-01-17 22:36:25,733 - utils - INFO - Sent invitation + note to simon-hopkins-9514791
+2023-01-17 22:36:25,744 - utils - INFO - Created row in submitted_invitation for  simon-hopkins-9514791
+2023-01-17 22:36:31,012 - utils - INFO - Created row in network info for alex-jeffrey1
+2023-01-17 22:36:31,022 - utils - INFO - alex-jeffrey1 for you is a connection of level DISTANCE_3
+2023-01-17 22:36:43,271 - utils - INFO - Sent invitation + note to alex-jeffrey1
+2023-01-17 22:36:43,281 - utils - INFO - Created row in submitted_invitation for  alex-jeffrey1
+2023-01-17 22:36:48,527 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
+2023-01-17 22:36:51,763 - utils - INFO - connection level for profile igor-yelnik-3ab5223 has not changed
+2023-01-17 22:36:57,049 - utils - INFO - connection level for profile alexanderkalis has not changed
+2023-01-17 22:37:01,289 - utils - INFO - connection level for profile simon-hopkins-9514791 has not changed
+2023-01-17 22:37:03,518 - utils - INFO - connection level for profile alex-jeffrey1 has not changed

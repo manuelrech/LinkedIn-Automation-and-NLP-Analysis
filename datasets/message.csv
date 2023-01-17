@@ -1,3 +1,6 @@
 type,text,code
 note,hi there i am new to linkedin!,n0
 note,hi i just signed up and trying to make connections!,n1
+call_to_action,this is the first message,c0
+call_to_action,i would like make a few works,c1
+call_to_action,may i disturb you?,c2
