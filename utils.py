@@ -93,20 +93,6 @@ def setup_begging_datasets():
         submitted_call_to_action.to_csv('datasets/submitted_call_to_action.csv', index=0)
         logger.info('submitted_call_to_action file has been created from 0')
     
-    try:
-        replies_note = pd.read_csv('datasets/replies_note.csv')
-    except FileNotFoundError: 
-        replies_note = pd.DataFrame(columns=['submission_timestamp', 'submission_message_code', 'timestamp', 'date_time', 'profile_id', 'message'])
-        replies_note.to_csv('datasets/replies_note.csv', index=0)
-        logger.info('replies_note file has been created from 0')
-
-    try:    
-        replies_call_to_action = pd.read_csv('datasets/replies_call_to_action.csv')
-    except FileNotFoundError: 
-        replies_call_to_action = pd.DataFrame(columns=['submission_timestamp', 'submission_message_code', 'timestamp', 'date_time', 'profile_id', 'message'])
-        replies_call_to_action.to_csv('datasets/replies_call_to_action.csv', index=0)
-        logger.info('replies_call_to_action file has been created from 0')
-    
     try:    
         troubling_profiles = pd.read_csv('datasets/troubling_profiles.csv')
     except FileNotFoundError: 
@@ -117,7 +103,15 @@ def setup_begging_datasets():
     
 
     logger.info('read in all files')
-    return family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, replies_note, replies_call_to_action, troubling_profiles
+    return family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, troubling_profiles
+
+def create_message(type, text, code):
+    message_begin = pd.read_csv('datasets/message.csv')
+    new_message = [type, text, code]
+    message = pd.DataFrame([new_message], columns=['type', 'text', 'code'])
+    message = pd.concat([message_begin, message])
+    message.to_csv('datasets/message.csv', index=0)
+    logger.info(f'added new message to dataframe {code}')
 
 def create_row_network_info(public_identifier, network_information):
     current_datetime = datetime.now()
@@ -132,14 +126,6 @@ def create_row_network_info(public_identifier, network_information):
     
     return row_network_info, connection_level
 
-def create_message(type, text, code):
-    message_begin = pd.read_csv('datasets/message.csv')
-    new_message = [type, text, code]
-    message = pd.DataFrame([new_message], columns=['type', 'text', 'code'])
-    message = pd.concat([message_begin, message])
-    message.to_csv('datasets/message.csv', index=0)
-    logger.info(f'added new message to dataframe {code}')
-
 def create_row_submitted_invitation(public_identifier, message_code):
     current_datetime = datetime.now()
     human_readable_date = current_datetime.strftime("%Y-%m-%d %H:%M")
@@ -150,20 +136,42 @@ def create_row_submitted_invitation(public_identifier, message_code):
     logger.info(f'Created row in submitted_invitation for  {public_identifier}')
     return submitted_invitation_row
 
-def randomly_get_note(message_begin):
-    df = message_begin[message_begin.code.str.contains('n')]
-    random_number = random.choice([*range(len(df))])
-    note = df.iloc[random_number].text
-    code = df.iloc[random_number].code
-    return note, code
-    
-def send_invitations_note(api, how_many, family_offices_UK, network_info, submitted_invitation, message, troubling_profiles):
+def create_row_subitted_cta(profile_urn, message_code):
+    fo = pd.read_csv('datasets/family_offices_UK.csv')
+    profile_id = fo[fo['profile_urn'] == profile_urn].LinkedIn.iloc[0]
+    current_datetime = datetime.now()
+    human_readable_date = current_datetime.strftime("%Y-%m-%d %H:%M")
+    timestamp = int(current_datetime.timestamp())
+    replied = False
+    row_submitted_invitation = [timestamp, human_readable_date, profile_id, message_code, replied]
 
+    return row_submitted_invitation, profile_id
+
+def randomly_get_message(message_begin, type):
+    if type == 'note':
+        first_letter = 'n'
+    elif type == 'cta':
+        first_letter = 'c'
+    df = message_begin[message_begin.code.str.contains(first_letter)]
+    random_number = random.choice([*range(len(df))])
+    message = df.iloc[random_number].text
+    code = df.iloc[random_number].code
+    return message, code
+
+def send_invitations_note(api, how_many, family_offices_UK):
+
+    network_info = pd.read_csv('datasets/network_info.csv')
+    submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
+    message = pd.read_csv('datasets/message.csv')
+    troubling_profiles = pd.read_csv('datasets/troubling_profiles.csv')
 
     linkedin_pi = family_offices_UK.LinkedIn
 
     counter = 0
     for public_identifier in linkedin_pi:
+        if public_identifier in submitted_invitation.profile_id:
+            continue
+
         if counter >= how_many:
             break
 
@@ -180,26 +188,27 @@ def send_invitations_note(api, how_many, family_offices_UK, network_info, submit
             df_with_troubling_person = family_offices_UK.query(f"LinkedIn == '{public_identifier}'")
             troubling_profiles = pd.concat([df_with_troubling_person, troubling_profiles])
             troubling_profiles.to_csv('datasets/troubling_profiles.csv', index=0)
-            logger.info(f"{[public_identifier]} has been added to dataframe of troubling profiles")
+            logger.info(f"{public_identifier} has been added to dataframe of troubling profiles")
             continue
-
-        row_network_info, connection_level = create_row_network_info(public_identifier, network_information)
-        network_info.loc[len(network_info)] = row_network_info
-        network_info.to_csv('datasets/network_info.csv', index=0)
+        
+        connection_level = network_information['distance']['value']
 
         if connection_level == 'SELF':
             logger.warning('you are verifying your same profile! dumbass!')
             continue
-        
+
         assert connection_level in ('DISTANCE_1', 'DISTANCE_2', 'DISTANCE_3', 'OUT_OF_NETWORK')
         if connection_level == 'DISTANCE_1':
             logger.info(f"{public_identifier} for you is a connection of level {connection_level}")
             continue
 
         assert connection_level in ('DISTANCE_2', 'DISTANCE_3', 'OUT_OF_NETWORK')
+        row_network_info, connection_level = create_row_network_info(public_identifier, network_information)
+        network_info.loc[len(network_info)] = row_network_info
+        network_info.to_csv('datasets/network_info.csv', index=0)
         logger.info(f"{public_identifier} for you is a connection of level {connection_level}")
 
-        note, code = randomly_get_note(message)
+        note, code = randomly_get_message(message_begin=message, type='n')
         result, profile_urn = api.add_connection(profile_public_id = public_identifier, message=note)
 
         if result == False:
@@ -210,9 +219,9 @@ def send_invitations_note(api, how_many, family_offices_UK, network_info, submit
             submitted_invitation.loc[len(submitted_invitation)] = submitted_invitation_row
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
             counter += 1
-    return family_offices_UK, network_info, submitted_invitation, message, troubling_profiles
 
-def get_conversation_urn(api, family_offices_UK, submitted_invitation):
+def get_conversation_urn(api, family_offices_UK):
+    submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
 
     fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
 
@@ -254,9 +263,14 @@ def get_conversation_urn(api, family_offices_UK, submitted_invitation):
     
     return family_offices_UK
                 
-def scan_for_1st_connections(api, family_offices_UK, network_info, submitted_invitation):
+def scan_for_1st_connections(api, family_offices_UK):
+    network_info = pd.read_csv('datasets/network_info.csv')
+    submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
 
     for public_identifier in network_info.profile_id:
+        if '1' in network_info[network_info.profile_id ==  public_identifier].connection_level:
+            logger.info(f"{public_identifier} is already a level 1 connection")
+            continue
 
         network_information = api.get_profile_network_info(public_identifier)
 
@@ -289,9 +303,27 @@ def scan_for_1st_connections(api, family_offices_UK, network_info, submitted_inv
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
 
             if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == public_identifier, 'conversation_urn'].iloc[0]):
-                family_office_UK = get_conversation_urn(api, family_offices_UK, submitted_invitation)
+                family_offices_UK = get_conversation_urn(api, family_offices_UK, submitted_invitation)
     
-    return family_office_UK, network_info, submitted_invitation
+def send_message_new_1st_connections(api):
+    network_info = pd.read_csv('datasets/network_info.csv')
+    family_offices_UK = pd.read_csv('family_offices.csv')
+    message = pd.read_csv('datasets/message.csv')
+    submitted_call_to_action = pd.read_csv('datasets/submitted_call_to_action.csv')
+
+    network_info_family_offices_merge = pd.merge(network_info, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
+    network_info_family_offices_merge_D1 = network_info_family_offices_merge.query("connection_level == 'DISTANCE_1'")
+    for profile_urn in network_info_family_offices_merge_D1.profile_urn:
+
+        cta, code = randomly_get_message(message_begin=message, type='c')
+        result = api.send_message(message_body=cta, recipients = [profile_urn])
+
+        if result ==  False:
+            row_submitted_cta, profile_id = create_row_subitted_cta(profile_urn=profile_urn, message_code=code)
+            logger.info(f"sent message {code} to {profile_id}")
+            submitted_call_to_action.loc[len(submitted_call_to_action)] = row_submitted_cta
+            submitted_call_to_action.to_csv('datasets/submitted_call_to_action.csv', index=0)
+
 
         
 
