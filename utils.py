@@ -158,8 +158,8 @@ def randomly_get_message(message_begin, type):
     code = df.iloc[random_number].code
     return message, code
 
-def send_invitations_note(api, how_many, family_offices_UK):
-
+def send_invitations_note(api, how_many):
+    family_offices_UK = pd.read_csv('family_offices_UK.csv')
     network_info = pd.read_csv('datasets/network_info.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     message = pd.read_csv('datasets/message.csv')
@@ -220,7 +220,8 @@ def send_invitations_note(api, how_many, family_offices_UK):
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
             counter += 1
 
-def get_conversation_urn(api, family_offices_UK):
+def get_conversation_urn(api):
+    family_offices_UK = pd.read_csv('family_offices_UK.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
 
     fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
@@ -237,8 +238,6 @@ def get_conversation_urn(api, family_offices_UK):
             logger.info(f"added conversation urn for user {pi}")
             family_offices_UK.to_csv('datasets/family_offices_UK.csv', index=0)
             fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
-
-    return family_offices_UK
 
     while len(conversations['elements']) > 0:
 
@@ -263,7 +262,8 @@ def get_conversation_urn(api, family_offices_UK):
     
     return family_offices_UK
                 
-def scan_for_1st_connections(api, family_offices_UK):
+def scan_for_1st_connections(api):
+    family_offices_UK = pd.read_csv('family_offices_UK.csv')
     network_info = pd.read_csv('datasets/network_info.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
 
@@ -307,7 +307,7 @@ def scan_for_1st_connections(api, family_offices_UK):
     
 def send_message_new_1st_connections(api):
     network_info = pd.read_csv('datasets/network_info.csv')
-    family_offices_UK = pd.read_csv('family_offices.csv')
+    family_offices_UK = pd.read_csv('family_offices_UK.csv')
     message = pd.read_csv('datasets/message.csv')
     submitted_call_to_action = pd.read_csv('datasets/submitted_call_to_action.csv')
 
