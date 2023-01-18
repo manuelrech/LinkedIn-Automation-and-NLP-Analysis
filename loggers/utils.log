@@ -1,154 +1,167 @@
-2023-01-17 22:35:14,898 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-17 22:35:18,186 - utils - INFO - Logged into API using manuel's profile
-2023-01-17 22:35:18,206 - utils - INFO - network info file has been created from 0
-2023-01-17 22:35:18,208 - utils - INFO - submitted invitation file has been created from 0
-2023-01-17 22:35:18,209 - utils - INFO - message file has been created from 0
-2023-01-17 22:35:18,211 - utils - INFO - submitted_call_to_action file has been created from 0
-2023-01-17 22:35:18,212 - utils - INFO - troubling_profiles file has been created from 0
-2023-01-17 22:35:18,212 - utils - INFO - read in all files
-2023-01-17 22:35:18,215 - utils - INFO - added new message to dataframe n0
-2023-01-17 22:35:18,217 - utils - INFO - added new message to dataframe n1
-2023-01-17 22:35:21,962 - utils - INFO - caterina-mazzoni-bb982425a for you is a connection of level DISTANCE_1
-2023-01-17 22:35:25,180 - utils - ERROR - Proile jerme-stern-964128 has not been found
-2023-01-17 22:35:25,214 - utils - INFO - ['jer\x99me-stern-964128'] has been added to dataframe of troubling profiles
-2023-01-17 22:35:27,489 - utils - INFO - Created row in network info for dmitry-tomkin-61753578
-2023-01-17 22:35:27,496 - utils - INFO - dmitry-tomkin-61753578 for you is a connection of level DISTANCE_3
-2023-01-17 22:35:36,507 - utils - INFO - Sent invitation + note to dmitry-tomkin-61753578
-2023-01-17 22:35:36,521 - utils - INFO - Created row in submitted_invitation for  dmitry-tomkin-61753578
-2023-01-17 22:35:41,746 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-17 22:35:41,755 - utils - INFO - igor-yelnik-3ab5223 for you is a connection of level DISTANCE_2
-2023-01-17 22:35:54,812 - utils - INFO - Sent invitation + note to igor-yelnik-3ab5223
-2023-01-17 22:35:54,827 - utils - INFO - Created row in submitted_invitation for  igor-yelnik-3ab5223
-2023-01-17 22:36:00,066 - utils - INFO - Created row in network info for alexanderkalis
-2023-01-17 22:36:00,083 - utils - INFO - alexanderkalis for you is a connection of level DISTANCE_3
-2023-01-17 22:36:12,346 - utils - INFO - Sent invitation + note to alexanderkalis
-2023-01-17 22:36:12,357 - utils - INFO - Created row in submitted_invitation for  alexanderkalis
-2023-01-17 22:36:14,627 - utils - INFO - Created row in network info for simon-hopkins-9514791
-2023-01-17 22:36:14,636 - utils - INFO - simon-hopkins-9514791 for you is a connection of level DISTANCE_3
-2023-01-17 22:36:25,733 - utils - INFO - Sent invitation + note to simon-hopkins-9514791
-2023-01-17 22:36:25,744 - utils - INFO - Created row in submitted_invitation for  simon-hopkins-9514791
-2023-01-17 22:36:31,012 - utils - INFO - Created row in network info for alex-jeffrey1
-2023-01-17 22:36:31,022 - utils - INFO - alex-jeffrey1 for you is a connection of level DISTANCE_3
-2023-01-17 22:36:43,271 - utils - INFO - Sent invitation + note to alex-jeffrey1
-2023-01-17 22:36:43,281 - utils - INFO - Created row in submitted_invitation for  alex-jeffrey1
-2023-01-17 22:36:48,527 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-17 22:36:51,763 - utils - INFO - connection level for profile igor-yelnik-3ab5223 has not changed
-2023-01-17 22:36:57,049 - utils - INFO - connection level for profile alexanderkalis has not changed
-2023-01-17 22:37:01,289 - utils - INFO - connection level for profile simon-hopkins-9514791 has not changed
-2023-01-17 22:37:03,518 - utils - INFO - connection level for profile alex-jeffrey1 has not changed
-2023-01-18 10:18:23,801 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 10:27:41,978 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 10:36:51,306 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 10:36:56,083 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 10:36:56,105 - utils - INFO - read in all files
-2023-01-18 10:37:00,418 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 10:37:03,613 - utils - INFO - new connection level with igor-yelnik-3ab5223, now it is DISTANCE_1
-2023-01-18 10:37:03,613 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-18 10:37:03,618 - utils - INFO - igor-yelnik-3ab5223 is a first_level_connection
-2023-01-18 10:38:51,661 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 10:38:54,209 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 10:38:54,227 - utils - INFO - read in all files
-2023-01-18 10:38:58,533 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 10:39:02,740 - utils - INFO - new connection level with igor-yelnik-3ab5223, now it is DISTANCE_1
-2023-01-18 10:39:02,742 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-18 10:39:02,751 - utils - INFO - igor-yelnik-3ab5223 is a first_level_connection
-2023-01-18 10:39:08,422 - utils - INFO - added conversation urn for user caterina-mazzoni-bb982425a
-2023-01-18 10:39:08,427 - utils - INFO - added conversation urn for user igor-yelnik-3ab5223
-2023-01-18 10:41:15,305 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 10:41:19,083 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 10:41:19,103 - utils - INFO - read in all files
-2023-01-18 10:41:24,479 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 10:41:27,700 - utils - INFO - new connection level with igor-yelnik-3ab5223, now it is DISTANCE_1
-2023-01-18 10:41:27,700 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-18 10:41:27,710 - utils - INFO - igor-yelnik-3ab5223 is a first_level_connection
-2023-01-18 10:41:34,864 - utils - INFO - added conversation urn for user caterina-mazzoni-bb982425a
-2023-01-18 10:41:34,875 - utils - INFO - added conversation urn for user igor-yelnik-3ab5223
-2023-01-18 10:45:16,669 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 10:45:19,545 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 10:45:19,559 - utils - INFO - read in all files
-2023-01-18 10:45:24,322 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 10:45:26,519 - utils - INFO - new connection level with igor-yelnik-3ab5223, now it is DISTANCE_1
-2023-01-18 10:45:26,519 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-18 10:45:26,524 - utils - INFO - igor-yelnik-3ab5223 is a first_level_connection
-2023-01-18 10:45:30,505 - utils - INFO - added conversation urn for user caterina-mazzoni-bb982425a
-2023-01-18 10:45:30,512 - utils - INFO - added conversation urn for user igor-yelnik-3ab5223
-2023-01-18 10:47:38,503 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 10:47:42,061 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 10:47:42,079 - utils - INFO - read in all files
-2023-01-18 10:47:46,494 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 10:47:49,684 - utils - INFO - new connection level with igor-yelnik-3ab5223, now it is DISTANCE_1
-2023-01-18 10:47:49,684 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-18 10:47:49,687 - utils - INFO - igor-yelnik-3ab5223 is a first_level_connection
-2023-01-18 10:47:52,745 - utils - INFO - added conversation urn for user caterina-mazzoni-bb982425a
-2023-01-18 10:47:52,756 - utils - INFO - added conversation urn for user igor-yelnik-3ab5223
-2023-01-18 11:01:24,165 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 11:01:27,507 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 11:01:27,523 - utils - INFO - read in all files
-2023-01-18 11:01:31,090 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 11:01:34,301 - utils - INFO - new connection level with igor-yelnik-3ab5223, now it is DISTANCE_1
-2023-01-18 11:01:34,301 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-18 11:01:34,304 - utils - INFO - igor-yelnik-3ab5223 is a first_level_connection
-2023-01-18 11:13:44,875 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 11:13:50,300 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 11:13:50,309 - utils - INFO - family offices UK has been read
-2023-01-18 11:13:50,315 - utils - INFO - read in all files
-2023-01-18 11:13:54,788 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 11:13:57,517 - utils - INFO - new connection level with igor-yelnik-3ab5223, now it is DISTANCE_1
-2023-01-18 11:13:57,518 - utils - INFO - Created row in network info for igor-yelnik-3ab5223
-2023-01-18 11:13:57,522 - utils - INFO - igor-yelnik-3ab5223 is a first_level_connection
-2023-01-18 11:13:57,523 - utils - INFO - updated to True column accpeted invitation on table submitted invitation for user igor-yelnik-3ab5223
-2023-01-18 11:14:02,862 - utils - INFO - added conversation urn for user igor-yelnik-3ab5223
-2023-01-18 11:14:06,119 - utils - INFO - connection level for profile alexanderkalis has not changed
-2023-01-18 11:14:09,467 - utils - INFO - new connection level with simon-hopkins-9514791, now it is DISTANCE_2
-2023-01-18 11:14:09,467 - utils - INFO - Created row in network info for simon-hopkins-9514791
-2023-01-18 11:14:13,714 - utils - INFO - connection level for profile alex-jeffrey1 has not changed
-2023-01-18 11:21:03,047 - __main__ - INFO - --------------------------------------------------------------------------------
-2023-01-18 11:21:20,477 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 11:21:20,477 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 11:21:24,293 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 11:21:24,313 - utils - INFO - family offices UK has been read
-2023-01-18 11:21:24,321 - utils - INFO - read in all files
-2023-01-18 11:21:27,917 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
-2023-01-18 11:21:32,150 - utils - INFO - connection level for profile igor-yelnik-3ab5223 has not changed
-2023-01-18 11:21:35,367 - utils - INFO - connection level for profile alexanderkalis has not changed
-2023-01-18 11:21:38,711 - utils - INFO - connection level for profile simon-hopkins-9514791 has not changed
-2023-01-18 11:21:40,922 - utils - INFO - connection level for profile alex-jeffrey1 has not changed
-2023-01-18 11:21:44,136 - utils - INFO - connection level for profile igor-yelnik-3ab5223 has not changed
-2023-01-18 11:21:49,375 - utils - INFO - connection level for profile simon-hopkins-9514791 has not changed
-2023-01-18 11:35:43,232 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 12:07:11,189 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:07:11,189 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 12:07:34,853 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 12:07:34,863 - utils - INFO - family offices UK has been read
-2023-01-18 12:07:34,873 - utils - INFO - read in all files
-2023-01-18 12:08:00,047 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:08:00,048 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 12:08:03,591 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 12:08:03,595 - utils - INFO - family offices UK has been read
-2023-01-18 12:08:03,601 - utils - INFO - read in all files
-2023-01-18 12:09:31,537 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:09:31,537 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 12:09:34,874 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 12:09:34,882 - utils - INFO - family offices UK has been read
-2023-01-18 12:09:34,890 - utils - INFO - read in all files
-2023-01-18 12:13:48,044 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:13:48,044 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 12:13:51,340 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 12:13:51,349 - utils - INFO - family offices UK has been read
-2023-01-18 12:13:51,358 - utils - INFO - read in all files
-2023-01-18 12:13:57,016 - utils - INFO - sent cta message c0 to igor-yelnik-3ab5223 using conversation_urn
-2023-01-18 12:14:41,401 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:14:41,401 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 12:14:46,221 - __main__ - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:15:02,625 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:15:02,625 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
-2023-01-18 12:15:05,933 - utils - INFO - Logged into API using manuel's profile
-2023-01-18 12:15:05,942 - utils - INFO - family offices UK has been read
-2023-01-18 12:15:05,952 - utils - INFO - read in all files
-2023-01-18 12:15:05,962 - utils - INFO - already sent 1 message to this person igor-yelnik-3ab5223
-2023-01-18 12:18:27,791 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:18:27,791 - utils - ERROR - There's been an error, [Errno 2] No such file or directory: '/Users/manuel/Desktop/Linkedin_gianluca' while reading file, check that you are in the right folder
-2023-01-18 12:32:17,920 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:32:17,920 - utils - INFO - Set directory to /Users/manuel/Desktop/LinkedIn_gian
-2023-01-18 12:35:18,478 - utils - INFO - --------------------------------------------------------------------------------
-2023-01-18 12:35:18,479 - utils - INFO - Set directory to /Users/manuel/Desktop/LinkedIn_gian
+2023-01-18 15:43:15,758 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 15:43:15,758 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 15:43:35,514 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 15:43:35,514 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 15:44:13,424 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 15:44:13,440 - utils - INFO - family offices UK has been read
+2023-01-18 15:44:13,444 - utils - INFO - network info file has been created from 0
+2023-01-18 15:44:13,445 - utils - INFO - submitted invitation file has been created from 0
+2023-01-18 15:44:13,446 - utils - INFO - submitted inmail file has been created from 0
+2023-01-18 15:44:13,447 - utils - INFO - message file has been created from 0
+2023-01-18 15:44:13,447 - utils - INFO - submitted_call_to_action file has been created from 0
+2023-01-18 15:44:13,448 - utils - INFO - troubling_profiles file has been created from 0
+2023-01-18 15:44:13,448 - utils - INFO - read in all files
+2023-01-18 15:44:13,452 - utils - INFO - added new message to dataframe n0
+2023-01-18 15:44:16,937 - utils - INFO - Created row in network info for caterina-mazzoni-bb982425a
+2023-01-18 15:44:16,941 - utils - INFO - caterina-mazzoni-bb982425a for you is a connection of level DISTANCE_2
+2023-01-18 15:47:31,355 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 15:47:31,355 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 15:47:37,950 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 15:47:37,958 - utils - INFO - family offices UK has been read
+2023-01-18 15:47:37,960 - utils - INFO - network info file has been created from 0
+2023-01-18 15:47:37,961 - utils - INFO - submitted invitation file has been created from 0
+2023-01-18 15:47:37,962 - utils - INFO - submitted inmail file has been created from 0
+2023-01-18 15:47:37,963 - utils - INFO - message file has been created from 0
+2023-01-18 15:47:37,964 - utils - INFO - submitted_call_to_action file has been created from 0
+2023-01-18 15:47:37,964 - utils - INFO - troubling_profiles file has been created from 0
+2023-01-18 15:47:37,964 - utils - INFO - read in all files
+2023-01-18 15:47:41,391 - utils - INFO - Created row in network info for christopher-hill-72944417
+2023-01-18 15:47:41,396 - utils - INFO - christopher-hill-72944417 for you is a connection of level DISTANCE_2
+2023-01-18 15:47:58,242 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 15:47:58,242 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 15:48:02,898 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 15:48:02,908 - utils - INFO - family offices UK has been read
+2023-01-18 15:48:02,921 - utils - INFO - read in all files
+2023-01-18 15:48:02,925 - utils - INFO - added new message to dataframe n0
+2023-01-18 15:48:08,600 - utils - INFO - Created row in network info for christopher-hill-72944417
+2023-01-18 15:48:08,620 - utils - INFO - christopher-hill-72944417 for you is a connection of level DISTANCE_2
+2023-01-18 15:48:19,510 - utils - INFO - Sent invitation + note to christopher-hill-72944417
+2023-01-18 15:48:19,519 - utils - INFO - new profile urn for user christopher-hill-72944417 has been added
+2023-01-18 15:48:19,519 - utils - INFO - Created row in submitted_invitation for  christopher-hill-72944417
+2023-01-18 15:48:23,872 - utils - INFO - Created row in network info for flemingprivateoffice
+2023-01-18 15:48:23,880 - utils - INFO - flemingprivateoffice for you is a connection of level DISTANCE_2
+2023-01-18 15:48:34,289 - utils - INFO - Sent invitation + note to flemingprivateoffice
+2023-01-18 15:48:34,301 - utils - INFO - new profile urn for user flemingprivateoffice has been added
+2023-01-18 15:48:34,301 - utils - INFO - Created row in submitted_invitation for  flemingprivateoffice
+2023-01-18 15:48:38,564 - utils - INFO - Created row in network info for andrew-waldren-16057a10
+2023-01-18 15:48:38,572 - utils - INFO - andrew-waldren-16057a10 for you is a connection of level DISTANCE_2
+2023-01-18 15:48:49,147 - utils - INFO - Sent invitation + note to andrew-waldren-16057a10
+2023-01-18 15:48:49,159 - utils - INFO - new profile urn for user andrew-waldren-16057a10 has been added
+2023-01-18 15:48:49,159 - utils - INFO - Created row in submitted_invitation for  andrew-waldren-16057a10
+2023-01-18 15:48:54,417 - utils - INFO - Created row in network info for ammalan-annalingam-76831a1a
+2023-01-18 15:48:54,424 - utils - INFO - ammalan-annalingam-76831a1a for you is a connection of level DISTANCE_2
+2023-01-18 15:49:08,910 - utils - INFO - Sent invitation + note to ammalan-annalingam-76831a1a
+2023-01-18 15:49:08,924 - utils - INFO - new profile urn for user ammalan-annalingam-76831a1a has been added
+2023-01-18 15:49:08,924 - utils - INFO - Created row in submitted_invitation for  ammalan-annalingam-76831a1a
+2023-01-18 15:49:13,328 - utils - INFO - Created row in network info for michael-rosenthal-24b412
+2023-01-18 15:49:13,337 - utils - INFO - michael-rosenthal-24b412 for you is a connection of level DISTANCE_2
+2023-01-18 15:49:26,798 - utils - INFO - Sent invitation + note to michael-rosenthal-24b412
+2023-01-18 15:49:26,816 - utils - INFO - new profile urn for user michael-rosenthal-24b412 has been added
+2023-01-18 15:49:26,816 - utils - INFO - Created row in submitted_invitation for  michael-rosenthal-24b412
+2023-01-18 15:52:38,378 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 15:52:38,379 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 15:52:46,345 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 15:52:46,361 - utils - INFO - family offices UK has been read
+2023-01-18 15:52:46,369 - utils - INFO - read in all files
+2023-01-18 15:52:50,978 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-18 15:52:53,256 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-18 15:52:56,770 - utils - INFO - connection level for profile flemingprivateoffice has not changed
+2023-01-18 15:53:01,016 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-18 15:53:05,283 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-18 15:53:07,521 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-18 16:09:03,619 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 16:09:03,620 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 16:09:06,709 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 16:09:06,718 - utils - INFO - family offices UK has been read
+2023-01-18 16:09:06,729 - utils - INFO - read in all files
+2023-01-18 16:09:06,734 - utils - INFO - added new message to dataframe n0
+2023-01-18 16:09:13,204 - utils - INFO - Created row in network info for greg-malone-69057734
+2023-01-18 16:09:13,210 - utils - INFO - greg-malone-69057734 for you is a connection of level DISTANCE_2
+2023-01-18 16:09:25,703 - utils - INFO - Sent invitation + note to greg-malone-69057734
+2023-01-18 16:09:25,726 - utils - INFO - new profile urn for user greg-malone-69057734 has been added
+2023-01-18 16:09:25,727 - utils - INFO - Created row in submitted_invitation for  greg-malone-69057734
+2023-01-18 16:09:29,996 - utils - INFO - Created row in network info for carnegie-smyth-56787b5
+2023-01-18 16:09:30,022 - utils - INFO - carnegie-smyth-56787b5 for you is a connection of level DISTANCE_2
+2023-01-18 16:09:43,293 - utils - INFO - Sent invitation + note to carnegie-smyth-56787b5
+2023-01-18 16:09:43,308 - utils - INFO - new profile urn for user carnegie-smyth-56787b5 has been added
+2023-01-18 16:09:43,309 - utils - INFO - Created row in submitted_invitation for  carnegie-smyth-56787b5
+2023-01-18 16:09:45,570 - utils - INFO - Created row in network info for james-duckworth-chad-8527805
+2023-01-18 16:09:45,578 - utils - INFO - james-duckworth-chad-8527805 for you is a connection of level DISTANCE_2
+2023-01-18 16:09:57,832 - utils - INFO - Sent invitation + note to james-duckworth-chad-8527805
+2023-01-18 16:09:57,845 - utils - INFO - new profile urn for user james-duckworth-chad-8527805 has been added
+2023-01-18 16:09:57,845 - utils - INFO - Created row in submitted_invitation for  james-duckworth-chad-8527805
+2023-01-18 16:10:02,155 - utils - INFO - Created row in network info for fabrizio-basso-4543463b
+2023-01-18 16:10:02,164 - utils - INFO - fabrizio-basso-4543463b for you is a connection of level DISTANCE_2
+2023-01-18 16:10:16,363 - utils - INFO - Sent invitation + note to fabrizio-basso-4543463b
+2023-01-18 16:10:16,377 - utils - INFO - new profile urn for user fabrizio-basso-4543463b has been added
+2023-01-18 16:10:16,378 - utils - INFO - Created row in submitted_invitation for  fabrizio-basso-4543463b
+2023-01-18 16:10:19,644 - utils - INFO - Created row in network info for billy-norris-834a2725
+2023-01-18 16:10:19,654 - utils - INFO - billy-norris-834a2725 for you is a connection of level DISTANCE_2
+2023-01-18 16:10:35,311 - utils - INFO - Sent invitation + note to billy-norris-834a2725
+2023-01-18 16:10:35,324 - utils - INFO - new profile urn for user billy-norris-834a2725 has been added
+2023-01-18 16:10:35,325 - utils - INFO - Created row in submitted_invitation for  billy-norris-834a2725
+2023-01-18 17:05:26,889 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 17:05:26,890 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 17:05:32,383 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 17:05:32,396 - utils - INFO - family offices UK has been read
+2023-01-18 17:05:32,405 - utils - INFO - read in all files
+2023-01-18 17:05:32,409 - utils - INFO - added new message to dataframe n0
+2023-01-18 17:05:32,411 - utils - INFO - added new message to dataframe c0
+2023-01-18 17:05:32,412 - utils - INFO - added new message to dataframe c1
+2023-01-18 17:05:32,414 - utils - INFO - added new message to dataframe c2
+2023-01-18 17:05:32,417 - utils - INFO - added new message to dataframe c3
+2023-01-18 17:05:34,967 - utils - INFO - Created row in network info for ray-cullivan
+2023-01-18 17:05:34,979 - utils - INFO - ray-cullivan for you is a connection of level DISTANCE_2
+2023-01-18 17:05:47,393 - utils - INFO - Sent invitation + note to ray-cullivan
+2023-01-18 17:05:47,412 - utils - INFO - new profile urn for user ray-cullivan has been added
+2023-01-18 17:05:47,413 - utils - INFO - Created row in submitted_invitation for  ray-cullivan
+2023-01-18 17:05:51,710 - utils - INFO - Created row in network info for michael-keane-a2180529
+2023-01-18 17:05:51,719 - utils - INFO - michael-keane-a2180529 for you is a connection of level DISTANCE_3
+2023-01-18 17:06:05,590 - utils - INFO - Sent invitation + note to michael-keane-a2180529
+2023-01-18 17:06:05,606 - utils - INFO - new profile urn for user michael-keane-a2180529 has been added
+2023-01-18 17:06:05,606 - utils - INFO - Created row in submitted_invitation for  michael-keane-a2180529
+2023-01-18 17:06:08,878 - utils - INFO - Created row in network info for eirian-jones-b4491365
+2023-01-18 17:06:08,882 - utils - INFO - eirian-jones-b4491365 for you is a connection of level DISTANCE_2
+2023-01-18 17:06:26,473 - utils - INFO - Sent invitation + note to eirian-jones-b4491365
+2023-01-18 17:06:26,488 - utils - INFO - new profile urn for user eirian-jones-b4491365 has been added
+2023-01-18 17:06:26,488 - utils - INFO - Created row in submitted_invitation for  eirian-jones-b4491365
+2023-01-18 17:06:28,767 - utils - INFO - Created row in network info for drew-mcneil-54772111
+2023-01-18 17:06:28,775 - utils - INFO - drew-mcneil-54772111 for you is a connection of level DISTANCE_2
+2023-01-18 17:06:44,122 - utils - INFO - Sent invitation + note to drew-mcneil-54772111
+2023-01-18 17:06:44,138 - utils - INFO - new profile urn for user drew-mcneil-54772111 has been added
+2023-01-18 17:06:44,138 - utils - INFO - Created row in submitted_invitation for  drew-mcneil-54772111
+2023-01-18 17:06:48,439 - utils - INFO - Created row in network info for bwiseman08
+2023-01-18 17:06:48,446 - utils - INFO - bwiseman08 for you is a connection of level DISTANCE_2
+2023-01-18 17:07:02,518 - utils - INFO - Sent invitation + note to bwiseman08
+2023-01-18 17:07:02,534 - utils - INFO - new profile urn for user bwiseman08 has been added
+2023-01-18 17:07:02,534 - utils - INFO - Created row in submitted_invitation for  bwiseman08
+2023-01-18 17:17:19,900 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 17:17:19,901 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 17:17:24,837 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 17:17:24,849 - utils - INFO - family offices UK has been read
+2023-01-18 17:17:24,858 - utils - INFO - read in all files
+2023-01-18 17:17:27,325 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-18 17:17:30,654 - utils - INFO - new connection level with flemingprivateoffice, now it is DISTANCE_1
+2023-01-18 17:17:30,655 - utils - INFO - Created row in network info for flemingprivateoffice
+2023-01-18 17:17:30,686 - utils - INFO - flemingprivateoffice is a first_level_connection
+2023-01-18 17:17:30,700 - utils - INFO - updated to True column accpeted invitation on table submitted invitation for user flemingprivateoffice
+2023-01-18 17:17:34,298 - utils - INFO - added conversation urn for user flemingprivateoffice
+2023-01-18 17:17:39,769 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-18 17:17:45,149 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-18 17:17:49,664 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-18 17:17:52,099 - utils - INFO - connection level for profile greg-malone-69057734 has not changed
+2023-01-18 17:17:55,499 - utils - INFO - connection level for profile carnegie-smyth-56787b5 has not changed
+2023-01-18 17:17:59,796 - utils - INFO - connection level for profile james-duckworth-chad-8527805 has not changed
+2023-01-18 17:18:02,075 - utils - INFO - connection level for profile fabrizio-basso-4543463b has not changed
+2023-01-18 17:18:06,341 - utils - INFO - connection level for profile billy-norris-834a2725 has not changed
+2023-01-18 17:18:11,650 - utils - INFO - connection level for profile ray-cullivan has not changed
+2023-01-18 17:18:14,923 - utils - INFO - connection level for profile michael-keane-a2180529 has not changed
+2023-01-18 17:18:18,185 - utils - INFO - connection level for profile eirian-jones-b4491365 has not changed
+2023-01-18 17:18:22,511 - utils - INFO - connection level for profile drew-mcneil-54772111 has not changed
+2023-01-18 17:18:25,786 - utils - INFO - connection level for profile bwiseman08 has not changed
+2023-01-18 17:19:47,160 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-18 17:19:47,160 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-18 17:19:50,727 - utils - INFO - Logged into API using gianluca's profile
+2023-01-18 17:19:50,739 - utils - INFO - family offices UK has been read
+2023-01-18 17:19:50,748 - utils - INFO - read in all files
+2023-01-18 17:19:55,525 - utils - INFO - sent cta message c2 to flemingprivateoffice using conversation_urn
