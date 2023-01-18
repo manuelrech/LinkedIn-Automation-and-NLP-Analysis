@@ -1,6 +1,16 @@
-date_time,timestamp,profile_id,message_code,accepted_invitation,replied
-1673991336,2023-01-17 22:35,dmitry-tomkin-61753578,n0,False,False
-1673991354,2023-01-17 22:35,igor-yelnik-3ab5223,n1,True,False
-1673991372,2023-01-17 22:36,alexanderkalis,n0,False,False
-1673991385,2023-01-17 22:36,simon-hopkins-9514791,n1,False,False
-1673991403,2023-01-17 22:36,alex-jeffrey1,n0,False,False
+timestamp,datetime,profile_id,message_code,accepted_invitation,replied
+1674053299,2023-01-18 15:48,christopher-hill-72944417,n0,False,False
+1674053314,2023-01-18 15:48,flemingprivateoffice,n0,True,False
+1674053329,2023-01-18 15:48,andrew-waldren-16057a10,n0,False,False
+1674053348,2023-01-18 15:49,ammalan-annalingam-76831a1a,n0,False,False
+1674053366,2023-01-18 15:49,michael-rosenthal-24b412,n0,False,False
+1674054565,2023-01-18 16:09,greg-malone-69057734,n0,False,False
+1674054583,2023-01-18 16:09,carnegie-smyth-56787b5,n0,False,False
+1674054597,2023-01-18 16:09,james-duckworth-chad-8527805,n0,False,False
+1674054616,2023-01-18 16:10,fabrizio-basso-4543463b,n0,False,False
+1674054635,2023-01-18 16:10,billy-norris-834a2725,n0,False,False
+1674057947,2023-01-18 17:05,ray-cullivan,n0,False,False
+1674057965,2023-01-18 17:06,michael-keane-a2180529,n0,False,False
+1674057986,2023-01-18 17:06,eirian-jones-b4491365,n0,False,False
+1674058004,2023-01-18 17:06,drew-mcneil-54772111,n0,False,False
+1674058022,2023-01-18 17:07,bwiseman08,n0,False,False

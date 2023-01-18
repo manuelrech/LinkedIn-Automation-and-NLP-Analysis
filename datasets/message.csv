@@ -1,5 +1,28 @@
 type,text,code
-note,hi there i am new to linkedin!,n0
-note,hi i just signed up and trying to make connections!,n1
-call_to_action,i would like make a few words with you,c0
-call_to_action,hello may i disturb you?,c1
+note,"Hi {}, I'm Gianluca, CEO of https://vaiuk.finance/, we work within the alternative and disruptive investments space. Judging from your profile, you have quite the experience in this field, as such I'd like to join your network to exchange ideas and opportunities. Kind regards, Gianluca",n0
+call_to_action,"Dear {},
+Lately it seems the world is jumping from one crisis to the next. From pandemic, to natural disasters, war and economic downturn. Market uncertainty has become the norm, and making resilient investments has become a pertinent challenge for our partners and the wider investment community.
+However, we at Virgil Alternative Investments ltd. have dedicated the past few years to study and specialise in uncertain markets and assets, supporting and advising a network of Investors with over $3.5 billion AUM in Alternative Investments.
+We see opportunity where others see uncertainty, and we’d like you to join our community to share our investment opportunities and services with you.
+Please feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.
+Kind regards,
+Gianluca",c0
+call_to_action,"Dear {},
+I\’m Gianluca the CEO & CIO of Virgil Alternative Investments Ltd. We specialise in Alternative Investments Advisory Services, supporting and advising a network of Investors with over $3.5 billion AUM.
+After reviewing your profile we would love to add your company to our growing network of Investors to access our investment opportunities and advisory services. We are working on a few great projects which you may be interested in, all of which are tailored for resilience during this market climiate.
+Please feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.
+Kind regards,
+Gianluca",c1
+call_to_action,"Hi {},
+I am reaching out because I looked into your profile and see that your company is focused on investing in alternative assets. My company, Virgil Alternative Investments specialises in advising investors within this space, with over $3.5 billion AUA.
+We have shortlisted a list of opportunities which may be of interest to you, all of which are focused on resilience during this period of uncertainty.
+Please feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.
+Kind regards,
+Gianluca",c2
+call_to_action,"Hi{},
+I am the CEO of Virgil Alternative Investments (VAI) ltd.
+Our company is dedicated to supporting forward thinking investors like yourself in making sound investment decisions in the most alternative of investments. To date, we have advised professional and institutional investors with over $3.5 billion in AUA on disruptive opportunities, and on how to navigate market uncertainty through diversification.
+We have shortlisted a list of opportunities which may be of interest to you, all of which are focused on resilience during this period of uncertainty.
+I\’d love to schedule a quick call to discuss these opportunities or any synergies with yourself and VAI. Please feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.
+Kind regards,
+Gianluca",c3
