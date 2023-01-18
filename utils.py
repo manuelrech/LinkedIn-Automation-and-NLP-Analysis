@@ -15,7 +15,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 file_handler = logging.FileHandler('loggers/utils.log')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
-
+logger.info('-'*80)
 
 
 def autenticate_linkedin_API(profile = None):
@@ -62,8 +62,10 @@ def setup_begging_datasets():
         family_offices = pd.read_csv('family_offices.csv')
         family_offices_UK = family_offices.loc[family_offices.Stato.isin(['England', 'Scotland', 'Ireland'])]
         family_offices_UK.to_csv('family_offices_UK.csv', index=0)
+        logger.info('family offices has been created')
     else:
         family_offices_UK = pd.read_csv('family_offices_UK.csv')
+        logger.info('family offices UK has been read')
 
     try: 
         network_info = pd.read_csv('datasets/network_info.csv')
@@ -124,7 +126,7 @@ def create_row_network_info(public_identifier, network_information):
     row_network_info = [timestamp,human_readable_date, public_identifier, connection_level, connections_number, followers_number]
     logger.info(f'Created row in network info for {public_identifier}')
     
-    return row_network_info, connection_level
+    return row_network_info
 
 def create_row_submitted_invitation(public_identifier, message_code):
     current_datetime = datetime.now()
@@ -136,16 +138,15 @@ def create_row_submitted_invitation(public_identifier, message_code):
     logger.info(f'Created row in submitted_invitation for  {public_identifier}')
     return submitted_invitation_row
 
-def create_row_subitted_cta(profile_urn, message_code):
-    fo = pd.read_csv('datasets/family_offices_UK.csv')
-    profile_id = fo[fo['profile_urn'] == profile_urn].LinkedIn.iloc[0]
+def create_row_subitted_cta(profile_id, message_code):
+
     current_datetime = datetime.now()
     human_readable_date = current_datetime.strftime("%Y-%m-%d %H:%M")
     timestamp = int(current_datetime.timestamp())
     replied = False
     row_submitted_invitation = [timestamp, human_readable_date, profile_id, message_code, replied]
 
-    return row_submitted_invitation, profile_id
+    return row_submitted_invitation
 
 def randomly_get_message(message_begin, type):
     if type == 'note':
@@ -203,7 +204,7 @@ def send_invitations_note(api, how_many):
             continue
 
         assert connection_level in ('DISTANCE_2', 'DISTANCE_3', 'OUT_OF_NETWORK')
-        row_network_info, connection_level = create_row_network_info(public_identifier, network_information)
+        row_network_info = create_row_network_info(public_identifier, network_information)
         network_info.loc[len(network_info)] = row_network_info
         network_info.to_csv('datasets/network_info.csv', index=0)
         logger.info(f"{public_identifier} for you is a connection of level {connection_level}")
@@ -215,6 +216,8 @@ def send_invitations_note(api, how_many):
             logger.info(f"Sent invitation + note to {public_identifier}")
             family_offices_UK.loc[family_offices_UK.LinkedIn == public_identifier, 'profile_urn'] = profile_urn
             family_offices_UK.to_csv('family_offices_UK.csv', index=0)
+            logger.info(f'new profile urn for user {public_identifier} has been added')
+
             submitted_invitation_row = create_row_submitted_invitation(public_identifier, message_code=code)
             submitted_invitation.loc[len(submitted_invitation)] = submitted_invitation_row
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
@@ -231,12 +234,15 @@ def get_conversation_urn(api):
     for i in range(len(conversations['elements'])):
 
         pi = conversations['elements'][i]['participants'][0]['com.linkedin.voyager.messaging.MessagingMember']['miniProfile']['publicIdentifier']
-        if pd.isna(family_offices_UK[family_offices_UK.LinkedIn.str.contains(pi)].conversation_urn.iloc[0]):
+        if not fo_si_merged.LinkedIn.isin([pi]).any():
+            continue
+
+        if pd.isna(family_offices_UK[family_offices_UK.LinkedIn.str.contains(pi)].conversation_urn).any():
 
             conversation_urn = conversations['elements'][i]['dashEntityUrn'].split(':')[-1]
             family_offices_UK.loc[family_offices_UK.LinkedIn == pi, 'conversation_urn'] = conversation_urn
             logger.info(f"added conversation urn for user {pi}")
-            family_offices_UK.to_csv('datasets/family_offices_UK.csv', index=0)
+            family_offices_UK.to_csv('family_offices_UK.csv', index=0)
             fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
 
     while len(conversations['elements']) > 0:
@@ -252,12 +258,15 @@ def get_conversation_urn(api):
         for i in range(len(conversations['elements'])):
         
             pi = conversations['elements'][i]['participants'][0]['com.linkedin.voyager.messaging.MessagingMember']['miniProfile']['publicIdentifier']
-            if pd.isna(family_offices_UK[family_offices_UK.LinkedIn.str.contains(pi)].conversation_urn.iloc[0]):
+            if not fo_si_merged.LinkedIn.isin([pi]).any():
+                continue    
+
+            if pd.isna(family_offices_UK[family_offices_UK.LinkedIn.str.contains(pi)].conversation_urn).any():
 
                 conversation_urn = conversations['elements'][i]['dashEntityUrn'].split(':')[-1]
                 family_offices_UK.loc[family_offices_UK.LinkedIn == pi, 'conversation_urn'] = conversation_urn
-                logger.info(f"added conversation urn for user {pi}")
-                family_offices_UK.to_csv('datasets/family_offices_UK.csv', index=0)
+                logger.info(f"updated conversation urn for user {pi}")
+                family_offices_UK.to_csv('family_offices_UK.csv', index=0)
                 fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
     
     return family_offices_UK
@@ -292,7 +301,7 @@ def scan_for_1st_connections(api):
             continue
 
         logger.info(f"new connection level with {public_identifier}, now it is {connection_level}")
-        row_network_info, connection_level = create_row_network_info(public_identifier, network_information)
+        row_network_info = create_row_network_info(public_identifier, network_information)
         network_info.loc[len(network_info)] = row_network_info
         network_info.to_csv('datasets/network_info.csv', index=0)
 
@@ -300,29 +309,45 @@ def scan_for_1st_connections(api):
             
             logger.info(f"{public_identifier} is a first_level_connection")
             submitted_invitation.loc[submitted_invitation.profile_id == public_identifier, "accepted_invitation"] = True
+            logger.info(f'updated to True column accpeted invitation on table submitted invitation for user {public_identifier}')
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
 
             if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == public_identifier, 'conversation_urn'].iloc[0]):
-                family_offices_UK = get_conversation_urn(api, family_offices_UK, submitted_invitation)
+                family_offices_UK = get_conversation_urn(api)
     
 def send_message_new_1st_connections(api):
-    network_info = pd.read_csv('datasets/network_info.csv')
+    submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     message = pd.read_csv('datasets/message.csv')
     submitted_call_to_action = pd.read_csv('datasets/submitted_call_to_action.csv')
 
-    network_info_family_offices_merge = pd.merge(network_info, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
-    network_info_family_offices_merge_D1 = network_info_family_offices_merge.query("connection_level == 'DISTANCE_1'")
-    for profile_urn in network_info_family_offices_merge_D1.profile_urn:
+    si_fo = pd.merge(submitted_invitation,  family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
+    si_fo_accepted_invitation = si_fo[si_fo.accepted_invitation == True]
 
-        cta, code = randomly_get_message(message_begin=message, type='c')
-        result = api.send_message(message_body=cta, recipients = [profile_urn])
+    for profile_urn, conversation_urn, profile_id in zip(si_fo_accepted_invitation.profile_urn, si_fo_accepted_invitation.conversation_urn, si_fo_accepted_invitation.profile_id):
+        if submitted_call_to_action.profile_id.isin([profile_id]).any():
+            logger.info(f'already sent 1 message to this person {profile_id}')
+            continue
 
-        if result ==  False:
-            row_submitted_cta, profile_id = create_row_subitted_cta(profile_urn=profile_urn, message_code=code)
-            logger.info(f"sent message {code} to {profile_id}")
+        message = pd.read_csv('datasets/message.csv')
+        cta, code = randomly_get_message(message_begin=message, type='cta')
+        try:
+            result = api.send_message(message_body=cta, conversation_urn_id=conversation_urn)
+            if result == False:
+                tool = 'conversation_urn'
+            
+
+        except:
+            result = api.send_message(message_body=cta, recipients=[profile_urn])
+            if result == False:
+                tool = 'profile_urn'
+
+        finally:
+            row_submitted_cta = create_row_subitted_cta(profile_id, message_code=code)
             submitted_call_to_action.loc[len(submitted_call_to_action)] = row_submitted_cta
             submitted_call_to_action.to_csv('datasets/submitted_call_to_action.csv', index=0)
+            logger.info(f'sent cta message {code} to {profile_id} using {tool}')
+
 
 
         

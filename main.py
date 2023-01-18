@@ -23,8 +23,8 @@ family_offices_UK, network_info, submitted_invitation, message, submitted_call_t
 # utils.create_message(type='call_to_action', text='may i disturb you?', code='c2')
 
 
-utils.send_invitations_note(api, 5)
+# utils.send_invitations_note(api, 5)
 
-utils.scan_for_1st_connections(api)
+# utils.scan_for_1st_connections(api)
 
 utils.send_message_new_1st_connections(api)
