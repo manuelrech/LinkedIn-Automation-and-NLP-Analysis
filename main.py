@@ -10,7 +10,7 @@ file_handler = logging.FileHandler('loggers/linkedin.log')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-utils.setup_correct_directory()
+utils.setup_correct_directory('LinkedIn_gian')
 
 api = utils.autenticate_linkedin_API()
 

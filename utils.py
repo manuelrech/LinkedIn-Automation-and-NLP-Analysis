@@ -38,17 +38,19 @@ def autenticate_linkedin_API(profile = None):
     logger.info(f"Logged into API using {profile}'s profile")
     return api
 
-def setup_correct_directory():
+def setup_correct_directory(directory_name = 'Linkedin'):
     try:
         home_directory = os.path.expanduser("~")
         desktop_directory = os.path.join(home_directory, "Desktop")
-        linkedin_directory = os.path.join(desktop_directory, "Linkedin")
-        os.chdir(linkedin_directory)
-        if not 'loggers' in os.listdir():
-            os.mkdir('loggers')
-        if not 'datasets' in os.listdir():
-            os.mkdir('datasets')
-        logger.info(f"Set directory to {linkedin_directory}")
+        os.makedirs(desktop_directory + f'/{directory_name}' + '/loggers', exist_ok=True)
+        os.makedirs(desktop_directory + f'/{directory_name}' + '/datasets', exist_ok=True)
+        os.chdir(desktop_directory + f'/{directory_name}')
+
+        # if not  in os.listdir():
+        #     os.mkdir('loggers')
+        # if not 'datasets' in os.listdir():
+        #     os.mkdir('datasets')
+        logger.info(f"Set directory to {desktop_directory}/{directory_name}")
 
     except Exception as e:
         logger.error(f"There's been an error, {e} while reading file, check that you are in the right folder")
