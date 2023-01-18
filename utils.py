@@ -46,10 +46,6 @@ def setup_correct_directory(directory_name = 'Linkedin'):
         os.makedirs(desktop_directory + f'/{directory_name}' + '/datasets', exist_ok=True)
         os.chdir(desktop_directory + f'/{directory_name}')
 
-        # if not  in os.listdir():
-        #     os.mkdir('loggers')
-        # if not 'datasets' in os.listdir():
-        #     os.mkdir('datasets')
         logger.info(f"Set directory to {desktop_directory}/{directory_name}")
 
     except Exception as e:
@@ -79,9 +75,16 @@ def setup_begging_datasets():
     try:
         submitted_invitation =  pd.read_csv('datasets/submitted_invitation.csv')
     except FileNotFoundError:
-        submitted_invitation = pd.DataFrame(columns=[ 'date_time', 'timestamp', 'profile_id', 'message_code', 'accepted_invitation', 'replied'])
+        submitted_invitation = pd.DataFrame(columns=[ 'timestamp', 'datetime', 'profile_id', 'message_code', 'accepted_invitation', 'replied'])
         submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
         logger.info('submitted invitation file has been created from 0')
+    
+    try:
+        submitted_inmail =  pd.read_csv('datasets/submitted_inmail.csv')
+    except FileNotFoundError:
+        submitted_inmail = pd.DataFrame(columns=['timestamp', 'datetime', 'profile_id', 'message_code'])
+        submitted_inmail.to_csv('datasets/submitted_inmail.csv', index=0)
+        logger.info('submitted inmail file has been created from 0')
 
     try:    
         message = pd.read_csv('datasets/message.csv')
@@ -168,10 +171,8 @@ def send_invitations_note(api, how_many):
     message = pd.read_csv('datasets/message.csv')
     troubling_profiles = pd.read_csv('datasets/troubling_profiles.csv')
 
-    linkedin_pi = family_offices_UK.LinkedIn
-
     counter = 0
-    for public_identifier in linkedin_pi:
+    for public_identifier, nome in zip(family_offices_UK.LinkedIn, family_offices_UK.Nome):
         if public_identifier in submitted_invitation.profile_id:
             continue
 
@@ -211,8 +212,8 @@ def send_invitations_note(api, how_many):
         network_info.to_csv('datasets/network_info.csv', index=0)
         logger.info(f"{public_identifier} for you is a connection of level {connection_level}")
 
-        note, code = randomly_get_message(message_begin=message, type='n')
-        result, profile_urn = api.add_connection(profile_public_id = public_identifier, message=note)
+        note, code = randomly_get_message(message_begin=message, type='note')
+        result, profile_urn = api.add_connection(profile_public_id = public_identifier, message=note.format(nome))
 
         if result == False:
             logger.info(f"Sent invitation + note to {public_identifier}")
@@ -326,7 +327,7 @@ def send_message_new_1st_connections(api):
     si_fo = pd.merge(submitted_invitation,  family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
     si_fo_accepted_invitation = si_fo[si_fo.accepted_invitation == True]
 
-    for profile_urn, conversation_urn, profile_id in zip(si_fo_accepted_invitation.profile_urn, si_fo_accepted_invitation.conversation_urn, si_fo_accepted_invitation.profile_id):
+    for nome, profile_urn, conversation_urn, profile_id in zip(si_fo_accepted_invitation.Nome, si_fo_accepted_invitation.profile_urn, si_fo_accepted_invitation.conversation_urn, si_fo_accepted_invitation.profile_id):
         if submitted_call_to_action.profile_id.isin([profile_id]).any():
             logger.info(f'already sent 1 message to this person {profile_id}')
             continue
@@ -334,13 +335,13 @@ def send_message_new_1st_connections(api):
         message = pd.read_csv('datasets/message.csv')
         cta, code = randomly_get_message(message_begin=message, type='cta')
         try:
-            result = api.send_message(message_body=cta, conversation_urn_id=conversation_urn)
+            result = api.send_message(message_body=cta.format(nome), conversation_urn_id=conversation_urn)
             if result == False:
                 tool = 'conversation_urn'
             
 
         except:
-            result = api.send_message(message_body=cta, recipients=[profile_urn])
+            result = api.send_message(message_body=cta.format(nome), recipients=[profile_urn])
             if result == False:
                 tool = 'profile_urn'
 
