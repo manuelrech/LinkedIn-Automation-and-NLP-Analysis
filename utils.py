@@ -1,6 +1,7 @@
 from linkedin_api import Linkedin
 import logging
 from datetime import datetime
+from time import sleep
 import pandas as pd
 import os
 import random
@@ -184,9 +185,10 @@ def send_invitations_note(api, how_many):
             
         if troubling_profiles.LinkedIn.str.contains(public_identifier).any():
             continue
-
-        network_information = api.get_profile_network_info(public_identifier)
         
+        network_information = api.get_profile_network_info(public_identifier)
+        sleep(60)
+
         if network_information == {}:
             logger.error(f"Proile {public_identifier} has not been found")
             df_with_troubling_person = family_offices_UK.query(f"LinkedIn == '{public_identifier}'")
@@ -214,6 +216,7 @@ def send_invitations_note(api, how_many):
 
         note, code = randomly_get_message(message_begin=message, type='note')
         result, profile_urn = api.add_connection(profile_public_id = public_identifier, message=note.format(nome))
+        sleep(60)
 
         if result == False:
             logger.info(f"Sent invitation + note to {public_identifier}")
@@ -233,6 +236,7 @@ def get_conversation_urn(api):
     fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
 
     conversations = api.get_conversations()
+    sleep(60)
 
     for i in range(len(conversations['elements'])):
 
@@ -257,6 +261,7 @@ def get_conversation_urn(api):
             break
 
         conversations = api.get_conversations(conversations['elements'][19]['events'][0]['createdAt'])
+        sleep(60)
         
         for i in range(len(conversations['elements'])):
         
@@ -286,6 +291,7 @@ def scan_for_1st_connections(api):
             continue
 
         network_information = api.get_profile_network_info(public_identifier)
+        sleep(60)
 
         if network_information == {}:
             df_with_troubling_person = family_offices_UK.query(f"LinkedIn == '{public_identifier}'")
@@ -337,12 +343,14 @@ def send_message_new_1st_connections(api):
         cta, code = randomly_get_message(message_begin=message, type='cta')
         try:
             result = api.send_message(message_body=cta.format(nome), conversation_urn_id=conversation_urn)
+            sleep(60)
             if result == False:
                 tool = 'conversation_urn'
             
 
         except:
             result = api.send_message(message_body=cta.format(nome), recipients=[profile_urn])
+            sleep(60)
             if result == False:
                 tool = 'profile_urn'
 
