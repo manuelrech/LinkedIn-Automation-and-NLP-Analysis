@@ -280,6 +280,7 @@ def scan_for_1st_connections(api):
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
 
     for public_identifier in network_info.profile_id:
+        
         if network_info[network_info.profile_id ==  public_identifier].connection_level.isin(['DISTANCE_1']).any():
             logger.info(f"{public_identifier} is already a level 1 connection")
             continue

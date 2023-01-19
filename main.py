@@ -12,7 +12,7 @@ logger.addHandler(file_handler)
 
 utils.setup_correct_directory('Linkedin')
 
-api = utils.autenticate_linkedin_API()
+api = utils.autenticate_linkedin_API('gianluca')
 
 family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, troubling_profiles = utils.setup_begging_datasets()
 
@@ -23,8 +23,8 @@ family_offices_UK, network_info, submitted_invitation, message, submitted_call_t
 # utils.create_message(type='call_to_action', text='Hi{},\nI am the CEO of Virgil Alternative Investments (VAI) ltd.\nOur company is dedicated to supporting forward thinking investors like yourself in making sound investment decisions in the most alternative of investments. To date, we have advised professional and institutional investors with over $3.5 billion in AUA on disruptive opportunities, and on how to navigate market uncertainty through diversification.\nWe have shortlisted a list of opportunities which may be of interest to you, all of which are focused on resilience during this period of uncertainty.\nI\’d love to schedule a quick call to discuss these opportunities or any synergies with yourself and VAI. Please feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.\nKind regards,\nGianluca', code='c3')
 
 
-# utils.send_invitations_note(api, 5)
+# utils.send_invitations_note(api, 10)
 
-# utils.scan_for_1st_connections(api)
+utils.scan_for_1st_connections(api)
 
-# utils.send_message_new_1st_connections(api)
+utils.send_message_new_1st_connections(api)
