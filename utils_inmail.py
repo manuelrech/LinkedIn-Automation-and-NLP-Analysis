@@ -1,6 +1,7 @@
 from selenium import webdriver
 from datetime import datetime
 import pandas as  pd
+import utils
 import logging
 from time import sleep
 from selenium import  webdriver
@@ -36,6 +37,8 @@ def linkedin_login(username, password):
 def send_in_mail_message():
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     submitted_inmail = pd.read_csv('datasets/submitted_inmail.csv')
+    family_offices_UK = pd.read_csv('family_offices_UK.csv')
+    message = pd.read_csv('datasets/message.csv')
 
     si_not_accepted = submitted_invitation[submitted_invitation.accepted_invitation == False]
 
@@ -49,7 +52,8 @@ def send_in_mail_message():
     
     driver = linkedin_login(username = 'gianluca@vaiuk.finance', password = '2023.VaiLondon$')
 
-    for profile_id in si_to_be_inmailed.profile_id:
+    si_to_be_inmailed_fo = pd.merge(si_to_be_inmailed, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
+    for name, profile_id in zip(si_to_be_inmailed_fo.profile_id, si_to_be_inmailed_fo.Nome):
 
         if submitted_inmail.profile_id.isin([profile_id]).any():
             logger.info(f'inmail has already been sent to person {profile_id}')
@@ -70,10 +74,16 @@ def send_in_mail_message():
         message_button.click()
 
         object_field = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[8]/section/div[2]/section/div[2]/form[1]/input')))
-        object_field.send_keys('prova')
+        object_field.send_keys('Partnership Proposal by VAI UK Ltd')
 
+        cta, code = utils.randomly_get_message(message, type='cta')
         core_field = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.TAG_NAME, 'textarea')))
-        core_field.send_keys('proviamo ancora')
+        core_field.send_keys(cta.format(name))
+
+        row_submitted_inmail = utils.create_row_submitted_inmail(profile_id=profile_id, message_code=code)
+        submitted_inmail.loc[len(submitted_inmail)] = row_submitted_inmail
+        submitted_inmail.to_csv('datasets/submitted_inmail.csv', index=0)
+        logger.info(f"added row for {profile_id} in submitted in mail")
 
         send_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[8]/section/div[2]/section/div[2]/form[1]/section[2]/span[2]/button')))
         # send_button.click()
@@ -81,5 +91,3 @@ def send_in_mail_message():
         driver.switch_to.window(driver.window_handles[0])
 
 
-
-# 1673991336
