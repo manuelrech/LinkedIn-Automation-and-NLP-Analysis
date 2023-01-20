@@ -496,3 +496,856 @@
 2023-01-19 12:15:58,548 - utils - INFO - connection level for profile greg-adams-cfa-09939a59 has not changed
 2023-01-19 12:15:58,567 - utils - INFO - already sent 1 message to this person flemingprivateoffice
 2023-01-19 12:16:02,314 - utils - INFO - sent cta message c2 to simon-hopkins-9514791 using conversation_urn
+2023-01-19 16:00:19,446 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-19 16:06:21,230 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-19 16:06:21,231 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-19 16:06:21,749 - utils - INFO - Logged into API using gianluca's profile
+2023-01-19 16:06:21,760 - utils - INFO - family offices UK has been read
+2023-01-19 16:06:21,772 - utils - INFO - read in all files
+2023-01-19 16:06:27,083 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-19 16:06:27,085 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-19 16:06:30,333 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-19 16:06:33,671 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-19 16:06:37,968 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-19 16:06:41,251 - utils - INFO - connection level for profile greg-malone-69057734 has not changed
+2023-01-19 16:06:45,551 - utils - INFO - connection level for profile carnegie-smyth-56787b5 has not changed
+2023-01-19 16:06:50,776 - utils - INFO - connection level for profile james-duckworth-chad-8527805 has not changed
+2023-01-19 16:06:55,073 - utils - INFO - connection level for profile fabrizio-basso-4543463b has not changed
+2023-01-19 16:06:58,555 - utils - INFO - connection level for profile billy-norris-834a2725 has not changed
+2023-01-19 16:07:01,933 - utils - INFO - connection level for profile ray-cullivan has not changed
+2023-01-19 16:07:04,289 - utils - INFO - connection level for profile michael-keane-a2180529 has not changed
+2023-01-19 16:07:06,645 - utils - INFO - connection level for profile eirian-jones-b4491365 has not changed
+2023-01-19 16:07:11,972 - utils - INFO - connection level for profile drew-mcneil-54772111 has not changed
+2023-01-19 16:07:15,245 - utils - INFO - connection level for profile bwiseman08 has not changed
+2023-01-19 16:07:15,247 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-19 16:07:20,506 - utils - INFO - connection level for profile michaeljamesmacfarlane has not changed
+2023-01-19 16:07:23,847 - utils - INFO - connection level for profile melissa-lester has not changed
+2023-01-19 16:07:28,148 - utils - INFO - connection level for profile ross-mason has not changed
+2023-01-19 16:07:30,402 - utils - INFO - connection level for profile jay-ash-38484579 has not changed
+2023-01-19 16:07:34,702 - utils - INFO - connection level for profile alistair-cairns-8a1422 has not changed
+2023-01-19 16:07:40,027 - utils - INFO - connection level for profile jack-mactaggart has not changed
+2023-01-19 16:07:45,351 - utils - INFO - connection level for profile william-laxton has not changed
+2023-01-19 16:07:48,625 - utils - INFO - connection level for profile andrew-spence-6a638bb has not changed
+2023-01-19 16:07:51,907 - utils - INFO - connection level for profile george-renouf-13665014 has not changed
+2023-01-19 16:07:56,206 - utils - INFO - connection level for profile harvey-s-aa473718a has not changed
+2023-01-19 16:07:59,483 - utils - INFO - new connection level with chuck-powers-09b19329, now it is DISTANCE_1
+2023-01-19 16:07:59,484 - utils - INFO - Created row in network info for chuck-powers-09b19329
+2023-01-19 16:07:59,499 - utils - INFO - chuck-powers-09b19329 is a first_level_connection
+2023-01-19 16:07:59,501 - utils - INFO - updated to True column accpeted invitation on table submitted invitation for user chuck-powers-09b19329
+2023-01-19 16:08:04,678 - utils - INFO - added conversation urn for user chuck-powers-09b19329
+2023-01-19 16:08:04,694 - utils - INFO - added conversation urn for user anthony-moore-30613926
+2023-01-19 16:08:08,063 - utils - INFO - new connection level with anthony-moore-30613926, now it is DISTANCE_1
+2023-01-19 16:08:08,064 - utils - INFO - Created row in network info for anthony-moore-30613926
+2023-01-19 16:08:08,071 - utils - INFO - anthony-moore-30613926 is a first_level_connection
+2023-01-19 16:08:08,072 - utils - INFO - updated to True column accpeted invitation on table submitted invitation for user anthony-moore-30613926
+2023-01-19 16:08:13,411 - utils - INFO - connection level for profile dominik-simler-0b2580b has not changed
+2023-01-19 16:08:16,686 - utils - INFO - connection level for profile yves-alexandre-05baa383 has not changed
+2023-01-19 16:08:20,950 - utils - INFO - connection level for profile john-burke-689625176 has not changed
+2023-01-19 16:08:23,239 - utils - INFO - connection level for profile kevin-arenson-123b9218 has not changed
+2023-01-19 16:08:25,594 - utils - INFO - connection level for profile tristin-retzlaff-8aaa938 has not changed
+2023-01-19 16:08:30,917 - utils - INFO - connection level for profile giulio-battaglia-4129822 has not changed
+2023-01-19 16:08:36,159 - utils - INFO - connection level for profile shuo-zhao-06022817 has not changed
+2023-01-19 16:08:41,468 - utils - INFO - connection level for profile emmaholden01 has not changed
+2023-01-19 16:08:45,866 - utils - INFO - connection level for profile alan-torevell-298ab8133 has not changed
+2023-01-19 16:08:48,430 - utils - INFO - connection level for profile costayiannoulis has not changed
+2023-01-19 16:08:50,670 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
+2023-01-19 16:08:56,008 - utils - INFO - connection level for profile alexanderkalis has not changed
+2023-01-19 16:08:56,010 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-19 16:09:00,309 - utils - INFO - connection level for profile alex-jeffrey1 has not changed
+2023-01-19 16:09:03,587 - utils - INFO - connection level for profile kiran-patel-a4018145 has not changed
+2023-01-19 16:09:08,109 - utils - INFO - connection level for profile mike-smith-a3b68711 has not changed
+2023-01-19 16:09:11,791 - utils - INFO - connection level for profile jim-shea-7572733b has not changed
+2023-01-19 16:09:17,021 - utils - INFO - connection level for profile greg-adams-cfa-09939a59 has not changed
+2023-01-19 16:09:17,023 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-19 16:09:17,041 - utils - INFO - already sent 1 message to this person flemingprivateoffice
+2023-01-19 16:09:22,392 - utils - INFO - sent cta message c3 to chuck-powers-09b19329 using conversation_urn
+2023-01-19 16:09:27,044 - utils - INFO - sent cta message c1 to anthony-moore-30613926 using conversation_urn
+2023-01-19 16:09:27,044 - utils - INFO - already sent 1 message to this person simon-hopkins-9514791
+2023-01-19 19:59:15,686 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-19 19:59:15,687 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-19 19:59:16,237 - utils - INFO - Logged into API using gianluca's profile
+2023-01-19 19:59:16,247 - utils - INFO - family offices UK has been read
+2023-01-19 19:59:16,254 - utils - INFO - read in all files
+2023-01-19 20:00:21,542 - utils - INFO - igor-yelnik-3ab5223 for you is a connection of level DISTANCE_1
+2023-01-19 20:01:24,678 - utils - INFO - Created row in network info for gareth-herrington-8b33b95b
+2023-01-19 20:01:24,702 - utils - INFO - gareth-herrington-8b33b95b for you is a connection of level DISTANCE_3
+2023-01-19 20:02:34,973 - utils - INFO - Sent invitation + note to gareth-herrington-8b33b95b
+2023-01-19 20:02:34,985 - utils - INFO - new profile urn for user gareth-herrington-8b33b95b has been added
+2023-01-19 20:02:34,985 - utils - INFO - Created row in submitted_invitation for  gareth-herrington-8b33b95b
+2023-01-19 20:03:37,396 - utils - INFO - Created row in network info for marc-meyohas-8039364
+2023-01-19 20:03:37,402 - utils - INFO - marc-meyohas-8039364 for you is a connection of level DISTANCE_2
+2023-01-19 20:04:49,865 - utils - INFO - Sent invitation + note to marc-meyohas-8039364
+2023-01-19 20:04:49,876 - utils - INFO - new profile urn for user marc-meyohas-8039364 has been added
+2023-01-19 20:04:49,877 - utils - INFO - Created row in submitted_invitation for  marc-meyohas-8039364
+2023-01-19 20:05:52,163 - utils - INFO - Created row in network info for daniel-goldstein-1462552b
+2023-01-19 20:05:52,176 - utils - INFO - daniel-goldstein-1462552b for you is a connection of level DISTANCE_2
+2023-01-19 20:07:00,659 - utils - INFO - Sent invitation + note to daniel-goldstein-1462552b
+2023-01-19 20:07:00,673 - utils - INFO - new profile urn for user daniel-goldstein-1462552b has been added
+2023-01-19 20:07:00,673 - utils - INFO - Created row in submitted_invitation for  daniel-goldstein-1462552b
+2023-01-19 20:08:05,069 - utils - INFO - Created row in network info for nstoronsky
+2023-01-19 20:08:05,078 - utils - INFO - nstoronsky for you is a connection of level DISTANCE_2
+2023-01-19 20:09:16,419 - utils - INFO - Sent invitation + note to nstoronsky
+2023-01-19 20:09:16,435 - utils - INFO - new profile urn for user nstoronsky has been added
+2023-01-19 20:09:16,436 - utils - INFO - Created row in submitted_invitation for  nstoronsky
+2023-01-19 20:10:21,679 - utils - INFO - Created row in network info for yue-max-qiu-268a5340
+2023-01-19 20:10:21,692 - utils - INFO - yue-max-qiu-268a5340 for you is a connection of level DISTANCE_2
+2023-01-19 20:11:33,928 - utils - INFO - Sent invitation + note to yue-max-qiu-268a5340
+2023-01-19 20:11:33,945 - utils - INFO - new profile urn for user yue-max-qiu-268a5340 has been added
+2023-01-19 20:11:33,946 - utils - INFO - Created row in submitted_invitation for  yue-max-qiu-268a5340
+2023-01-19 20:12:38,217 - utils - INFO - Created row in network info for ani-khatri-3530531
+2023-01-19 20:12:38,233 - utils - INFO - ani-khatri-3530531 for you is a connection of level DISTANCE_2
+2023-01-19 20:13:49,755 - utils - INFO - Sent invitation + note to ani-khatri-3530531
+2023-01-19 20:13:49,770 - utils - INFO - new profile urn for user ani-khatri-3530531 has been added
+2023-01-19 20:13:49,770 - utils - INFO - Created row in submitted_invitation for  ani-khatri-3530531
+2023-01-19 20:14:52,064 - utils - INFO - Created row in network info for nadia-al-doseri-ab3a4ab
+2023-01-19 20:14:52,076 - utils - INFO - nadia-al-doseri-ab3a4ab for you is a connection of level DISTANCE_2
+2023-01-19 20:16:04,233 - utils - INFO - Sent invitation + note to nadia-al-doseri-ab3a4ab
+2023-01-19 20:16:04,247 - utils - INFO - new profile urn for user nadia-al-doseri-ab3a4ab has been added
+2023-01-19 20:16:04,247 - utils - INFO - Created row in submitted_invitation for  nadia-al-doseri-ab3a4ab
+2023-01-19 20:17:06,729 - utils - INFO - Created row in network info for natasha-kuznetsova-5751541
+2023-01-19 20:17:06,739 - utils - INFO - natasha-kuznetsova-5751541 for you is a connection of level DISTANCE_2
+2023-01-19 20:18:20,207 - utils - INFO - Sent invitation + note to natasha-kuznetsova-5751541
+2023-01-19 20:18:20,219 - utils - INFO - new profile urn for user natasha-kuznetsova-5751541 has been added
+2023-01-19 20:18:20,220 - utils - INFO - Created row in submitted_invitation for  natasha-kuznetsova-5751541
+2023-01-19 20:19:25,487 - utils - INFO - Created row in network info for nayyaril
+2023-01-19 20:19:25,499 - utils - INFO - nayyaril for you is a connection of level DISTANCE_2
+2023-01-19 20:20:37,839 - utils - INFO - Sent invitation + note to nayyaril
+2023-01-19 20:20:37,851 - utils - INFO - new profile urn for user nayyaril has been added
+2023-01-19 20:20:37,852 - utils - INFO - Created row in submitted_invitation for  nayyaril
+2023-01-19 20:21:41,296 - utils - INFO - Created row in network info for rodrigo-mendes-34459ab
+2023-01-19 20:21:41,308 - utils - INFO - rodrigo-mendes-34459ab for you is a connection of level DISTANCE_2
+2023-01-19 20:22:54,799 - utils - INFO - Sent invitation + note to rodrigo-mendes-34459ab
+2023-01-19 20:22:54,808 - utils - INFO - new profile urn for user rodrigo-mendes-34459ab has been added
+2023-01-19 20:22:54,808 - utils - INFO - Created row in submitted_invitation for  rodrigo-mendes-34459ab
+2023-01-19 20:23:57,118 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-19 20:23:57,123 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-19 20:25:00,450 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-19 20:26:03,730 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-19 20:27:05,991 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-19 20:28:08,358 - utils - INFO - connection level for profile greg-malone-69057734 has not changed
+2023-01-19 20:29:12,639 - utils - INFO - connection level for profile carnegie-smyth-56787b5 has not changed
+2023-01-19 20:30:14,927 - utils - INFO - connection level for profile james-duckworth-chad-8527805 has not changed
+2023-01-19 20:31:17,298 - utils - INFO - connection level for profile fabrizio-basso-4543463b has not changed
+2023-01-19 20:32:22,567 - utils - INFO - connection level for profile billy-norris-834a2725 has not changed
+2023-01-19 20:33:25,844 - utils - INFO - connection level for profile ray-cullivan has not changed
+2023-01-19 20:34:28,123 - utils - INFO - connection level for profile michael-keane-a2180529 has not changed
+2023-01-19 20:35:32,409 - utils - INFO - connection level for profile eirian-jones-b4491365 has not changed
+2023-01-19 20:36:35,681 - utils - INFO - connection level for profile drew-mcneil-54772111 has not changed
+2023-01-19 20:37:38,983 - utils - INFO - connection level for profile bwiseman08 has not changed
+2023-01-19 20:37:38,987 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-19 20:38:42,258 - utils - INFO - connection level for profile michaeljamesmacfarlane has not changed
+2023-01-19 20:39:47,772 - utils - INFO - connection level for profile melissa-lester has not changed
+2023-01-19 20:40:53,316 - utils - INFO - connection level for profile ross-mason has not changed
+2023-01-19 20:41:55,673 - utils - INFO - connection level for profile jay-ash-38484579 has not changed
+2023-01-19 20:43:00,944 - utils - INFO - connection level for profile alistair-cairns-8a1422 has not changed
+2023-01-19 21:46:09,380 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-19 21:46:09,381 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-19 21:46:09,873 - utils - INFO - Logged into API using gianluca's profile
+2023-01-19 21:46:09,889 - utils - INFO - family offices UK has been read
+2023-01-19 21:46:09,899 - utils - INFO - read in all files
+2023-01-19 22:12:43,836 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-19 22:12:43,837 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-19 22:12:44,282 - utils - INFO - Logged into API using gianluca's profile
+2023-01-19 22:12:44,291 - utils - INFO - family offices UK has been read
+2023-01-19 22:12:44,300 - utils - INFO - read in all files
+2023-01-19 22:13:46,717 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-19 22:13:46,721 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-19 22:14:49,992 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-19 22:15:54,304 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-19 22:16:58,574 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-19 22:18:00,867 - utils - INFO - connection level for profile greg-malone-69057734 has not changed
+2023-01-19 22:19:06,203 - utils - INFO - connection level for profile carnegie-smyth-56787b5 has not changed
+2023-01-19 22:20:11,538 - utils - INFO - connection level for profile james-duckworth-chad-8527805 has not changed
+2023-01-19 22:21:16,858 - utils - INFO - connection level for profile fabrizio-basso-4543463b has not changed
+2023-01-19 22:22:20,141 - utils - INFO - connection level for profile billy-norris-834a2725 has not changed
+2023-01-19 22:23:22,484 - utils - INFO - connection level for profile ray-cullivan has not changed
+2023-01-19 22:24:26,843 - utils - INFO - connection level for profile michael-keane-a2180529 has not changed
+2023-01-19 22:25:31,118 - utils - INFO - connection level for profile eirian-jones-b4491365 has not changed
+2023-01-19 22:26:33,392 - utils - INFO - connection level for profile drew-mcneil-54772111 has not changed
+2023-01-19 22:27:35,668 - utils - INFO - connection level for profile bwiseman08 has not changed
+2023-01-19 22:27:35,674 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-19 22:28:38,985 - utils - INFO - connection level for profile michaeljamesmacfarlane has not changed
+2023-01-19 22:29:44,568 - utils - INFO - connection level for profile melissa-lester has not changed
+2023-01-19 22:30:49,846 - utils - INFO - connection level for profile ross-mason has not changed
+2023-01-19 22:31:54,101 - utils - INFO - connection level for profile jay-ash-38484579 has not changed
+2023-01-19 22:32:57,365 - utils - INFO - connection level for profile alistair-cairns-8a1422 has not changed
+2023-01-19 22:33:59,630 - utils - INFO - connection level for profile jack-mactaggart has not changed
+2023-01-19 22:35:02,919 - utils - INFO - connection level for profile william-laxton has not changed
+2023-01-19 22:36:06,334 - utils - INFO - connection level for profile andrew-spence-6a638bb has not changed
+2023-01-19 22:37:08,696 - utils - INFO - connection level for profile george-renouf-13665014 has not changed
+2023-01-19 22:38:12,007 - utils - INFO - connection level for profile harvey-s-aa473718a has not changed
+2023-01-19 22:38:12,012 - utils - INFO - chuck-powers-09b19329 is already a level 1 connection
+2023-01-19 22:38:12,013 - utils - INFO - anthony-moore-30613926 is already a level 1 connection
+2023-01-19 22:39:16,907 - utils - INFO - connection level for profile dominik-simler-0b2580b has not changed
+2023-01-19 22:40:21,185 - utils - INFO - connection level for profile yves-alexandre-05baa383 has not changed
+2023-01-19 22:41:24,450 - utils - INFO - connection level for profile john-burke-689625176 has not changed
+2023-01-19 22:42:28,808 - utils - INFO - connection level for profile kevin-arenson-123b9218 has not changed
+2023-01-19 22:43:32,080 - utils - INFO - connection level for profile tristin-retzlaff-8aaa938 has not changed
+2023-01-19 22:44:35,343 - utils - INFO - connection level for profile giulio-battaglia-4129822 has not changed
+2023-01-19 22:45:37,626 - utils - INFO - connection level for profile shuo-zhao-06022817 has not changed
+2023-01-19 22:46:42,962 - utils - INFO - connection level for profile emmaholden01 has not changed
+2023-01-19 22:47:46,343 - utils - INFO - connection level for profile alan-torevell-298ab8133 has not changed
+2023-01-19 22:48:49,632 - utils - INFO - connection level for profile costayiannoulis has not changed
+2023-01-19 22:49:51,950 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
+2023-01-19 22:50:56,219 - utils - INFO - new connection level with alexanderkalis, now it is DISTANCE_1
+2023-01-19 22:50:56,223 - utils - INFO - Created row in network info for alexanderkalis
+2023-01-19 22:50:56,278 - utils - INFO - alexanderkalis is a first_level_connection
+2023-01-19 22:50:56,279 - utils - INFO - updated to True column accpeted invitation on table submitted invitation for user alexanderkalis
+2023-01-19 22:52:01,570 - utils - INFO - added conversation urn for user alexanderkalis
+2023-01-19 22:52:01,594 - utils - INFO - added conversation urn for user daniel-goldstein-1462552b
+2023-01-19 22:52:01,607 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-19 22:53:04,902 - utils - INFO - connection level for profile alex-jeffrey1 has not changed
+2023-01-19 22:54:09,150 - utils - INFO - connection level for profile kiran-patel-a4018145 has not changed
+2023-01-19 22:55:11,540 - utils - INFO - connection level for profile mike-smith-a3b68711 has not changed
+2023-01-19 22:56:13,868 - utils - INFO - connection level for profile jim-shea-7572733b has not changed
+2023-01-19 22:57:19,139 - utils - INFO - connection level for profile greg-adams-cfa-09939a59 has not changed
+2023-01-19 22:57:19,145 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-19 22:57:19,146 - utils - INFO - chuck-powers-09b19329 is already a level 1 connection
+2023-01-19 22:57:19,148 - utils - INFO - anthony-moore-30613926 is already a level 1 connection
+2023-01-19 22:58:21,423 - utils - INFO - connection level for profile gareth-herrington-8b33b95b has not changed
+2023-01-19 22:59:23,793 - utils - INFO - connection level for profile marc-meyohas-8039364 has not changed
+2023-01-19 23:00:26,053 - utils - INFO - new connection level with daniel-goldstein-1462552b, now it is DISTANCE_1
+2023-01-19 23:00:26,056 - utils - INFO - Created row in network info for daniel-goldstein-1462552b
+2023-01-19 23:00:26,089 - utils - INFO - daniel-goldstein-1462552b is a first_level_connection
+2023-01-19 23:00:26,093 - utils - INFO - updated to True column accpeted invitation on table submitted invitation for user daniel-goldstein-1462552b
+2023-01-19 23:01:30,469 - utils - INFO - connection level for profile nstoronsky has not changed
+2023-01-19 23:02:34,886 - utils - INFO - connection level for profile yue-max-qiu-268a5340 has not changed
+2023-01-19 23:03:40,277 - utils - INFO - connection level for profile ani-khatri-3530531 has not changed
+2023-01-19 23:04:45,689 - utils - INFO - connection level for profile nadia-al-doseri-ab3a4ab has not changed
+2023-01-19 23:05:48,954 - utils - INFO - connection level for profile natasha-kuznetsova-5751541 has not changed
+2023-01-19 23:06:51,227 - utils - INFO - connection level for profile nayyaril has not changed
+2023-01-19 23:07:56,512 - utils - INFO - connection level for profile rodrigo-mendes-34459ab has not changed
+2023-01-20 00:51:32,414 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 00:51:32,414 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 09:37:40,302 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 09:37:40,302 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 09:37:40,889 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 09:37:40,900 - utils - INFO - family offices UK has been read
+2023-01-20 09:37:40,908 - utils - INFO - read in all files
+2023-01-20 09:37:40,925 - utils - INFO - already sent 1 message to this person flemingprivateoffice
+2023-01-20 09:37:40,925 - utils - INFO - already sent 1 message to this person chuck-powers-09b19329
+2023-01-20 09:37:40,925 - utils - INFO - already sent 1 message to this person anthony-moore-30613926
+2023-01-20 09:38:45,626 - utils - INFO - sent cta message c3 to alexanderkalis using conversation_urn
+2023-01-20 09:38:45,628 - utils - INFO - already sent 1 message to this person simon-hopkins-9514791
+2023-01-20 09:39:48,126 - utils - INFO - sent cta message c1 to daniel-goldstein-1462552b using conversation_urn
+
+2023-01-20 10:05:38,350 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 10:05:38,350 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 10:05:38,799 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 10:05:38,807 - utils - INFO - family offices UK has been read
+2023-01-20 10:05:38,817 - utils - INFO - read in all files
+2023-01-20 10:06:43,773 - utils - INFO - igor-yelnik-3ab5223 for you is a connection of level DISTANCE_1
+2023-01-20 10:07:49,055 - utils - INFO - Created row in network info for paul-vesuvius
+2023-01-20 10:07:49,080 - utils - INFO - paul-vesuvius for you is a connection of level DISTANCE_2
+2023-01-20 10:08:58,819 - utils - INFO - Sent invitation + note to paul-vesuvius
+2023-01-20 10:08:58,840 - utils - INFO - new profile urn for user paul-vesuvius has been added
+2023-01-20 10:08:58,840 - utils - INFO - Created row in submitted_invitation for  paul-vesuvius
+2023-01-20 10:10:03,331 - utils - INFO - Created row in network info for s-r-m-brenninkmeijer-2543075
+2023-01-20 10:10:03,341 - utils - INFO - s-r-m-brenninkmeijer-2543075 for you is a connection of level DISTANCE_2
+2023-01-20 10:11:12,862 - utils - INFO - Sent invitation + note to s-r-m-brenninkmeijer-2543075
+2023-01-20 10:11:12,873 - utils - INFO - new profile urn for user s-r-m-brenninkmeijer-2543075 has been added
+2023-01-20 10:11:12,873 - utils - INFO - Created row in submitted_invitation for  s-r-m-brenninkmeijer-2543075
+2023-01-20 10:12:15,159 - utils - INFO - peter-rose-2936a213 for you is a connection of level DISTANCE_1
+2023-01-20 10:13:18,512 - utils - INFO - Created row in network info for elad-shraga-293a75165
+2023-01-20 10:13:18,532 - utils - INFO - elad-shraga-293a75165 for you is a connection of level DISTANCE_3
+2023-01-20 10:14:32,751 - utils - INFO - Sent invitation + note to elad-shraga-293a75165
+2023-01-20 10:14:32,780 - utils - INFO - new profile urn for user elad-shraga-293a75165 has been added
+2023-01-20 10:14:32,781 - utils - INFO - Created row in submitted_invitation for  elad-shraga-293a75165
+2023-01-20 10:15:37,315 - utils - INFO - Created row in network info for richard-lindop-00949180
+2023-01-20 10:15:37,325 - utils - INFO - richard-lindop-00949180 for you is a connection of level DISTANCE_2
+2023-01-20 10:16:47,298 - utils - INFO - Sent invitation + note to richard-lindop-00949180
+2023-01-20 10:16:47,308 - utils - INFO - new profile urn for user richard-lindop-00949180 has been added
+2023-01-20 10:16:47,308 - utils - INFO - Created row in submitted_invitation for  richard-lindop-00949180
+2023-01-20 10:17:50,571 - utils - INFO - Created row in network info for joanna-hunt-7475358
+2023-01-20 10:17:50,581 - utils - INFO - joanna-hunt-7475358 for you is a connection of level DISTANCE_2
+2023-01-20 10:18:59,199 - utils - INFO - Sent invitation + note to joanna-hunt-7475358
+2023-01-20 10:18:59,230 - utils - INFO - new profile urn for user joanna-hunt-7475358 has been added
+2023-01-20 10:18:59,235 - utils - INFO - Created row in submitted_invitation for  joanna-hunt-7475358
+2023-01-20 10:20:02,514 - utils - INFO - Created row in network info for matthew-dickens-cfa-55886958
+2023-01-20 10:20:02,542 - utils - INFO - matthew-dickens-cfa-55886958 for you is a connection of level DISTANCE_2
+2023-01-20 10:21:20,326 - utils - INFO - Sent invitation + note to matthew-dickens-cfa-55886958
+2023-01-20 10:21:20,347 - utils - INFO - new profile urn for user matthew-dickens-cfa-55886958 has been added
+2023-01-20 10:21:20,347 - utils - INFO - Created row in submitted_invitation for  matthew-dickens-cfa-55886958
+2023-01-20 10:22:22,642 - utils - INFO - Created row in network info for paul-webb-7ba28920
+2023-01-20 10:22:22,651 - utils - INFO - paul-webb-7ba28920 for you is a connection of level DISTANCE_3
+2023-01-20 10:23:34,249 - utils - INFO - Sent invitation + note to paul-webb-7ba28920
+2023-01-20 10:23:34,268 - utils - INFO - new profile urn for user paul-webb-7ba28920 has been added
+2023-01-20 10:23:34,268 - utils - INFO - Created row in submitted_invitation for  paul-webb-7ba28920
+2023-01-20 10:24:36,556 - utils - INFO - Created row in network info for julia-wigram
+2023-01-20 10:24:36,573 - utils - INFO - julia-wigram for you is a connection of level DISTANCE_3
+2023-01-20 10:25:48,932 - utils - INFO - Sent invitation + note to julia-wigram
+2023-01-20 10:25:48,953 - utils - INFO - new profile urn for user julia-wigram has been added
+2023-01-20 10:25:48,953 - utils - INFO - Created row in submitted_invitation for  julia-wigram
+2023-01-20 10:26:51,314 - utils - INFO - Created row in network info for loutfy-mansour-16b323a6
+2023-01-20 10:26:51,347 - utils - INFO - loutfy-mansour-16b323a6 for you is a connection of level DISTANCE_2
+2023-01-20 10:28:06,751 - utils - INFO - Sent invitation + note to loutfy-mansour-16b323a6
+2023-01-20 10:28:06,770 - utils - INFO - new profile urn for user loutfy-mansour-16b323a6 has been added
+2023-01-20 10:28:06,771 - utils - INFO - Created row in submitted_invitation for  loutfy-mansour-16b323a6
+2023-01-20 10:29:10,054 - utils - INFO - Created row in network info for nikolaj-bertelsen-b47426
+2023-01-20 10:29:10,063 - utils - INFO - nikolaj-bertelsen-b47426 for you is a connection of level DISTANCE_3
+2023-01-20 10:30:22,538 - utils - INFO - Sent invitation + note to nikolaj-bertelsen-b47426
+2023-01-20 10:30:22,565 - utils - INFO - new profile urn for user nikolaj-bertelsen-b47426 has been added
+2023-01-20 10:30:22,565 - utils - INFO - Created row in submitted_invitation for  nikolaj-bertelsen-b47426
+2023-01-20 14:03:49,839 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 14:03:49,839 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 14:03:50,345 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 14:03:50,356 - utils - INFO - family offices UK has been read
+2023-01-20 14:03:50,364 - utils - INFO - read in all files
+2023-01-20 14:04:54,755 - utils - INFO - igor-yelnik-3ab5223 for you is a connection of level DISTANCE_1
+2023-01-20 14:05:57,116 - utils - INFO - peter-rose-2936a213 for you is a connection of level DISTANCE_1
+2023-01-20 14:07:00,502 - utils - INFO - Created row in network info for david-lumley-120ab0217
+2023-01-20 14:07:00,552 - utils - INFO - david-lumley-120ab0217 for you is a connection of level DISTANCE_3
+2023-01-20 14:08:12,032 - utils - INFO - Sent invitation + note to david-lumley-120ab0217
+2023-01-20 14:08:12,072 - utils - INFO - new profile urn for user david-lumley-120ab0217 has been added
+2023-01-20 14:08:12,073 - utils - INFO - Created row in submitted_invitation for  david-lumley-120ab0217
+2023-01-20 14:09:15,405 - utils - INFO - Created row in network info for karey-telo-540a2324
+2023-01-20 14:09:15,434 - utils - INFO - karey-telo-540a2324 for you is a connection of level DISTANCE_3
+2023-01-20 14:10:23,024 - utils - INFO - Sent invitation + note to karey-telo-540a2324
+2023-01-20 14:10:23,060 - utils - INFO - new profile urn for user karey-telo-540a2324 has been added
+2023-01-20 14:10:23,061 - utils - INFO - Created row in submitted_invitation for  karey-telo-540a2324
+2023-01-20 14:11:27,352 - utils - INFO - Created row in network info for alex-hills-a9002560
+2023-01-20 14:11:27,408 - utils - INFO - alex-hills-a9002560 for you is a connection of level DISTANCE_3
+2023-01-20 14:12:36,771 - utils - INFO - Sent invitation + note to alex-hills-a9002560
+2023-01-20 14:12:36,802 - utils - INFO - new profile urn for user alex-hills-a9002560 has been added
+2023-01-20 14:12:36,802 - utils - INFO - Created row in submitted_invitation for  alex-hills-a9002560
+2023-01-20 14:13:42,079 - utils - INFO - Created row in network info for francis-akpata-908a218a
+2023-01-20 14:13:42,104 - utils - INFO - francis-akpata-908a218a for you is a connection of level DISTANCE_2
+2023-01-20 14:14:55,989 - utils - INFO - Sent invitation + note to francis-akpata-908a218a
+2023-01-20 14:14:56,068 - utils - INFO - new profile urn for user francis-akpata-908a218a has been added
+2023-01-20 14:14:56,069 - utils - INFO - Created row in submitted_invitation for  francis-akpata-908a218a
+2023-01-20 14:15:59,360 - utils - ERROR - Proile rosemary-pajot-vit-704ba544 has not been found
+2023-01-20 14:15:59,465 - utils - INFO - rosemary-pajot-vit-704ba544 has been added to dataframe of troubling profiles
+2023-01-20 14:17:04,790 - utils - INFO - Created row in network info for tedholmes
+2023-01-20 14:17:04,848 - utils - INFO - tedholmes for you is a connection of level DISTANCE_2
+2023-01-20 14:18:16,904 - utils - INFO - Sent invitation + note to tedholmes
+2023-01-20 14:18:16,932 - utils - INFO - new profile urn for user tedholmes has been added
+2023-01-20 14:18:16,932 - utils - INFO - Created row in submitted_invitation for  tedholmes
+2023-01-20 14:19:19,547 - utils - INFO - Created row in network info for jacobingemannolsen
+2023-01-20 14:19:19,573 - utils - INFO - jacobingemannolsen for you is a connection of level DISTANCE_2
+2023-01-20 14:20:28,363 - utils - INFO - Sent invitation + note to jacobingemannolsen
+2023-01-20 14:20:28,391 - utils - INFO - new profile urn for user jacobingemannolsen has been added
+2023-01-20 14:20:28,392 - utils - INFO - Created row in submitted_invitation for  jacobingemannolsen
+2023-01-20 14:21:30,674 - utils - INFO - Created row in network info for giles-white-9893386
+2023-01-20 14:21:30,749 - utils - INFO - giles-white-9893386 for you is a connection of level DISTANCE_2
+2023-01-20 14:22:42,488 - utils - INFO - Sent invitation + note to giles-white-9893386
+2023-01-20 14:22:42,559 - utils - INFO - new profile urn for user giles-white-9893386 has been added
+2023-01-20 14:22:42,560 - utils - INFO - Created row in submitted_invitation for  giles-white-9893386
+2023-01-20 14:23:45,430 - utils - INFO - Created row in network info for st-john-coughlan-0608302
+2023-01-20 14:23:45,460 - utils - INFO - st-john-coughlan-0608302 for you is a connection of level DISTANCE_2
+2023-01-20 14:24:55,604 - utils - INFO - Sent invitation + note to st-john-coughlan-0608302
+2023-01-20 14:24:55,634 - utils - INFO - new profile urn for user st-john-coughlan-0608302 has been added
+2023-01-20 14:24:55,635 - utils - INFO - Created row in submitted_invitation for  st-john-coughlan-0608302
+2023-01-20 14:25:57,954 - utils - INFO - Created row in network info for neil-fillary-9a175512
+2023-01-20 14:25:57,978 - utils - INFO - neil-fillary-9a175512 for you is a connection of level DISTANCE_2
+2023-01-20 14:27:06,889 - utils - INFO - Sent invitation + note to neil-fillary-9a175512
+2023-01-20 14:27:06,978 - utils - INFO - new profile urn for user neil-fillary-9a175512 has been added
+2023-01-20 14:27:06,979 - utils - INFO - Created row in submitted_invitation for  neil-fillary-9a175512
+2023-01-20 14:28:12,768 - utils - INFO - Created row in network info for jamesrbmoore
+2023-01-20 14:28:12,800 - utils - INFO - jamesrbmoore for you is a connection of level DISTANCE_2
+2023-01-20 14:29:23,076 - utils - INFO - Sent invitation + note to jamesrbmoore
+2023-01-20 14:29:23,102 - utils - INFO - new profile urn for user jamesrbmoore has been added
+2023-01-20 14:29:23,102 - utils - INFO - Created row in submitted_invitation for  jamesrbmoore
+2023-01-20 14:33:26,652 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-20 14:33:26,657 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-20 14:34:31,969 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-20 14:35:36,288 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-20 14:36:38,586 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-20 14:37:44,092 - utils - INFO - connection level for profile greg-malone-69057734 has not changed
+2023-01-20 14:38:46,448 - utils - INFO - connection level for profile carnegie-smyth-56787b5 has not changed
+2023-01-20 14:39:51,954 - utils - INFO - connection level for profile james-duckworth-chad-8527805 has not changed
+2023-01-20 14:40:55,329 - utils - INFO - connection level for profile fabrizio-basso-4543463b has not changed
+2023-01-20 14:41:59,241 - utils - INFO - connection level for profile billy-norris-834a2725 has not changed
+2023-01-20 14:43:03,723 - utils - INFO - connection level for profile ray-cullivan has not changed
+2023-01-20 14:44:09,475 - utils - INFO - connection level for profile michael-keane-a2180529 has not changed
+2023-01-20 14:45:12,739 - utils - INFO - connection level for profile eirian-jones-b4491365 has not changed
+2023-01-20 14:46:17,540 - utils - INFO - connection level for profile drew-mcneil-54772111 has not changed
+2023-01-20 14:47:22,893 - utils - INFO - connection level for profile bwiseman08 has not changed
+2023-01-20 14:47:22,896 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-20 14:48:05,358 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 14:48:28,423 - utils - INFO - connection level for profile michaeljamesmacfarlane has not changed
+2023-01-20 14:49:31,867 - utils - INFO - connection level for profile melissa-lester has not changed
+2023-01-20 14:50:36,223 - utils - INFO - connection level for profile ross-mason has not changed
+2023-01-20 14:51:39,483 - utils - INFO - connection level for profile jay-ash-38484579 has not changed
+2023-01-20 14:52:43,999 - utils - INFO - connection level for profile alistair-cairns-8a1422 has not changed
+2023-01-20 14:53:46,399 - utils - INFO - connection level for profile jack-mactaggart has not changed
+2023-01-20 14:54:49,064 - utils - INFO - connection level for profile william-laxton has not changed
+2023-01-20 14:55:52,304 - utils - INFO - connection level for profile andrew-spence-6a638bb has not changed
+2023-01-20 14:56:54,607 - utils - INFO - connection level for profile george-renouf-13665014 has not changed
+2023-01-20 14:57:58,858 - utils - INFO - connection level for profile harvey-s-aa473718a has not changed
+2023-01-20 14:57:58,861 - utils - INFO - chuck-powers-09b19329 is already a level 1 connection
+2023-01-20 14:57:58,862 - utils - INFO - anthony-moore-30613926 is already a level 1 connection
+2023-01-20 14:59:01,292 - utils - INFO - connection level for profile dominik-simler-0b2580b has not changed
+2023-01-20 15:00:05,155 - utils - INFO - connection level for profile yves-alexandre-05baa383 has not changed
+2023-01-20 15:01:08,439 - utils - INFO - connection level for profile john-burke-689625176 has not changed
+2023-01-20 15:02:13,156 - utils - INFO - connection level for profile kevin-arenson-123b9218 has not changed
+2023-01-20 15:03:17,557 - utils - INFO - connection level for profile tristin-retzlaff-8aaa938 has not changed
+2023-01-20 15:04:21,916 - utils - INFO - connection level for profile giulio-battaglia-4129822 has not changed
+2023-01-20 15:05:27,495 - utils - INFO - connection level for profile shuo-zhao-06022817 has not changed
+2023-01-20 15:06:29,789 - utils - INFO - connection level for profile emmaholden01 has not changed
+2023-01-20 15:07:32,103 - utils - INFO - connection level for profile alan-torevell-298ab8133 has not changed
+2023-01-20 15:08:37,666 - utils - INFO - connection level for profile costayiannoulis has not changed
+2023-01-20 15:09:43,354 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
+2023-01-20 15:09:43,357 - utils - INFO - alexanderkalis is already a level 1 connection
+2023-01-20 15:09:43,358 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-20 15:10:48,695 - utils - INFO - connection level for profile alex-jeffrey1 has not changed
+2023-01-20 15:11:53,935 - utils - INFO - connection level for profile kiran-patel-a4018145 has not changed
+2023-01-20 15:12:57,178 - utils - INFO - connection level for profile mike-smith-a3b68711 has not changed
+2023-01-20 15:14:00,567 - utils - INFO - connection level for profile jim-shea-7572733b has not changed
+2023-01-20 15:15:03,946 - utils - INFO - connection level for profile greg-adams-cfa-09939a59 has not changed
+2023-01-20 15:15:03,949 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-20 15:15:03,950 - utils - INFO - chuck-powers-09b19329 is already a level 1 connection
+2023-01-20 15:15:03,951 - utils - INFO - anthony-moore-30613926 is already a level 1 connection
+2023-01-20 15:16:07,261 - utils - INFO - connection level for profile gareth-herrington-8b33b95b has not changed
+2023-01-20 15:17:09,553 - utils - INFO - connection level for profile marc-meyohas-8039364 has not changed
+2023-01-20 15:17:09,556 - utils - INFO - daniel-goldstein-1462552b is already a level 1 connection
+2023-01-20 15:18:13,820 - utils - INFO - connection level for profile nstoronsky has not changed
+2023-01-20 15:19:17,196 - utils - INFO - connection level for profile yue-max-qiu-268a5340 has not changed
+2023-01-20 15:20:22,679 - utils - INFO - connection level for profile ani-khatri-3530531 has not changed
+2023-01-20 15:21:26,971 - utils - INFO - connection level for profile nadia-al-doseri-ab3a4ab has not changed
+2023-01-20 15:22:30,237 - utils - INFO - connection level for profile natasha-kuznetsova-5751541 has not changed
+2023-01-20 15:23:35,690 - utils - INFO - connection level for profile nayyaril has not changed
+2023-01-20 15:24:40,036 - utils - INFO - connection level for profile rodrigo-mendes-34459ab has not changed
+2023-01-20 15:24:40,037 - utils - INFO - alexanderkalis is already a level 1 connection
+2023-01-20 15:24:40,038 - utils - INFO - daniel-goldstein-1462552b is already a level 1 connection
+2023-01-20 15:25:42,305 - utils - INFO - connection level for profile paul-vesuvius has not changed
+2023-01-20 15:26:47,578 - utils - INFO - connection level for profile s-r-m-brenninkmeijer-2543075 has not changed
+2023-01-20 15:28:17,261 - utils - INFO - connection level for profile elad-shraga-293a75165 has not changed
+2023-01-20 15:28:40,449 - utils - ERROR - connection error in sending cta attempt 0
+2023-01-20 15:32:43,774 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-20 15:32:43,777 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-20 15:33:49,011 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-20 15:34:53,363 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-20 15:35:57,081 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-20 15:36:59,322 - utils - INFO - connection level for profile greg-malone-69057734 has not changed
+2023-01-20 15:38:04,177 - utils - INFO - connection level for profile carnegie-smyth-56787b5 has not changed
+2023-01-20 15:39:09,585 - utils - INFO - connection level for profile james-duckworth-chad-8527805 has not changed
+2023-01-20 15:40:11,828 - utils - INFO - connection level for profile fabrizio-basso-4543463b has not changed
+2023-01-20 15:41:16,190 - utils - INFO - connection level for profile billy-norris-834a2725 has not changed
+2023-01-20 15:42:20,577 - utils - INFO - connection level for profile ray-cullivan has not changed
+2023-01-20 15:43:26,027 - utils - INFO - connection level for profile michael-keane-a2180529 has not changed
+2023-01-20 15:44:28,296 - utils - INFO - connection level for profile eirian-jones-b4491365 has not changed
+2023-01-20 15:45:33,684 - utils - INFO - connection level for profile drew-mcneil-54772111 has not changed
+2023-01-20 15:46:38,026 - utils - INFO - connection level for profile bwiseman08 has not changed
+2023-01-20 15:46:38,030 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-20 15:47:40,345 - utils - INFO - connection level for profile michaeljamesmacfarlane has not changed
+2023-01-20 15:48:44,661 - utils - INFO - connection level for profile melissa-lester has not changed
+2023-01-20 16:10:53,903 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:10:53,903 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 16:10:54,570 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 16:10:54,580 - utils - INFO - family offices UK has been read
+2023-01-20 16:10:54,586 - utils - INFO - read in all files
+2023-01-20 16:10:54,596 - utils - INFO - christopher-hill-72944417 has already been scraped in the last hour
+2023-01-20 16:10:54,597 - utils - ERROR - connection error in <function scan_for_1st_connections at 0x126b5ea20>, attempt 0
+2023-01-20 16:12:24,924 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:12:24,925 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 16:12:25,310 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 16:12:25,317 - utils - INFO - family offices UK has been read
+2023-01-20 16:12:25,327 - utils - INFO - read in all files
+2023-01-20 16:13:30,844 - utils - INFO - connection level for profile christopher-hill-72944417 has not changed
+2023-01-20 16:13:30,848 - utils - INFO - Created row in network info for christopher-hill-72944417
+2023-01-20 16:13:30,861 - utils - INFO - updated row in network information for user christopher-hill-72944417
+2023-01-20 16:13:30,862 - utils - ERROR - connection error in <function scan_for_1st_connections at 0x12adb2a20>, attempt 0
+2023-01-20 16:17:33,930 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:17:33,930 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 16:17:34,691 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 16:17:34,701 - utils - INFO - family offices UK has been read
+2023-01-20 16:17:34,709 - utils - INFO - read in all files
+2023-01-20 16:17:34,714 - utils - INFO - christopher-hill-72944417 has already been scraped in the last hour
+2023-01-20 16:17:34,715 - utils - ERROR - connection error in <function scan_for_1st_connections at 0x12afeaa20>, attempt 0
+2023-01-20 16:17:51,312 - __main__ - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:17:53,997 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:17:53,998 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 16:17:54,529 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 16:17:54,539 - utils - INFO - family offices UK has been read
+2023-01-20 16:17:54,549 - utils - INFO - read in all files
+2023-01-20 16:17:54,564 - utils - INFO - christopher-hill-72944417 has already been scraped in the last hour
+2023-01-20 16:17:54,569 - utils - ERROR - connection error in <function scan_for_1st_connections at 0x12b112a20>, attempt 0
+2023-01-20 16:18:47,682 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:18:47,682 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 16:18:48,292 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 16:18:48,295 - utils - INFO - family offices UK has been read
+2023-01-20 16:18:48,301 - utils - INFO - read in all files
+2023-01-20 16:18:48,309 - utils - INFO - christopher-hill-72944417 has already been scraped in the last hour
+2023-01-20 16:18:48,312 - utils - ERROR - Error 0 in <function scan_for_1st_connections at 0x126ac2a20>, attempt 0
+2023-01-20 16:23:19,482 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:23:19,482 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 16:23:19,852 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 16:23:19,860 - utils - INFO - family offices UK has been read
+2023-01-20 16:23:19,870 - utils - INFO - read in all files
+2023-01-20 16:23:19,882 - utils - INFO - christopher-hill-72944417 has already been scraped in the last hour
+2023-01-20 16:24:22,310 - utils - INFO - connection level for profile andrew-waldren-16057a10 has not changed
+2023-01-20 16:24:22,312 - utils - INFO - Created row in network info for andrew-waldren-16057a10
+2023-01-20 16:24:22,327 - utils - INFO - updated row in network information for user andrew-waldren-16057a10
+2023-01-20 16:25:24,599 - utils - INFO - connection level for profile ammalan-annalingam-76831a1a has not changed
+2023-01-20 16:25:24,602 - utils - INFO - Created row in network info for ammalan-annalingam-76831a1a
+2023-01-20 16:25:24,614 - utils - INFO - updated row in network information for user ammalan-annalingam-76831a1a
+2023-01-20 16:26:28,051 - utils - INFO - connection level for profile michael-rosenthal-24b412 has not changed
+2023-01-20 16:26:28,053 - utils - INFO - Created row in network info for michael-rosenthal-24b412
+2023-01-20 16:26:28,062 - utils - INFO - updated row in network information for user michael-rosenthal-24b412
+2023-01-20 16:26:45,951 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 16:26:45,952 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 16:26:46,576 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 16:26:46,582 - utils - INFO - family offices UK has been read
+2023-01-20 16:26:46,589 - utils - INFO - read in all files
+2023-01-20 16:26:46,593 - utils - INFO - christopher-hill-72944417 has already been scraped in the last hour
+2023-01-20 16:26:46,593 - utils - INFO - andrew-waldren-16057a10 has already been scraped in the last hour
+2023-01-20 16:26:46,594 - utils - INFO - ammalan-annalingam-76831a1a has already been scraped in the last hour
+2023-01-20 16:26:46,594 - utils - INFO - michael-rosenthal-24b412 has already been scraped in the last hour
+2023-01-20 16:27:50,880 - utils - INFO - connection level for profile greg-malone-69057734 has not changed
+2023-01-20 16:27:50,881 - utils - INFO - Created row in network info for greg-malone-69057734
+2023-01-20 16:27:50,894 - utils - INFO - updated row in network information for user greg-malone-69057734
+2023-01-20 16:28:53,189 - utils - INFO - connection level for profile carnegie-smyth-56787b5 has not changed
+2023-01-20 16:28:53,192 - utils - INFO - Created row in network info for carnegie-smyth-56787b5
+2023-01-20 16:28:53,201 - utils - INFO - updated row in network information for user carnegie-smyth-56787b5
+2023-01-20 16:29:55,449 - utils - INFO - connection level for profile james-duckworth-chad-8527805 has not changed
+2023-01-20 16:29:55,452 - utils - INFO - Created row in network info for james-duckworth-chad-8527805
+2023-01-20 16:29:55,461 - utils - INFO - updated row in network information for user james-duckworth-chad-8527805
+2023-01-20 16:30:57,775 - utils - INFO - connection level for profile fabrizio-basso-4543463b has not changed
+2023-01-20 16:30:57,777 - utils - INFO - Created row in network info for fabrizio-basso-4543463b
+2023-01-20 16:30:57,784 - utils - INFO - updated row in network information for user fabrizio-basso-4543463b
+2023-01-20 16:32:02,079 - utils - INFO - connection level for profile billy-norris-834a2725 has not changed
+2023-01-20 16:32:02,082 - utils - INFO - Created row in network info for billy-norris-834a2725
+2023-01-20 16:32:02,090 - utils - INFO - updated row in network information for user billy-norris-834a2725
+2023-01-20 16:33:07,561 - utils - INFO - connection level for profile ray-cullivan has not changed
+2023-01-20 16:33:07,564 - utils - INFO - Created row in network info for ray-cullivan
+2023-01-20 16:33:07,573 - utils - INFO - updated row in network information for user ray-cullivan
+2023-01-20 16:34:12,884 - utils - INFO - connection level for profile michael-keane-a2180529 has not changed
+2023-01-20 16:34:12,886 - utils - INFO - Created row in network info for michael-keane-a2180529
+2023-01-20 16:34:12,896 - utils - INFO - updated row in network information for user michael-keane-a2180529
+2023-01-20 16:35:18,445 - utils - INFO - connection level for profile eirian-jones-b4491365 has not changed
+2023-01-20 16:35:18,449 - utils - INFO - Created row in network info for eirian-jones-b4491365
+2023-01-20 16:35:18,465 - utils - INFO - updated row in network information for user eirian-jones-b4491365
+2023-01-20 16:36:21,960 - utils - INFO - connection level for profile drew-mcneil-54772111 has not changed
+2023-01-20 16:36:21,963 - utils - INFO - Created row in network info for drew-mcneil-54772111
+2023-01-20 16:36:21,977 - utils - INFO - updated row in network information for user drew-mcneil-54772111
+2023-01-20 16:37:24,518 - utils - INFO - connection level for profile bwiseman08 has not changed
+2023-01-20 16:37:24,526 - utils - INFO - Created row in network info for bwiseman08
+2023-01-20 16:37:24,543 - utils - INFO - updated row in network information for user bwiseman08
+2023-01-20 16:37:24,553 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-20 16:38:28,952 - utils - INFO - connection level for profile michaeljamesmacfarlane has not changed
+2023-01-20 16:38:28,953 - utils - INFO - Created row in network info for michaeljamesmacfarlane
+2023-01-20 16:38:28,956 - utils - INFO - updated row in network information for user michaeljamesmacfarlane
+2023-01-20 16:39:32,313 - utils - INFO - connection level for profile melissa-lester has not changed
+2023-01-20 16:39:32,315 - utils - INFO - Created row in network info for melissa-lester
+2023-01-20 16:39:32,344 - utils - INFO - updated row in network information for user melissa-lester
+2023-01-20 16:40:35,642 - utils - INFO - connection level for profile ross-mason has not changed
+2023-01-20 16:40:35,642 - utils - INFO - Created row in network info for ross-mason
+2023-01-20 16:40:35,651 - utils - INFO - updated row in network information for user ross-mason
+2023-01-20 16:41:37,943 - utils - INFO - connection level for profile jay-ash-38484579 has not changed
+2023-01-20 16:41:37,945 - utils - INFO - Created row in network info for jay-ash-38484579
+2023-01-20 16:41:37,954 - utils - INFO - updated row in network information for user jay-ash-38484579
+2023-01-20 16:42:42,446 - utils - INFO - connection level for profile alistair-cairns-8a1422 has not changed
+2023-01-20 16:42:42,448 - utils - INFO - Created row in network info for alistair-cairns-8a1422
+2023-01-20 16:42:42,455 - utils - INFO - updated row in network information for user alistair-cairns-8a1422
+2023-01-20 16:43:46,076 - utils - INFO - connection level for profile jack-mactaggart has not changed
+2023-01-20 16:43:46,078 - utils - INFO - Created row in network info for jack-mactaggart
+2023-01-20 16:43:46,085 - utils - INFO - updated row in network information for user jack-mactaggart
+2023-01-20 16:44:51,332 - utils - INFO - connection level for profile william-laxton has not changed
+2023-01-20 16:44:51,334 - utils - INFO - Created row in network info for william-laxton
+2023-01-20 16:44:51,340 - utils - INFO - updated row in network information for user william-laxton
+2023-01-20 16:45:53,609 - utils - INFO - connection level for profile andrew-spence-6a638bb has not changed
+2023-01-20 16:45:53,611 - utils - INFO - Created row in network info for andrew-spence-6a638bb
+2023-01-20 16:45:53,617 - utils - INFO - updated row in network information for user andrew-spence-6a638bb
+2023-01-20 16:46:55,869 - utils - INFO - connection level for profile george-renouf-13665014 has not changed
+2023-01-20 16:46:55,870 - utils - INFO - Created row in network info for george-renouf-13665014
+2023-01-20 16:46:55,874 - utils - INFO - updated row in network information for user george-renouf-13665014
+2023-01-20 16:48:01,159 - utils - INFO - connection level for profile harvey-s-aa473718a has not changed
+2023-01-20 16:48:01,160 - utils - INFO - Created row in network info for harvey-s-aa473718a
+2023-01-20 16:48:01,166 - utils - INFO - updated row in network information for user harvey-s-aa473718a
+2023-01-20 16:49:04,977 - utils - INFO - connection level for profile dominik-simler-0b2580b has not changed
+2023-01-20 16:49:04,979 - utils - INFO - Created row in network info for dominik-simler-0b2580b
+2023-01-20 16:49:04,986 - utils - INFO - updated row in network information for user dominik-simler-0b2580b
+2023-01-20 16:50:09,246 - utils - INFO - connection level for profile yves-alexandre-05baa383 has not changed
+2023-01-20 16:50:09,248 - utils - INFO - Created row in network info for yves-alexandre-05baa383
+2023-01-20 16:50:09,258 - utils - INFO - updated row in network information for user yves-alexandre-05baa383
+2023-01-20 16:51:14,608 - utils - INFO - connection level for profile john-burke-689625176 has not changed
+2023-01-20 16:51:14,611 - utils - INFO - Created row in network info for john-burke-689625176
+2023-01-20 16:51:14,621 - utils - INFO - updated row in network information for user john-burke-689625176
+2023-01-20 16:52:18,922 - utils - INFO - connection level for profile kevin-arenson-123b9218 has not changed
+2023-01-20 16:52:18,924 - utils - INFO - Created row in network info for kevin-arenson-123b9218
+2023-01-20 16:52:18,934 - utils - INFO - updated row in network information for user kevin-arenson-123b9218
+2023-01-20 16:53:21,183 - utils - INFO - connection level for profile tristin-retzlaff-8aaa938 has not changed
+2023-01-20 16:53:21,185 - utils - INFO - Created row in network info for tristin-retzlaff-8aaa938
+2023-01-20 16:53:21,190 - utils - INFO - updated row in network information for user tristin-retzlaff-8aaa938
+2023-01-20 16:54:26,524 - utils - INFO - connection level for profile giulio-battaglia-4129822 has not changed
+2023-01-20 16:54:26,526 - utils - INFO - Created row in network info for giulio-battaglia-4129822
+2023-01-20 16:54:26,535 - utils - INFO - updated row in network information for user giulio-battaglia-4129822
+2023-01-20 16:55:30,966 - utils - INFO - connection level for profile shuo-zhao-06022817 has not changed
+2023-01-20 16:55:30,968 - utils - INFO - Created row in network info for shuo-zhao-06022817
+2023-01-20 16:55:30,982 - utils - INFO - updated row in network information for user shuo-zhao-06022817
+2023-01-20 16:56:34,313 - utils - INFO - connection level for profile emmaholden01 has not changed
+2023-01-20 16:56:34,315 - utils - INFO - Created row in network info for emmaholden01
+2023-01-20 16:56:34,321 - utils - INFO - updated row in network information for user emmaholden01
+2023-01-20 16:57:36,689 - utils - INFO - connection level for profile alan-torevell-298ab8133 has not changed
+2023-01-20 16:57:36,690 - utils - INFO - Created row in network info for alan-torevell-298ab8133
+2023-01-20 16:57:36,696 - utils - INFO - updated row in network information for user alan-torevell-298ab8133
+2023-01-20 16:58:39,973 - utils - INFO - connection level for profile costayiannoulis has not changed
+2023-01-20 16:58:39,974 - utils - INFO - Created row in network info for costayiannoulis
+2023-01-20 16:58:39,978 - utils - INFO - updated row in network information for user costayiannoulis
+2023-01-20 16:59:43,526 - utils - INFO - connection level for profile dmitry-tomkin-61753578 has not changed
+2023-01-20 16:59:43,528 - utils - INFO - Created row in network info for dmitry-tomkin-61753578
+2023-01-20 16:59:43,533 - utils - INFO - updated row in network information for user dmitry-tomkin-61753578
+2023-01-20 17:00:48,840 - utils - INFO - connection level for profile alex-jeffrey1 has not changed
+2023-01-20 17:00:48,841 - utils - INFO - Created row in network info for alex-jeffrey1
+2023-01-20 17:00:48,845 - utils - INFO - updated row in network information for user alex-jeffrey1
+2023-01-20 17:01:54,177 - utils - INFO - connection level for profile kiran-patel-a4018145 has not changed
+2023-01-20 17:01:54,180 - utils - INFO - Created row in network info for kiran-patel-a4018145
+2023-01-20 17:01:54,188 - utils - INFO - updated row in network information for user kiran-patel-a4018145
+2023-01-20 17:02:59,442 - utils - INFO - connection level for profile mike-smith-a3b68711 has not changed
+2023-01-20 17:02:59,443 - utils - INFO - Created row in network info for mike-smith-a3b68711
+2023-01-20 17:02:59,447 - utils - INFO - updated row in network information for user mike-smith-a3b68711
+2023-01-20 17:04:02,805 - utils - INFO - connection level for profile jim-shea-7572733b has not changed
+2023-01-20 17:04:02,806 - utils - INFO - Created row in network info for jim-shea-7572733b
+2023-01-20 17:04:02,811 - utils - INFO - updated row in network information for user jim-shea-7572733b
+2023-01-20 17:05:05,084 - utils - INFO - connection level for profile greg-adams-cfa-09939a59 has not changed
+2023-01-20 17:05:05,086 - utils - INFO - Created row in network info for greg-adams-cfa-09939a59
+2023-01-20 17:05:05,089 - utils - INFO - updated row in network information for user greg-adams-cfa-09939a59
+2023-01-20 17:05:05,090 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-20 17:05:05,090 - utils - INFO - chuck-powers-09b19329 is already a level 1 connection
+2023-01-20 17:05:05,090 - utils - INFO - anthony-moore-30613926 is already a level 1 connection
+2023-01-20 17:06:08,549 - utils - INFO - connection level for profile gareth-herrington-8b33b95b has not changed
+2023-01-20 17:06:08,551 - utils - INFO - Created row in network info for gareth-herrington-8b33b95b
+2023-01-20 17:06:08,555 - utils - INFO - updated row in network information for user gareth-herrington-8b33b95b
+2023-01-20 17:07:10,920 - utils - INFO - connection level for profile marc-meyohas-8039364 has not changed
+2023-01-20 17:07:10,923 - utils - INFO - Created row in network info for marc-meyohas-8039364
+2023-01-20 17:07:10,929 - utils - INFO - updated row in network information for user marc-meyohas-8039364
+2023-01-20 17:08:13,400 - utils - INFO - connection level for profile nstoronsky has not changed
+2023-01-20 17:08:13,403 - utils - INFO - Created row in network info for nstoronsky
+2023-01-20 17:08:13,413 - utils - INFO - updated row in network information for user nstoronsky
+2023-01-20 17:09:16,281 - utils - INFO - connection level for profile yue-max-qiu-268a5340 has not changed
+2023-01-20 17:09:16,283 - utils - INFO - Created row in network info for yue-max-qiu-268a5340
+2023-01-20 17:09:16,287 - utils - INFO - updated row in network information for user yue-max-qiu-268a5340
+2023-01-20 17:10:21,557 - utils - INFO - connection level for profile ani-khatri-3530531 has not changed
+2023-01-20 17:10:21,559 - utils - INFO - Created row in network info for ani-khatri-3530531
+2023-01-20 17:10:21,563 - utils - INFO - updated row in network information for user ani-khatri-3530531
+2023-01-20 17:11:23,952 - utils - INFO - connection level for profile nadia-al-doseri-ab3a4ab has not changed
+2023-01-20 17:11:23,954 - utils - INFO - Created row in network info for nadia-al-doseri-ab3a4ab
+2023-01-20 17:11:23,961 - utils - INFO - updated row in network information for user nadia-al-doseri-ab3a4ab
+2023-01-20 17:12:29,411 - utils - INFO - connection level for profile natasha-kuznetsova-5751541 has not changed
+2023-01-20 17:12:29,414 - utils - INFO - Created row in network info for natasha-kuznetsova-5751541
+2023-01-20 17:12:29,423 - utils - INFO - updated row in network information for user natasha-kuznetsova-5751541
+2023-01-20 17:13:32,898 - utils - INFO - connection level for profile nayyaril has not changed
+2023-01-20 17:13:32,900 - utils - INFO - Created row in network info for nayyaril
+2023-01-20 17:13:32,906 - utils - INFO - updated row in network information for user nayyaril
+2023-01-20 17:14:37,169 - utils - INFO - connection level for profile rodrigo-mendes-34459ab has not changed
+2023-01-20 17:14:37,172 - utils - INFO - Created row in network info for rodrigo-mendes-34459ab
+2023-01-20 17:14:37,181 - utils - INFO - updated row in network information for user rodrigo-mendes-34459ab
+2023-01-20 17:14:37,184 - utils - INFO - alexanderkalis is already a level 1 connection
+2023-01-20 17:14:37,185 - utils - INFO - daniel-goldstein-1462552b is already a level 1 connection
+2023-01-20 17:15:39,649 - utils - INFO - connection level for profile paul-vesuvius has not changed
+2023-01-20 17:15:39,651 - utils - INFO - Created row in network info for paul-vesuvius
+2023-01-20 17:15:39,659 - utils - INFO - updated row in network information for user paul-vesuvius
+2023-01-20 17:16:45,444 - utils - INFO - connection level for profile s-r-m-brenninkmeijer-2543075 has not changed
+2023-01-20 17:16:45,446 - utils - INFO - Created row in network info for s-r-m-brenninkmeijer-2543075
+2023-01-20 17:16:45,451 - utils - INFO - updated row in network information for user s-r-m-brenninkmeijer-2543075
+2023-01-20 17:17:48,758 - utils - INFO - connection level for profile elad-shraga-293a75165 has not changed
+2023-01-20 17:17:48,759 - utils - INFO - Created row in network info for elad-shraga-293a75165
+2023-01-20 17:17:48,764 - utils - INFO - updated row in network information for user elad-shraga-293a75165
+2023-01-20 17:18:54,126 - utils - INFO - connection level for profile richard-lindop-00949180 has not changed
+2023-01-20 17:18:54,128 - utils - INFO - Created row in network info for richard-lindop-00949180
+2023-01-20 17:18:54,132 - utils - INFO - updated row in network information for user richard-lindop-00949180
+2023-01-20 17:19:56,466 - utils - INFO - connection level for profile joanna-hunt-7475358 has not changed
+2023-01-20 17:19:56,468 - utils - INFO - Created row in network info for joanna-hunt-7475358
+2023-01-20 17:19:56,475 - utils - INFO - updated row in network information for user joanna-hunt-7475358
+2023-01-20 17:21:01,842 - utils - INFO - connection level for profile matthew-dickens-cfa-55886958 has not changed
+2023-01-20 17:21:01,845 - utils - INFO - Created row in network info for matthew-dickens-cfa-55886958
+2023-01-20 17:21:01,855 - utils - INFO - updated row in network information for user matthew-dickens-cfa-55886958
+2023-01-20 17:22:04,351 - utils - INFO - connection level for profile paul-webb-7ba28920 has not changed
+2023-01-20 17:22:04,355 - utils - INFO - Created row in network info for paul-webb-7ba28920
+2023-01-20 17:22:04,364 - utils - INFO - updated row in network information for user paul-webb-7ba28920
+2023-01-20 17:23:07,769 - utils - INFO - connection level for profile julia-wigram has not changed
+2023-01-20 17:23:07,770 - utils - INFO - Created row in network info for julia-wigram
+2023-01-20 17:23:07,773 - utils - INFO - updated row in network information for user julia-wigram
+2023-01-20 17:24:13,194 - utils - INFO - connection level for profile loutfy-mansour-16b323a6 has not changed
+2023-01-20 17:24:13,195 - utils - INFO - Created row in network info for loutfy-mansour-16b323a6
+2023-01-20 17:24:13,199 - utils - INFO - updated row in network information for user loutfy-mansour-16b323a6
+2023-01-20 17:25:17,531 - utils - INFO - connection level for profile nikolaj-bertelsen-b47426 has not changed
+2023-01-20 17:25:17,534 - utils - INFO - Created row in network info for nikolaj-bertelsen-b47426
+2023-01-20 17:25:17,541 - utils - INFO - updated row in network information for user nikolaj-bertelsen-b47426
+2023-01-20 17:26:20,252 - utils - INFO - connection level for profile david-lumley-120ab0217 has not changed
+2023-01-20 17:26:20,254 - utils - INFO - Created row in network info for david-lumley-120ab0217
+2023-01-20 17:26:20,258 - utils - INFO - updated row in network information for user david-lumley-120ab0217
+2023-01-20 17:27:23,569 - utils - INFO - connection level for profile karey-telo-540a2324 has not changed
+2023-01-20 17:27:23,571 - utils - INFO - Created row in network info for karey-telo-540a2324
+2023-01-20 17:27:23,576 - utils - INFO - updated row in network information for user karey-telo-540a2324
+2023-01-20 17:28:27,879 - utils - INFO - connection level for profile alex-hills-a9002560 has not changed
+2023-01-20 17:28:27,881 - utils - INFO - Created row in network info for alex-hills-a9002560
+2023-01-20 17:28:27,887 - utils - INFO - updated row in network information for user alex-hills-a9002560
+2023-01-20 17:29:30,187 - utils - INFO - connection level for profile francis-akpata-908a218a has not changed
+2023-01-20 17:29:30,188 - utils - INFO - Created row in network info for francis-akpata-908a218a
+2023-01-20 17:29:30,193 - utils - INFO - updated row in network information for user francis-akpata-908a218a
+2023-01-20 17:30:32,574 - utils - INFO - connection level for profile tedholmes has not changed
+2023-01-20 17:30:32,575 - utils - INFO - Created row in network info for tedholmes
+2023-01-20 17:30:32,583 - utils - INFO - updated row in network information for user tedholmes
+2023-01-20 17:31:38,111 - utils - INFO - connection level for profile jacobingemannolsen has not changed
+2023-01-20 17:31:38,113 - utils - INFO - Created row in network info for jacobingemannolsen
+2023-01-20 17:31:38,117 - utils - INFO - updated row in network information for user jacobingemannolsen
+2023-01-20 17:32:42,402 - utils - INFO - connection level for profile giles-white-9893386 has not changed
+2023-01-20 17:32:42,405 - utils - INFO - Created row in network info for giles-white-9893386
+2023-01-20 17:32:42,412 - utils - INFO - updated row in network information for user giles-white-9893386
+2023-01-20 17:33:46,255 - utils - INFO - connection level for profile st-john-coughlan-0608302 has not changed
+2023-01-20 17:33:46,257 - utils - INFO - Created row in network info for st-john-coughlan-0608302
+2023-01-20 17:33:46,267 - utils - INFO - updated row in network information for user st-john-coughlan-0608302
+2023-01-20 17:34:50,686 - utils - INFO - connection level for profile neil-fillary-9a175512 has not changed
+2023-01-20 17:34:50,688 - utils - INFO - Created row in network info for neil-fillary-9a175512
+2023-01-20 17:34:50,693 - utils - INFO - updated row in network information for user neil-fillary-9a175512
+2023-01-20 17:35:56,086 - utils - INFO - connection level for profile jamesrbmoore has not changed
+2023-01-20 17:35:56,088 - utils - INFO - Created row in network info for jamesrbmoore
+2023-01-20 17:35:56,093 - utils - INFO - updated row in network information for user jamesrbmoore
+2023-01-20 17:38:56,214 - utils - INFO - already sent 1 message to this person flemingprivateoffice
+2023-01-20 17:38:56,217 - utils - INFO - already sent 1 message to this person chuck-powers-09b19329
+2023-01-20 17:38:56,217 - utils - INFO - already sent 1 message to this person anthony-moore-30613926
+2023-01-20 17:38:56,217 - utils - INFO - already sent 1 message to this person alexanderkalis
+2023-01-20 17:38:56,217 - utils - INFO - already sent 1 message to this person simon-hopkins-9514791
+2023-01-20 17:38:56,217 - utils - INFO - already sent 1 message to this person daniel-goldstein-1462552b
+2023-01-20 17:42:29,548 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-20 17:42:29,549 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-20 17:42:30,464 - utils - INFO - Logged into API using gianluca's profile
+2023-01-20 17:42:30,476 - utils - INFO - family offices UK has been read
+2023-01-20 17:42:30,485 - utils - INFO - read in all files
+2023-01-20 17:43:33,945 - utils - INFO - igor-yelnik-3ab5223 for you is a connection of level DISTANCE_1
+2023-01-20 17:44:37,270 - utils - INFO - peter-rose-2936a213 for you is a connection of level DISTANCE_1
+2023-01-20 17:45:41,868 - utils - INFO - Created row in network info for anna-karim-77829a15
+2023-01-20 17:45:41,907 - utils - INFO - anna-karim-77829a15 for you is a connection of level DISTANCE_3
+2023-01-20 17:46:52,742 - utils - INFO - Sent invitation + note to anna-karim-77829a15
+2023-01-20 17:46:52,760 - utils - INFO - new profile urn for user anna-karim-77829a15 has been added
+2023-01-20 17:46:52,761 - utils - INFO - Created row in submitted_invitation for  anna-karim-77829a15
+2023-01-20 17:47:56,163 - utils - INFO - Created row in network info for sandra-boss-3ba3938b
+2023-01-20 17:47:56,189 - utils - INFO - sandra-boss-3ba3938b for you is a connection of level DISTANCE_3
+2023-01-20 17:49:08,764 - utils - INFO - Sent invitation + note to sandra-boss-3ba3938b
+2023-01-20 17:49:08,777 - utils - INFO - new profile urn for user sandra-boss-3ba3938b has been added
+2023-01-20 17:49:08,777 - utils - INFO - Created row in submitted_invitation for  sandra-boss-3ba3938b
+2023-01-20 17:50:12,090 - utils - INFO - Created row in network info for david-stewart-4a95059
+2023-01-20 17:50:12,103 - utils - INFO - david-stewart-4a95059 for you is a connection of level DISTANCE_3
+2023-01-20 17:51:24,610 - utils - INFO - Sent invitation + note to david-stewart-4a95059
+2023-01-20 17:51:24,625 - utils - INFO - new profile urn for user david-stewart-4a95059 has been added
+2023-01-20 17:51:24,625 - utils - INFO - Created row in submitted_invitation for  david-stewart-4a95059
+2023-01-20 17:52:29,891 - utils - INFO - Created row in network info for dominic-gibbs-69974a6
+2023-01-20 17:52:29,899 - utils - INFO - dominic-gibbs-69974a6 for you is a connection of level DISTANCE_2
+2023-01-20 17:53:41,189 - utils - INFO - Sent invitation + note to dominic-gibbs-69974a6
+2023-01-20 17:53:41,202 - utils - INFO - new profile urn for user dominic-gibbs-69974a6 has been added
+2023-01-20 17:53:41,202 - utils - INFO - Created row in submitted_invitation for  dominic-gibbs-69974a6
+2023-01-20 17:54:46,560 - utils - INFO - Created row in network info for jan-moulijn-0a73909
+2023-01-20 17:54:46,569 - utils - INFO - jan-moulijn-0a73909 for you is a connection of level DISTANCE_2
+2023-01-20 17:56:01,382 - utils - INFO - Sent invitation + note to jan-moulijn-0a73909
+2023-01-20 17:56:01,401 - utils - INFO - new profile urn for user jan-moulijn-0a73909 has been added
+2023-01-20 17:56:01,401 - utils - INFO - Created row in submitted_invitation for  jan-moulijn-0a73909
+2023-01-20 17:57:05,292 - utils - INFO - lex-van-dam-8960344 for you is a connection of level DISTANCE_1
+2023-01-20 17:58:10,833 - utils - INFO - Created row in network info for chris-herson-cfa-61740125
+2023-01-20 17:58:10,881 - utils - INFO - chris-herson-cfa-61740125 for you is a connection of level DISTANCE_2
+2023-01-20 17:59:21,745 - utils - INFO - Sent invitation + note to chris-herson-cfa-61740125
+2023-01-20 17:59:21,758 - utils - INFO - new profile urn for user chris-herson-cfa-61740125 has been added
+2023-01-20 17:59:21,758 - utils - INFO - Created row in submitted_invitation for  chris-herson-cfa-61740125
+2023-01-20 18:00:26,045 - utils - INFO - Created row in network info for dr-steen-e-a6aa983
+2023-01-20 18:00:26,060 - utils - INFO - dr-steen-e-a6aa983 for you is a connection of level DISTANCE_2
+2023-01-20 18:01:36,585 - utils - INFO - Sent invitation + note to dr-steen-e-a6aa983
+2023-01-20 18:01:36,601 - utils - INFO - new profile urn for user dr-steen-e-a6aa983 has been added
+2023-01-20 18:01:36,601 - utils - INFO - Created row in submitted_invitation for  dr-steen-e-a6aa983
+2023-01-20 18:02:42,566 - utils - INFO - Created row in network info for aninda-nath-599100175
+2023-01-20 18:02:42,585 - utils - INFO - aninda-nath-599100175 for you is a connection of level DISTANCE_2
+2023-01-20 18:03:55,766 - utils - INFO - Sent invitation + note to aninda-nath-599100175
+2023-01-20 18:03:55,777 - utils - INFO - new profile urn for user aninda-nath-599100175 has been added
+2023-01-20 18:03:55,777 - utils - INFO - Created row in submitted_invitation for  aninda-nath-599100175
+2023-01-20 18:05:01,515 - utils - INFO - Created row in network info for matthew-ridley-15691034
+2023-01-20 18:05:01,527 - utils - INFO - matthew-ridley-15691034 for you is a connection of level DISTANCE_2
+2023-01-20 18:06:13,747 - utils - INFO - Sent invitation + note to matthew-ridley-15691034
+2023-01-20 18:06:13,772 - utils - INFO - new profile urn for user matthew-ridley-15691034 has been added
+2023-01-20 18:06:13,773 - utils - INFO - Created row in submitted_invitation for  matthew-ridley-15691034
+2023-01-20 18:07:16,030 - utils - ERROR - Proile john-naughton-fcca-84b1b648 has not been found
+2023-01-20 18:07:16,093 - utils - INFO - john-naughton-fcca-84b1b648 has been added to dataframe of troubling profiles
+2023-01-20 18:08:18,645 - utils - INFO - Created row in network info for strategicwealthmanagement
+2023-01-20 18:08:18,674 - utils - INFO - strategicwealthmanagement for you is a connection of level DISTANCE_2
+2023-01-20 18:09:30,533 - utils - INFO - Sent invitation + note to strategicwealthmanagement
+2023-01-20 18:09:30,562 - utils - INFO - new profile urn for user strategicwealthmanagement has been added
+2023-01-20 18:09:30,562 - utils - INFO - Created row in submitted_invitation for  strategicwealthmanagement
+2023-01-20 18:12:30,619 - utils - INFO - christopher-hill-72944417 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,621 - utils - INFO - andrew-waldren-16057a10 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,621 - utils - INFO - ammalan-annalingam-76831a1a has already been scraped in the last 3 hours
+2023-01-20 18:12:30,622 - utils - INFO - michael-rosenthal-24b412 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,622 - utils - INFO - greg-malone-69057734 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,623 - utils - INFO - carnegie-smyth-56787b5 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,623 - utils - INFO - james-duckworth-chad-8527805 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,624 - utils - INFO - fabrizio-basso-4543463b has already been scraped in the last 3 hours
+2023-01-20 18:12:30,624 - utils - INFO - billy-norris-834a2725 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,625 - utils - INFO - ray-cullivan has already been scraped in the last 3 hours
+2023-01-20 18:12:30,625 - utils - INFO - michael-keane-a2180529 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,626 - utils - INFO - eirian-jones-b4491365 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,626 - utils - INFO - drew-mcneil-54772111 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,627 - utils - INFO - bwiseman08 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,627 - utils - INFO - flemingprivateoffice is already a level 1 connection
+2023-01-20 18:12:30,627 - utils - INFO - michaeljamesmacfarlane has already been scraped in the last 3 hours
+2023-01-20 18:12:30,628 - utils - INFO - melissa-lester has already been scraped in the last 3 hours
+2023-01-20 18:12:30,628 - utils - INFO - ross-mason has already been scraped in the last 3 hours
+2023-01-20 18:12:30,629 - utils - INFO - jay-ash-38484579 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,629 - utils - INFO - alistair-cairns-8a1422 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,630 - utils - INFO - jack-mactaggart has already been scraped in the last 3 hours
+2023-01-20 18:12:30,630 - utils - INFO - william-laxton has already been scraped in the last 3 hours
+2023-01-20 18:12:30,631 - utils - INFO - andrew-spence-6a638bb has already been scraped in the last 3 hours
+2023-01-20 18:12:30,631 - utils - INFO - george-renouf-13665014 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,632 - utils - INFO - harvey-s-aa473718a has already been scraped in the last 3 hours
+2023-01-20 18:12:30,632 - utils - INFO - dominik-simler-0b2580b has already been scraped in the last 3 hours
+2023-01-20 18:12:30,632 - utils - INFO - yves-alexandre-05baa383 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,633 - utils - INFO - john-burke-689625176 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,633 - utils - INFO - kevin-arenson-123b9218 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,634 - utils - INFO - tristin-retzlaff-8aaa938 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,634 - utils - INFO - giulio-battaglia-4129822 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,634 - utils - INFO - shuo-zhao-06022817 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,635 - utils - INFO - emmaholden01 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,635 - utils - INFO - alan-torevell-298ab8133 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,635 - utils - INFO - costayiannoulis has already been scraped in the last 3 hours
+2023-01-20 18:12:30,636 - utils - INFO - dmitry-tomkin-61753578 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,636 - utils - INFO - alex-jeffrey1 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,637 - utils - INFO - kiran-patel-a4018145 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,637 - utils - INFO - mike-smith-a3b68711 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,637 - utils - INFO - jim-shea-7572733b has already been scraped in the last 3 hours
+2023-01-20 18:12:30,638 - utils - INFO - greg-adams-cfa-09939a59 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,638 - utils - INFO - simon-hopkins-9514791 is already a level 1 connection
+2023-01-20 18:12:30,639 - utils - INFO - chuck-powers-09b19329 is already a level 1 connection
+2023-01-20 18:12:30,639 - utils - INFO - anthony-moore-30613926 is already a level 1 connection
+2023-01-20 18:12:30,639 - utils - INFO - gareth-herrington-8b33b95b has already been scraped in the last 3 hours
+2023-01-20 18:12:30,640 - utils - INFO - marc-meyohas-8039364 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,640 - utils - INFO - nstoronsky has already been scraped in the last 3 hours
+2023-01-20 18:12:30,640 - utils - INFO - yue-max-qiu-268a5340 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,641 - utils - INFO - ani-khatri-3530531 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,641 - utils - INFO - nadia-al-doseri-ab3a4ab has already been scraped in the last 3 hours
+2023-01-20 18:12:30,641 - utils - INFO - natasha-kuznetsova-5751541 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,642 - utils - INFO - nayyaril has already been scraped in the last 3 hours
+2023-01-20 18:12:30,642 - utils - INFO - rodrigo-mendes-34459ab has already been scraped in the last 3 hours
+2023-01-20 18:12:30,642 - utils - INFO - alexanderkalis is already a level 1 connection
+2023-01-20 18:12:30,643 - utils - INFO - daniel-goldstein-1462552b is already a level 1 connection
+2023-01-20 18:12:30,643 - utils - INFO - paul-vesuvius has already been scraped in the last 3 hours
+2023-01-20 18:12:30,643 - utils - INFO - s-r-m-brenninkmeijer-2543075 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,644 - utils - INFO - elad-shraga-293a75165 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,644 - utils - INFO - richard-lindop-00949180 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,644 - utils - INFO - joanna-hunt-7475358 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,645 - utils - INFO - matthew-dickens-cfa-55886958 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,645 - utils - INFO - paul-webb-7ba28920 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,645 - utils - INFO - julia-wigram has already been scraped in the last 3 hours
+2023-01-20 18:12:30,646 - utils - INFO - loutfy-mansour-16b323a6 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,646 - utils - INFO - nikolaj-bertelsen-b47426 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,646 - utils - INFO - david-lumley-120ab0217 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,647 - utils - INFO - karey-telo-540a2324 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,647 - utils - INFO - alex-hills-a9002560 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,647 - utils - INFO - francis-akpata-908a218a has already been scraped in the last 3 hours
+2023-01-20 18:12:30,648 - utils - INFO - tedholmes has already been scraped in the last 3 hours
+2023-01-20 18:12:30,648 - utils - INFO - jacobingemannolsen has already been scraped in the last 3 hours
+2023-01-20 18:12:30,648 - utils - INFO - giles-white-9893386 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,649 - utils - INFO - st-john-coughlan-0608302 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,649 - utils - INFO - neil-fillary-9a175512 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,649 - utils - INFO - jamesrbmoore has already been scraped in the last 3 hours
+2023-01-20 18:12:30,650 - utils - INFO - anna-karim-77829a15 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,650 - utils - INFO - sandra-boss-3ba3938b has already been scraped in the last 3 hours
+2023-01-20 18:12:30,650 - utils - INFO - david-stewart-4a95059 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,651 - utils - INFO - dominic-gibbs-69974a6 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,651 - utils - INFO - jan-moulijn-0a73909 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,651 - utils - INFO - chris-herson-cfa-61740125 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,651 - utils - INFO - dr-steen-e-a6aa983 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,652 - utils - INFO - aninda-nath-599100175 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,652 - utils - INFO - matthew-ridley-15691034 has already been scraped in the last 3 hours
+2023-01-20 18:12:30,652 - utils - INFO - strategicwealthmanagement has already been scraped in the last 3 hours
+2023-01-20 18:15:30,707 - utils - INFO - already sent 1 message to this person flemingprivateoffice
+2023-01-20 18:15:30,708 - utils - INFO - already sent 1 message to this person chuck-powers-09b19329
+2023-01-20 18:15:30,708 - utils - INFO - already sent 1 message to this person anthony-moore-30613926
+2023-01-20 18:15:30,708 - utils - INFO - already sent 1 message to this person alexanderkalis
+2023-01-20 18:15:30,709 - utils - INFO - already sent 1 message to this person simon-hopkins-9514791
+2023-01-20 18:15:30,709 - utils - INFO - already sent 1 message to this person daniel-goldstein-1462552b
