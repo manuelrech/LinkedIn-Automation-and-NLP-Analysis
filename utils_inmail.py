@@ -3,6 +3,8 @@ from datetime import datetime
 import pandas as  pd
 import logging
 from time import sleep
+from selenium import  webdriver
+from datetime import datetime
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
@@ -27,7 +29,8 @@ def linkedin_login(username, password):
     password_space.send_keys(password)
     accedi_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, 'sign-in-form__submit-button')))
     accedi_button.click()
-
+    sleep(10)
+    logger.info('successfully logged into linkedin with selenium')
     return driver
 
 def send_in_mail_message():
@@ -48,20 +51,19 @@ def send_in_mail_message():
 
     for profile_id in si_to_be_inmailed.profile_id:
 
-        if profile_id in submitted_inmail.profile_id:
+        if submitted_inmail.profile_id.isin([profile_id]).any():
             logger.info(f'inmail has already been sent to person {profile_id}')
             continue
         
-        sleep(3)
         driver.get(f"https://www.linkedin.com/in/{profile_id}")
+        
         more_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[6]/div[3]/div/div/div[2]/div/div/main/section[1]/div[2]/div[3]/div/div[2]/button')))
         more_button.click() 
 
         view_in_sales_navigator_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[6]/div[3]/div/div/div[2]/div/div/main/section[1]/div[2]/div[3]/div/div[2]/div/div/ul/li[1]/div')))
         view_in_sales_navigator_button.click() 
 
-        sleep(3)        
-
+        sleep(10) 
         driver.switch_to.window(driver.window_handles[-1])
 
         message_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[1]/div[3]/div/div[1]/div/div/section[1]/section[1]/div[2]/section/div[1]/div[2]/button')))
@@ -74,8 +76,8 @@ def send_in_mail_message():
         core_field.send_keys('proviamo ancora')
 
         send_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[8]/section/div[2]/section/div[2]/form[1]/section[2]/span[2]/button')))
-        send_button.click()
-
+        # send_button.click()
+        logger.info(f'send inmail to {profile_id}')
         driver.switch_to.window(driver.window_handles[0])
 
 
