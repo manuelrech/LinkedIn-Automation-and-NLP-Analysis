@@ -19,6 +19,22 @@ logger.addHandler(file_handler)
 logger.info('-'*80)
 
 
+def repeat_times(max_attempts, function, *args):    
+    counter = 0
+    while counter < max_attempts:
+        try:
+            function(*args)
+        except Exception as e:
+            logger.error(f'Error {e} in {function}, attempt {counter}')
+            counter += 1
+            sleep(180)
+            continue
+        sleep(180)
+        break
+    else:
+        logger.error(f'Error: Max attempts reached in {function}')
+        raise Exception("Error: Max attempts reached")
+
 def autenticate_linkedin_API(profile = None):
     ##### LINKEDIN AUTHENTICATION API #####
     if profile == None:
@@ -286,8 +302,14 @@ def scan_for_1st_connections(api):
 
     for public_identifier in network_info.profile_id:
         
-        if network_info[network_info.profile_id ==  public_identifier].connection_level.isin(['DISTANCE_1']).any():
+        ni_for_person = network_info[network_info.profile_id ==  public_identifier]
+        if ni_for_person.connection_level.isin(['DISTANCE_1']).any():
             logger.info(f"{public_identifier} is already a level 1 connection")
+            continue
+        
+        current_timestamp = int(datetime.now().timestamp())
+        if ni_for_person.timestamp.iloc[0] > current_timestamp - 3600:
+            logger.info(f'{public_identifier} has already been scraped in the last hour')
             continue
 
         network_information = api.get_profile_network_info(public_identifier)
@@ -308,12 +330,14 @@ def scan_for_1st_connections(api):
         connection_levels_for_public_id = network_info[network_info.profile_id ==  public_identifier].connection_level
         if connection_level == connection_levels_for_public_id.iloc[len(connection_levels_for_public_id)-1]: #last one
             logger.info(f"connection level for profile {public_identifier} has not changed")
-            continue
 
-        logger.info(f"new connection level with {public_identifier}, now it is {connection_level}")
+        else:
+            logger.info(f"new connection level with {public_identifier}, now it is {connection_level}")
+
         row_network_info = create_row_network_info(public_identifier, network_information)
-        network_info.loc[len(network_info)] = row_network_info
+        network_info.loc[network_info['profile_id'] == public_identifier] = row_network_info
         network_info.to_csv('datasets/network_info.csv', index=0)
+        logger.info(f'updated row in network information for user {public_identifier}')
 
         if "1" in connection_level:
             
@@ -339,15 +363,13 @@ def send_message_new_1st_connections(api):
             logger.info(f'already sent 1 message to this person {profile_id}')
             continue
 
-        message = pd.read_csv('datasets/message.csv')
         cta, code = randomly_get_message(message_begin=message, type='cta')
         try:
             result = api.send_message(message_body=cta.format(nome), conversation_urn_id=conversation_urn)
             sleep(60)
             if result == False:
                 tool = 'conversation_urn'
-            
-
+    
         except:
             result = api.send_message(message_body=cta.format(nome), recipients=[profile_urn])
             sleep(60)
