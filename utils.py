@@ -125,6 +125,13 @@ def setup_begging_datasets():
         troubling_profiles.to_csv('datasets/troubling_profiles.csv', index=0)
         logger.info('troubling_profiles file has been created from 0')
     
+    try:    
+        already_1st = pd.read_csv('datasets/already_1st.csv')
+    except FileNotFoundError: 
+        troubling_profiles = pd.DataFrame(columns=['Nome', 'Cognome', 'Email', 'LinkedIn', 'Posizione', 'Azienda', 'Città',
+    'Stato', 'Continente', 'profile_urn', 'conversation_urn'])
+        already_1st.to_csv('datasets/already_1st.csv', index=0)
+        logger.info('already_1st file has been created from 0')
 
     logger.info('read in all files')
     return family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, troubling_profiles
@@ -170,6 +177,14 @@ def create_row_subitted_cta(profile_id, message_code):
 
     return row_submitted_invitation
 
+def create_row_submitted_inmail(profile_id, message_code):
+    current_datetime = datetime.now()
+    human_readable_date = current_datetime.strftime("%Y-%m-%d %H:%M")
+    timestamp = int(current_datetime.timestamp())
+    row_inmail = [timestamp, human_readable_date, profile_id, message_code]
+
+    return row_inmail
+
 def randomly_get_message(message_begin, type):
     if type == 'note':
         first_letter = 'n'
@@ -187,6 +202,7 @@ def send_invitations_note(api, how_many):
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     message = pd.read_csv('datasets/message.csv')
     troubling_profiles = pd.read_csv('datasets/troubling_profiles.csv')
+    already_1st = pd.read_csv('datasets/already_1st.csv')
 
     counter = 0
     for public_identifier, nome in zip(family_offices_UK.LinkedIn, family_offices_UK.Nome):
@@ -221,10 +237,15 @@ def send_invitations_note(api, how_many):
 
         assert connection_level in ('DISTANCE_1', 'DISTANCE_2', 'DISTANCE_3', 'OUT_OF_NETWORK')
         if connection_level == 'DISTANCE_1':
-            logger.info(f"{public_identifier} for you is a connection of level {connection_level}")
+            logger.info(f"{public_identifier} for you is aready a connection of level {connection_level}")
+            df_already_connected = family_offices_UK.query(f"LinkedIn == '{public_identifier}'")
+            already_1st = pd.concat([df_already_connected, already_1st])
+            already_1st.to_csv('datasets/already_1st.csv', index=0)
+            logger.info(f"{public_identifier} has been added to dataframe of already 1st")
             continue
 
         assert connection_level in ('DISTANCE_2', 'DISTANCE_3', 'OUT_OF_NETWORK')
+        logger.info(f"{public_identifier} for you is a connection of level {connection_level}")
         row_network_info = create_row_network_info(public_identifier, network_information)
         network_info.loc[len(network_info)] = row_network_info
         network_info.to_csv('datasets/network_info.csv', index=0)
@@ -308,8 +329,8 @@ def scan_for_1st_connections(api):
             continue
         
         current_timestamp = int(datetime.now().timestamp())
-        if ni_for_person.timestamp.iloc[0] > current_timestamp - 3600:
-            logger.info(f'{public_identifier} has already been scraped in the last hour')
+        if ni_for_person.timestamp.iloc[0] > current_timestamp - 3600*3:
+            logger.info(f'{public_identifier} has already been scraped in the last 3 hours')
             continue
 
         network_information = api.get_profile_network_info(public_identifier)
