@@ -128,13 +128,13 @@ def setup_begging_datasets():
     try:    
         already_1st = pd.read_csv('datasets/already_1st.csv')
     except FileNotFoundError: 
-        troubling_profiles = pd.DataFrame(columns=['Nome', 'Cognome', 'Email', 'LinkedIn', 'Posizione', 'Azienda', 'Città',
+        already_1st = pd.DataFrame(columns=['Nome', 'Cognome', 'Email', 'LinkedIn', 'Posizione', 'Azienda', 'Città',
     'Stato', 'Continente', 'profile_urn', 'conversation_urn'])
         already_1st.to_csv('datasets/already_1st.csv', index=0)
         logger.info('already_1st file has been created from 0')
 
     logger.info('read in all files')
-    return family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, troubling_profiles
+    return family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, troubling_profiles, already_1st
 
 def create_message(type, text, code):
     message_begin = pd.read_csv('datasets/message.csv')
@@ -196,7 +196,7 @@ def randomly_get_message(message_begin, type):
     code = df.iloc[random_number].code
     return message, code
 
-def send_invitations_note(api, how_many):
+def send_invitations_note(api, how_many, sleeping_time=60):
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     network_info = pd.read_csv('datasets/network_info.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
@@ -219,7 +219,7 @@ def send_invitations_note(api, how_many):
             continue
         
         network_information = api.get_profile_network_info(public_identifier)
-        sleep(60)
+        sleep(sleeping_time)
 
         if network_information == {}:
             logger.error(f"Proile {public_identifier} has not been found")
@@ -253,7 +253,7 @@ def send_invitations_note(api, how_many):
 
         note, code = randomly_get_message(message_begin=message, type='note')
         result, profile_urn = api.add_connection(profile_public_id = public_identifier, message=note.format(nome))
-        sleep(60)
+        sleep(sleeping_time)
 
         if result == False:
             logger.info(f"Sent invitation + note to {public_identifier}")
@@ -266,14 +266,14 @@ def send_invitations_note(api, how_many):
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
             counter += 1
 
-def get_conversation_urn(api):
+def get_conversation_urn(api, sleeping_time=60):
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
 
     fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
 
     conversations = api.get_conversations()
-    sleep(60)
+    sleep(sleeping_time)
 
     for i in range(len(conversations['elements'])):
 
@@ -298,7 +298,7 @@ def get_conversation_urn(api):
             break
 
         conversations = api.get_conversations(conversations['elements'][19]['events'][0]['createdAt'])
-        sleep(60)
+        sleep(sleeping_time)
         
         for i in range(len(conversations['elements'])):
         
@@ -316,7 +316,7 @@ def get_conversation_urn(api):
     
     return family_offices_UK
                 
-def scan_for_1st_connections(api):
+def scan_for_1st_connections(api, sleeping_time=60):
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     network_info = pd.read_csv('datasets/network_info.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
@@ -334,7 +334,7 @@ def scan_for_1st_connections(api):
             continue
 
         network_information = api.get_profile_network_info(public_identifier)
-        sleep(60)
+        sleep(sleeping_time)
 
         if network_information == {}:
             df_with_troubling_person = family_offices_UK.query(f"LinkedIn == '{public_identifier}'")
@@ -368,9 +368,9 @@ def scan_for_1st_connections(api):
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
 
             if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == public_identifier, 'conversation_urn'].iloc[0]):
-                family_offices_UK = get_conversation_urn(api)
+                family_offices_UK = get_conversation_urn(api=api, sleeping_time=60)
     
-def send_message_new_1st_connections(api):
+def send_message_new_1st_connections(api, sleeping_time=60):
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     message = pd.read_csv('datasets/message.csv')
@@ -387,13 +387,13 @@ def send_message_new_1st_connections(api):
         cta, code = randomly_get_message(message_begin=message, type='cta')
         try:
             result = api.send_message(message_body=cta.format(nome), conversation_urn_id=conversation_urn)
-            sleep(60)
+            sleep(sleeping_time)
             if result == False:
                 tool = 'conversation_urn'
     
         except:
             result = api.send_message(message_body=cta.format(nome), recipients=[profile_urn])
-            sleep(60)
+            sleep(sleeping_time)
             if result == False:
                 tool = 'profile_urn'
 

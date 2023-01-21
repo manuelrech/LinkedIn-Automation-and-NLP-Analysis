@@ -15,7 +15,7 @@ utils.setup_correct_directory('Linkedin')
 
 api = utils.autenticate_linkedin_API('gianluca')
 
-family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, troubling_profiles = utils.setup_begging_datasets()
+family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action, troubling_profiles, already_1st = utils.setup_begging_datasets()
 
 # utils.create_message(type='note', text='Hi {}, I\'m Gianluca, CEO of https://vaiuk.finance/, we work within the alternative and disruptive investments space. Judging from your profile, you have quite the experience in this field, as such I\'d like to join your network to exchange ideas and opportunities. Kind regards, Gianluca', code='n0')
 # utils.create_message(type='call_to_action', text='Dear {},\nLately it seems the world is jumping from one crisis to the next. From pandemic, to natural disasters, war and economic downturn. Market uncertainty has become the norm, and making resilient investments has become a pertinent challenge for our partners and the wider investment community.\nHowever, we at Virgil Alternative Investments ltd. have dedicated the past few years to study and specialise in uncertain markets and assets, supporting and advising a network of Investors with over $3.5 billion AUM in Alternative Investments.\nWe see opportunity where others see uncertainty, and we’d like you to join our community to share our investment opportunities and services with you.\nPlease feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.\nKind regards,\nGianluca', code='c0')
@@ -24,13 +24,13 @@ family_offices_UK, network_info, submitted_invitation, message, submitted_call_t
 # utils.create_message(type='call_to_action', text='Hi{},\nI am the CEO of Virgil Alternative Investments (VAI) ltd.\nOur company is dedicated to supporting forward thinking investors like yourself in making sound investment decisions in the most alternative of investments. To date, we have advised professional and institutional investors with over $3.5 billion in AUA on disruptive opportunities, and on how to navigate market uncertainty through diversification.\nWe have shortlisted a list of opportunities which may be of interest to you, all of which are focused on resilience during this period of uncertainty.\nI\’d love to schedule a quick call to discuss these opportunities or any synergies with yourself and VAI. Please feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.\nKind regards,\nGianluca', code='c3')
 
 
-utils.repeat_times(3, utils.send_invitations_note, api, 10)
+utils.repeat_times(3, utils.send_invitations_note, api, 20, 60)
 # utils.send_invitations_note(api, 10)
 
-utils.repeat_times(3, utils.scan_for_1st_connections, api)
+utils.repeat_times(3, utils.scan_for_1st_connections, api, 60)
 # # utils.scan_for_1st_connections(api)
 
-utils.repeat_times(3, utils.send_message_new_1st_connections, api)
+utils.repeat_times(3, utils.send_message_new_1st_connections, api, 60)
 # utils.send_message_new_1st_connections(api)
 
 # TODO add inmail flag to submitted invitation and make a way to avoid calling network info on that user

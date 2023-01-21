@@ -1349,3 +1349,48 @@
 2023-01-20 18:15:30,708 - utils - INFO - already sent 1 message to this person alexanderkalis
 2023-01-20 18:15:30,709 - utils - INFO - already sent 1 message to this person simon-hopkins-9514791
 2023-01-20 18:15:30,709 - utils - INFO - already sent 1 message to this person daniel-goldstein-1462552b
+2023-01-21 09:40:57,026 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-21 09:40:57,026 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-21 09:40:57,690 - utils - INFO - Logged into API using gianluca's profile
+2023-01-21 09:40:57,698 - utils - INFO - family offices UK has been read
+2023-01-21 09:43:36,204 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-21 09:43:36,204 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-21 09:43:36,637 - utils - INFO - Logged into API using gianluca's profile
+2023-01-21 09:43:36,646 - utils - INFO - family offices UK has been read
+2023-01-21 09:43:57,902 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-21 09:43:57,902 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-21 09:43:59,001 - utils - INFO - Logged into API using gianluca's profile
+2023-01-21 09:43:59,006 - utils - INFO - family offices UK has been read
+2023-01-21 09:44:34,014 - utils - INFO - --------------------------------------------------------------------------------
+2023-01-21 09:44:34,014 - utils - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-21 09:44:34,581 - utils - INFO - Logged into API using gianluca's profile
+2023-01-21 09:44:34,586 - utils - INFO - family offices UK has been read
+2023-01-21 09:44:34,595 - utils - INFO - already_1st file has been created from 0
+2023-01-21 09:44:34,595 - utils - INFO - read in all files
+2023-01-21 09:45:40,866 - utils - INFO - igor-yelnik-3ab5223 for you is aready a connection of level DISTANCE_1
+2023-01-21 09:45:40,887 - utils - INFO - igor-yelnik-3ab5223 has been added to dataframe of already 1st
+2023-01-21 09:46:44,920 - utils - INFO - peter-rose-2936a213 for you is aready a connection of level DISTANCE_1
+2023-01-21 09:46:44,930 - utils - INFO - peter-rose-2936a213 has been added to dataframe of already 1st
+2023-01-21 09:47:48,517 - utils - INFO - lex-van-dam-8960344 for you is aready a connection of level DISTANCE_1
+2023-01-21 09:47:48,522 - utils - INFO - lex-van-dam-8960344 has been added to dataframe of already 1st
+2023-01-21 09:48:52,796 - utils - INFO - stephenmstrategicfamilyoffice for you is a connection of level DISTANCE_2
+2023-01-21 09:48:52,797 - utils - INFO - Created row in network info for stephenmstrategicfamilyoffice
+2023-01-21 09:48:52,808 - utils - INFO - stephenmstrategicfamilyoffice for you is a connection of level DISTANCE_2
+2023-01-21 09:50:05,664 - utils - INFO - Sent invitation + note to stephenmstrategicfamilyoffice
+2023-01-21 09:50:05,671 - utils - INFO - new profile urn for user stephenmstrategicfamilyoffice has been added
+2023-01-21 09:50:05,671 - utils - INFO - Created row in submitted_invitation for  stephenmstrategicfamilyoffice
+2023-01-21 09:51:07,970 - utils - INFO - rick-janssen-14849a159 for you is a connection of level DISTANCE_3
+2023-01-21 09:51:07,971 - utils - INFO - Created row in network info for rick-janssen-14849a159
+2023-01-21 09:51:07,981 - utils - INFO - rick-janssen-14849a159 for you is a connection of level DISTANCE_3
+2023-01-21 09:52:23,274 - utils - INFO - Sent invitation + note to rick-janssen-14849a159
+2023-01-21 09:52:23,284 - utils - INFO - new profile urn for user rick-janssen-14849a159 has been added
+2023-01-21 09:52:23,284 - utils - INFO - Created row in submitted_invitation for  rick-janssen-14849a159
+2023-01-21 09:53:26,738 - utils - INFO - prath-shankar-a47a8524 for you is a connection of level DISTANCE_2
+2023-01-21 09:53:26,738 - utils - INFO - Created row in network info for prath-shankar-a47a8524
+2023-01-21 09:53:26,747 - utils - INFO - prath-shankar-a47a8524 for you is a connection of level DISTANCE_2
+2023-01-21 09:54:39,282 - utils - INFO - Sent invitation + note to prath-shankar-a47a8524
+2023-01-21 09:54:39,292 - utils - INFO - new profile urn for user prath-shankar-a47a8524 has been added
+2023-01-21 09:54:39,293 - utils - INFO - Created row in submitted_invitation for  prath-shankar-a47a8524
+2023-01-21 09:55:44,607 - utils - INFO - alex-scott-0807385 for you is a connection of level DISTANCE_2
+2023-01-21 09:55:44,607 - utils - INFO - Created row in network info for alex-scott-0807385
+2023-01-21 09:55:44,616 - utils - INFO - alex-scott-0807385 for you is a connection of level DISTANCE_2
