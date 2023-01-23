@@ -1,7 +1,15 @@
 timestamp,date_time,profile_id,message_code,replied
-1674058795,2023-01-18 17:19,flemingprivateoffice,c2,False
-1674126962,2023-01-19 12:16,simon-hopkins-9514791,c2,False
-1674140962,2023-01-19 16:09,chuck-powers-09b19329,c3,False
-1674140967,2023-01-19 16:09,anthony-moore-30613926,c1,False
-1674203925,2023-01-20 09:38,alexanderkalis,c3,False
-1674203988,2023-01-20 09:39,daniel-goldstein-1462552b,c1,False
+1674058795.0,2023-01-18 17:19,flemingprivateoffice,c2,False
+1674126962.0,2023-01-19 12:16,simon-hopkins-9514791,c2,False
+1674140962.0,2023-01-19 16:09,chuck-powers-09b19329,c3,False
+1674140967.0,2023-01-19 16:09,anthony-moore-30613926,c1,False
+1674203925.0,2023-01-20 09:38,alexanderkalis,c3,False
+1674203988.0,2023-01-20 09:39,daniel-goldstein-1462552b,c1,False
+,,roberto-giacalone,manual,False
+,,tim-williams-74699316,manual,False
+1674418338.0,2023-01-22 21:12,marc-meyohas-8039364,c3,False
+1674418401.0,2023-01-22 21:13,andywhoward,c2,False
+1674418464.0,2023-01-22 21:14,roberthurst001,c3,False
+1674418526.0,2023-01-22 21:15,tom-beal-35874b5,c1,False
+1674418590.0,2023-01-22 21:16,daniel-jaffe-3414312,c2,False
+1674418653.0,2023-01-22 21:17,matthewhullcfa,c1,False
