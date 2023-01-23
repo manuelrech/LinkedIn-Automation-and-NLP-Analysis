@@ -52,3 +52,155 @@
 2023-01-22 21:02:55,868 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
 2023-01-22 21:02:55,874 - utils_common - INFO - family offices UK has been read
 2023-01-22 21:02:55,879 - utils_common - INFO - read in all files
+2023-01-22 21:11:09,199 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-22 21:11:14,566 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-22 21:11:14,605 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-22 21:11:14,608 - utils_common - INFO - family offices UK has been read
+2023-01-22 21:11:14,613 - utils_common - INFO - read in all files
+2023-01-22 22:27:19,481 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-22 22:27:19,519 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-22 22:27:19,532 - utils_common - INFO - family offices UK has been read
+2023-01-22 22:27:19,537 - utils_common - INFO - read in all files
+2023-01-22 22:27:20,058 - utils_common - ERROR - Error 'DataFrame' object has no attribute 'troubling_profile' in <function send_invitations_note at 0x126c5a980>, attempt 0
+2023-01-22 22:31:14,701 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-22 22:31:14,728 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-22 22:31:14,731 - utils_common - INFO - family offices UK has been read
+2023-01-22 22:31:14,736 - utils_common - INFO - read in all files
+2023-01-22 22:52:27,266 - utils_common - INFO - Created row in network info for marga-mateos-werner-2a02585a
+2023-01-22 22:54:37,564 - utils_common - INFO - Created row in network info for tomas-mateos-werner-6a17a9
+2023-01-22 22:56:49,344 - utils_common - INFO - Created row in network info for danielmateos
+2023-01-22 22:59:01,748 - utils_common - INFO - Created row in network info for haroon-sheikh-2556aa17
+2023-01-23 11:42:22,350 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:45:25,599 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:45:25,626 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 11:45:25,630 - utils_common - INFO - family offices UK has been read
+2023-01-23 11:45:25,634 - utils_common - INFO - read in all files
+2023-01-23 11:48:13,914 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:48:13,941 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 11:48:13,944 - utils_common - INFO - family offices UK has been read
+2023-01-23 11:48:13,949 - utils_common - INFO - read in all files
+2023-01-23 11:51:39,538 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:51:39,572 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 11:51:39,576 - utils_common - INFO - family offices UK has been read
+2023-01-23 11:51:39,580 - utils_common - INFO - read in all files
+2023-01-23 11:54:14,044 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:01:00,736 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:01:00,771 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 12:01:00,777 - utils_common - INFO - family offices UK has been read
+2023-01-23 12:01:00,782 - utils_common - INFO - read in all files
+2023-01-23 12:12:45,035 - utils_common - INFO - Created row in network info for marga-mateos-werner-2a02585a
+2023-01-23 12:13:53,038 - utils_common - INFO - Created row in submitted_invitation for  marga-mateos-werner-2a02585a
+2023-01-23 12:14:57,286 - utils_common - INFO - Created row in network info for tomas-mateos-werner-6a17a9
+2023-01-23 12:15:24,879 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:15:28,009 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:15:28,046 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 12:15:28,049 - utils_common - INFO - family offices UK has been read
+2023-01-23 12:15:28,054 - utils_common - INFO - read in all files
+2023-01-23 12:16:33,150 - utils_common - INFO - Created row in network info for tomas-mateos-werner-6a17a9
+2023-01-23 12:18:47,681 - utils_common - INFO - Created row in network info for danielmateos
+2023-01-23 12:19:54,724 - utils_common - INFO - Created row in submitted_invitation for  danielmateos
+2023-01-23 12:20:59,045 - utils_common - INFO - Created row in network info for haroon-sheikh-2556aa17
+2023-01-23 12:22:06,980 - utils_common - INFO - Created row in submitted_invitation for  haroon-sheikh-2556aa17
+2023-01-23 12:23:29,157 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:23:29,184 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 12:23:29,187 - utils_common - INFO - family offices UK has been read
+2023-01-23 12:23:29,191 - utils_common - INFO - read in all files
+2023-01-23 12:27:52,700 - utils_common - INFO - Created row in submitted_invitation for  alexandra-altinger-11965827
+2023-01-23 12:30:03,046 - utils_common - INFO - Created row in submitted_invitation for  daniel-a-dupont-3a724012
+2023-01-23 12:31:55,220 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:32:00,755 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:32:00,784 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 12:32:00,787 - utils_common - INFO - family offices UK has been read
+2023-01-23 12:32:00,792 - utils_common - INFO - read in all files
+2023-01-23 12:33:19,281 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:33:19,316 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 12:33:19,320 - utils_common - INFO - family offices UK has been read
+2023-01-23 12:33:19,324 - utils_common - INFO - read in all files
+2023-01-23 14:43:48,681 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 14:43:54,990 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 14:43:55,029 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 14:43:55,043 - utils_common - INFO - family offices UK has been read
+2023-01-23 14:43:55,048 - utils_common - INFO - read in all files
+2023-01-23 14:50:34,465 - utils_common - INFO - Created row in submitted_invitation for  mark-preston-227ba98
+2023-01-23 14:52:43,929 - utils_common - INFO - Created row in submitted_invitation for  roelof-botha-a0753611
+2023-01-23 14:54:53,514 - utils_common - INFO - Created row in submitted_invitation for  patrick-lynch-a4667290
+2023-01-23 14:57:01,930 - utils_common - INFO - Created row in submitted_invitation for  ronnie-armist-08aa3a13
+2023-01-23 14:59:16,385 - utils_common - INFO - Created row in submitted_invitation for  mona-shah-cfa-083a3695
+2023-01-23 15:01:28,888 - utils_common - INFO - Created row in submitted_invitation for  nick-smith-b2244619
+2023-01-23 15:03:38,225 - utils_common - INFO - Created row in submitted_invitation for  simon-ward-79948649
+2023-01-23 15:05:48,789 - utils_common - INFO - Created row in submitted_invitation for  graham-wainer-49701b1
+2023-01-23 15:07:59,260 - utils_common - INFO - Created row in submitted_invitation for  anton-sternberg-207622160
+2023-01-23 15:10:12,798 - utils_common - INFO - Created row in submitted_invitation for  david-murray-25759a4a
+2023-01-23 15:18:36,617 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 15:18:36,647 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 15:18:36,654 - utils_common - INFO - family offices UK has been read
+2023-01-23 15:18:36,658 - utils_common - INFO - read in all files
+2023-01-23 15:19:46,336 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 15:19:46,369 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 15:19:46,376 - utils_common - INFO - family offices UK has been read
+2023-01-23 15:19:46,380 - utils_common - INFO - read in all files
+2023-01-23 15:24:56,862 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 15:24:56,896 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 15:24:56,904 - utils_common - INFO - family offices UK has been read
+2023-01-23 15:24:56,908 - utils_common - INFO - read in all files
+2023-01-23 15:31:33,678 - utils_common - INFO - Created row in submitted_invitation for  robert-murray-75156414
+2023-01-23 15:33:44,266 - utils_common - INFO - Created row in submitted_invitation for  craig-mcdermid-2b216539
+2023-01-23 15:35:56,738 - utils_common - INFO - Created row in submitted_invitation for  andrew-harris-b56b434
+2023-01-23 15:38:06,328 - utils_common - INFO - Created row in submitted_invitation for  peter-lenart-cfa-caia-09242b9
+2023-01-23 15:40:20,944 - utils_common - INFO - Created row in submitted_invitation for  matt-j-644a088a
+2023-01-23 15:42:33,711 - utils_common - INFO - Created row in submitted_invitation for  jessica-harris-2b563636
+2023-01-23 15:44:46,455 - utils_common - INFO - Created row in submitted_invitation for  babsevans
+2023-01-23 15:46:57,801 - utils_common - INFO - Created row in submitted_invitation for  james-hordern-b-a-hons-frcp-hon-asip-a028b323
+2023-01-23 15:49:08,382 - utils_common - INFO - Created row in submitted_invitation for  tim-savage-ab9a1927
+2023-01-23 15:51:21,022 - utils_common - INFO - Created row in submitted_invitation for  gautam-kainth-3831933
+2023-01-23 15:53:31,602 - utils_common - INFO - Created row in submitted_invitation for  casey-gordon-969a26
+2023-01-23 15:55:45,264 - utils_common - INFO - Created row in submitted_invitation for  laura-cesenni-2a137553
+2023-01-23 15:57:58,873 - utils_common - INFO - Created row in submitted_invitation for  carlozuccaro
+2023-01-23 16:01:15,700 - utils_common - INFO - Created row in submitted_invitation for  janine-hutchinson-0375308
+2023-01-23 16:03:28,227 - utils_common - INFO - Created row in submitted_invitation for  evdemon
+2023-01-23 16:05:39,904 - utils_common - INFO - Created row in submitted_invitation for  stewart-carlile
+2023-01-23 16:07:51,482 - utils_common - INFO - Created row in submitted_invitation for  alex-lu-6aa19a1
+2023-01-23 16:10:01,123 - utils_common - INFO - Created row in submitted_invitation for  hugo-pingray-b89ab162
+2023-01-23 16:13:19,251 - utils_common - INFO - Created row in submitted_invitation for  piervan
+2023-01-23 16:15:33,900 - utils_common - INFO - Created row in submitted_invitation for  simonmfoster
+2023-01-23 16:16:37,286 - utils_common - ERROR - Error cannot unpack non-iterable bool object in <function send_invitations_note at 0x1277328e0>, attempt 0
+2023-01-23 16:25:09,891 - utils_common - ERROR - Error cannot unpack non-iterable bool object in <function send_invitations_note at 0x1277328e0>, attempt 1
+2023-01-23 16:33:40,563 - utils_common - ERROR - Error cannot unpack non-iterable bool object in <function send_invitations_note at 0x1277328e0>, attempt 2
+2023-01-23 16:36:40,578 - utils_common - ERROR - Error: Max attempts reached in <function send_invitations_note at 0x1277328e0>
+2023-01-23 16:41:12,484 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 16:41:12,523 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 16:41:12,532 - utils_common - INFO - family offices UK has been read
+2023-01-23 16:41:12,537 - utils_common - INFO - read in all files
+2023-01-23 16:48:48,330 - utils_common - INFO - Created row in submitted_invitation for  john-clifford-424898135
+2023-01-23 16:50:58,787 - utils_common - INFO - Created row in submitted_invitation for  hugues-decobert-b185448
+2023-01-23 16:53:08,428 - utils_common - INFO - Created row in submitted_invitation for  jacques-benhamou-9ba8755
+2023-01-23 16:55:17,144 - utils_common - INFO - Created row in submitted_invitation for  james-cox-3800b525
+2023-01-23 16:57:26,581 - utils_common - INFO - Created row in submitted_invitation for  rosanne-gray-058b431a
+2023-01-23 16:59:38,416 - utils_common - INFO - Created row in submitted_invitation for  mathias-terheggen-a84982
+2023-01-23 17:01:52,661 - utils_common - INFO - Created row in submitted_invitation for  alexandra-galligan-0a53981b
+2023-01-23 17:04:07,392 - utils_common - INFO - Created row in submitted_invitation for  saleem-siddiqi-ba1b02
+2023-01-23 17:06:20,951 - utils_common - INFO - Created row in submitted_invitation for  alex-balfour-51797712
+2023-01-23 17:08:31,684 - utils_common - INFO - Created row in submitted_invitation for  gregory-perdon-68a917
+2023-01-23 17:10:43,207 - utils_common - INFO - Created row in submitted_invitation for  eren-osman-cfa-0020b632
+2023-01-23 17:12:54,908 - utils_common - INFO - Created row in submitted_invitation for  christophegalan
+2023-01-23 17:15:07,526 - utils_common - INFO - Created row in submitted_invitation for  carlo-ravizza-2345192
+2023-01-23 17:17:21,122 - utils_common - INFO - Created row in submitted_invitation for  martine-vice-holter-29998871
+2023-01-23 17:19:33,638 - utils_common - INFO - Created row in submitted_invitation for  gareth-ringer-7064111
+2023-01-23 17:21:45,951 - utils_common - INFO - Created row in submitted_invitation for  tom-balls-a8bb42168
+2023-01-23 17:23:57,444 - utils_common - INFO - Created row in submitted_invitation for  nealgroves
+2023-01-23 17:26:10,937 - utils_common - INFO - Created row in submitted_invitation for  jamiesmorrison
+2023-01-23 17:28:22,586 - utils_common - INFO - Created row in submitted_invitation for  daniel-hayward-a272a696
+2023-01-23 17:30:36,109 - utils_common - INFO - Created row in submitted_invitation for  adam-bonell-11644725
+2023-01-23 17:40:09,385 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 17:40:09,416 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 17:40:09,424 - utils_common - INFO - family offices UK has been read
+2023-01-23 17:40:09,428 - utils_common - INFO - read in all files
+2023-01-23 17:42:09,327 - utils_common - ERROR - Error cannot access local variable 'tool' where it is not associated with a value in <function send_message_new_1st_connections at 0x12988aa20>, attempt 0
+2023-01-23 17:45:14,268 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 17:45:14,303 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 17:45:14,308 - utils_common - INFO - family offices UK has been read
+2023-01-23 17:45:14,313 - utils_common - INFO - read in all files
+2023-01-23 17:47:04,103 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-23 17:47:04,135 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-23 17:47:04,147 - utils_common - INFO - family offices UK has been read
+2023-01-23 17:47:04,152 - utils_common - INFO - read in all files

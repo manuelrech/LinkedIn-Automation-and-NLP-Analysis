@@ -2959,3 +2959,391 @@
 2023-01-22 21:00:37,013 - utils_api - INFO - --------------------------------------------------------------------------------
 2023-01-22 21:00:39,620 - utils_api - INFO - --------------------------------------------------------------------------------
 2023-01-22 21:02:55,835 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-22 21:11:09,200 - __main__ - INFO - --------------------------------------------------------------------------------
+2023-01-22 21:11:14,567 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-22 21:11:15,023 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-22 21:11:15,044 - utils_api - INFO - already sent 1 message to flemingprivateoffice
+2023-01-22 21:11:15,044 - utils_api - INFO - already sent 1 message to chuck-powers-09b19329
+2023-01-22 21:11:15,045 - utils_api - INFO - already sent 1 message to anthony-moore-30613926
+2023-01-22 21:11:15,045 - utils_api - INFO - already sent 1 message to alexanderkalis
+2023-01-22 21:11:15,045 - utils_api - INFO - already sent 1 message to simon-hopkins-9514791
+2023-01-22 21:12:18,644 - utils_api - INFO - sent cta message c3 to marc-meyohas-8039364 using conversation_urn
+2023-01-22 21:12:18,649 - utils_api - INFO - already sent 1 message to daniel-goldstein-1462552b
+2023-01-22 21:13:21,933 - utils_api - INFO - sent cta message c2 to andywhoward using conversation_urn
+2023-01-22 21:14:24,470 - utils_api - INFO - sent cta message c3 to roberthurst001 using conversation_urn
+2023-01-22 21:15:26,946 - utils_api - INFO - sent cta message c1 to tom-beal-35874b5 using conversation_urn
+2023-01-22 21:15:26,948 - utils_api - INFO - already sent 1 message to tim-williams-74699316
+2023-01-22 21:16:30,442 - utils_api - INFO - sent cta message c2 to daniel-jaffe-3414312 using conversation_urn
+2023-01-22 21:17:33,958 - utils_api - INFO - sent cta message c1 to matthewhullcfa using conversation_urn
+2023-01-22 21:17:33,961 - utils_api - INFO - already sent 1 message to roberto-giacalone
+2023-01-22 22:27:19,481 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-22 22:27:20,041 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-22 22:31:14,701 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-22 22:31:15,452 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-22 22:32:18,792 - utils_api - ERROR - Proile susanne-van-nieuwenburg-69b38431 has not been found
+2023-01-22 22:32:18,806 - utils_api - INFO - susanne-van-nieuwenburg-69b38431 has been added flag troubling profile
+2023-01-22 22:33:21,052 - utils_api - ERROR - Proile jerme-stern-964128 has not been found
+2023-01-22 22:33:21,063 - utils_api - INFO - jerme-stern-964128 has been added flag troubling profile
+2023-01-22 22:34:25,414 - utils_api - INFO - igor-yelnik-3ab5223 for you is aready a connection of level DISTANCE_1
+2023-01-22 22:34:25,452 - utils_api - INFO - igor-yelnik-3ab5223 has been added flag already 1st
+2023-01-22 22:35:27,749 - utils_api - INFO - peter-rose-2936a213 for you is aready a connection of level DISTANCE_1
+2023-01-22 22:35:27,763 - utils_api - INFO - peter-rose-2936a213 has been added flag already 1st
+2023-01-22 22:36:31,030 - utils_api - ERROR - Proile rosemary-pajot-vit-704ba544 has not been found
+2023-01-22 22:36:31,037 - utils_api - INFO - rosemary-pajot-vit-704ba544 has been added flag troubling profile
+2023-01-22 22:37:36,337 - utils_api - INFO - lex-van-dam-8960344 for you is aready a connection of level DISTANCE_1
+2023-01-22 22:37:36,341 - utils_api - INFO - lex-van-dam-8960344 has been added flag already 1st
+2023-01-22 22:38:40,580 - utils_api - ERROR - Proile john-naughton-fcca-84b1b648 has not been found
+2023-01-22 22:38:40,592 - utils_api - INFO - john-naughton-fcca-84b1b648 has been added flag troubling profile
+2023-01-22 22:39:42,891 - utils_api - INFO - lorenzo-tosonotti-cima-dip-ma-b953b627 for you is aready a connection of level DISTANCE_1
+2023-01-22 22:39:42,896 - utils_api - INFO - lorenzo-tosonotti-cima-dip-ma-b953b627 has been added flag already 1st
+2023-01-22 22:40:47,141 - utils_api - ERROR - Proile adam-jesney-7888b83 has not been found
+2023-01-22 22:40:47,153 - utils_api - INFO - adam-jesney-7888b83 has been added flag troubling profile
+2023-01-22 22:41:52,397 - utils_api - ERROR - Proile stephanie-margaronis-49b6151b has not been found
+2023-01-22 22:41:52,402 - utils_api - INFO - stephanie-margaronis-49b6151b has been added flag troubling profile
+2023-01-22 22:42:56,662 - utils_api - INFO - christian-armbruester-92550962 for you is aready a connection of level DISTANCE_1
+2023-01-22 22:42:56,672 - utils_api - INFO - christian-armbruester-92550962 has been added flag already 1st
+2023-01-22 22:43:58,917 - utils_api - ERROR - Proile hugo-winey-49bb34147 has not been found
+2023-01-22 22:43:58,921 - utils_api - INFO - hugo-winey-49bb34147 has been added flag troubling profile
+2023-01-22 22:45:01,164 - utils_api - ERROR - Proile adam-horne-7b04391 has not been found
+2023-01-22 22:45:01,179 - utils_api - INFO - adam-horne-7b04391 has been added flag troubling profile
+2023-01-22 22:46:04,443 - utils_api - ERROR - Proile george-clifton-brown-05451799 has not been found
+2023-01-22 22:46:04,454 - utils_api - INFO - george-clifton-brown-05451799 has been added flag troubling profile
+2023-01-22 22:47:09,844 - utils_api - ERROR - Proile james-tuson-fpfs-0bba2649 has not been found
+2023-01-22 22:47:09,850 - utils_api - INFO - james-tuson-fpfs-0bba2649 has been added flag troubling profile
+2023-01-22 22:48:13,088 - utils_api - ERROR - Proile paul-short-55387017b has not been found
+2023-01-22 22:48:13,093 - utils_api - INFO - paul-short-55387017b has been added flag troubling profile
+2023-01-22 22:49:16,439 - utils_api - INFO - leo-davies for you is aready a connection of level DISTANCE_1
+2023-01-22 22:49:16,443 - utils_api - INFO - leo-davies has been added flag already 1st
+2023-01-22 22:50:19,679 - utils_api - ERROR - Proile john-may-b4b9b13b has not been found
+2023-01-22 22:50:19,681 - utils_api - INFO - john-may-b4b9b13b has been added flag troubling profile
+2023-01-22 22:51:25,001 - utils_api - ERROR - Proile jerome-sibony-6a39a0 has not been found
+2023-01-22 22:51:25,005 - utils_api - INFO - jerome-sibony-6a39a0 has been added flag troubling profile
+2023-01-22 22:52:27,263 - utils_api - INFO - marga-mateos-werner-2a02585a for you is a connection of level DISTANCE_2
+2023-01-22 22:52:27,304 - utils_api - INFO - marga-mateos-werner-2a02585a has been updated on network information with connection level DISTANCE_2
+2023-01-22 22:54:37,562 - utils_api - INFO - tomas-mateos-werner-6a17a9 for you is a connection of level DISTANCE_2
+2023-01-22 22:54:37,578 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-22 22:56:49,334 - utils_api - INFO - danielmateos for you is a connection of level DISTANCE_2
+2023-01-22 22:56:49,362 - utils_api - INFO - danielmateos has been updated on network information with connection level DISTANCE_2
+2023-01-22 22:59:01,740 - utils_api - INFO - haroon-sheikh-2556aa17 for you is a connection of level OUT_OF_NETWORK
+2023-01-22 22:59:01,803 - utils_api - INFO - haroon-sheikh-2556aa17 has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-23 11:42:22,350 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:45:25,599 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:45:26,037 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 11:46:31,310 - utils_api - WARNING - Proile susanne-van-nieuwenburg-69b38431 has not been found
+2023-01-23 11:46:31,335 - utils_api - INFO - susanne-van-nieuwenburg-69b38431 has been added flag troubling profile
+2023-01-23 11:48:13,914 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:48:14,508 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 11:49:18,781 - utils_api - WARNING - Proile susanne-van-nieuwenburg-69b38431 has not been found
+2023-01-23 11:49:18,899 - utils_api - INFO - susanne-van-nieuwenburg-69b38431 has been added flag troubling profile
+2023-01-23 11:51:39,538 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:51:40,038 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 11:52:43,369 - utils_api - WARNING - Proile jerme-stern-964128 has not been found
+2023-01-23 11:52:43,393 - utils_api - INFO - jerme-stern-964128 has been added flag troubling profile
+2023-01-23 11:53:46,671 - utils_api - INFO - igor-yelnik-3ab5223 for you is aready a connection of level DISTANCE_1
+2023-01-23 11:53:46,685 - utils_api - INFO - igor-yelnik-3ab5223 has been added flag already 1st
+2023-01-23 11:54:14,045 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 11:54:51,939 - utils_api - INFO - peter-rose-2936a213 for you is aready a connection of level DISTANCE_1
+2023-01-23 11:54:51,961 - utils_api - INFO - peter-rose-2936a213 has been added flag already 1st
+2023-01-23 11:55:57,190 - utils_api - WARNING - Proile rosemary-pajot-vit-704ba544 has not been found
+2023-01-23 11:55:57,207 - utils_api - INFO - rosemary-pajot-vit-704ba544 has been added flag troubling profile
+2023-01-23 11:57:00,513 - utils_api - INFO - lex-van-dam-8960344 for you is aready a connection of level DISTANCE_1
+2023-01-23 11:57:00,522 - utils_api - INFO - lex-van-dam-8960344 has been added flag already 1st
+2023-01-23 11:58:05,735 - utils_api - WARNING - Proile john-naughton-fcca-84b1b648 has not been found
+2023-01-23 11:58:05,750 - utils_api - INFO - john-naughton-fcca-84b1b648 has been added flag troubling profile
+2023-01-23 11:59:10,030 - utils_api - INFO - lorenzo-tosonotti-cima-dip-ma-b953b627 for you is aready a connection of level DISTANCE_1
+2023-01-23 11:59:10,043 - utils_api - INFO - lorenzo-tosonotti-cima-dip-ma-b953b627 has been added flag already 1st
+2023-01-23 12:00:13,266 - utils_api - WARNING - Proile adam-jesney-7888b83 has not been found
+2023-01-23 12:00:13,276 - utils_api - INFO - adam-jesney-7888b83 has been added flag troubling profile
+2023-01-23 12:01:00,737 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:01:01,245 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 12:02:06,536 - utils_api - WARNING - Proile stephanie-margaronis-49b6151b has not been found
+2023-01-23 12:02:06,550 - utils_api - INFO - stephanie-margaronis-49b6151b has been added flag troubling profile
+2023-01-23 12:03:11,834 - utils_api - WARNING - christian-armbruester-92550962 for you is aready a connection of level DISTANCE_1
+2023-01-23 12:03:11,846 - utils_api - INFO - christian-armbruester-92550962 has been added flag already 1st
+2023-01-23 12:04:14,066 - utils_api - WARNING - Proile hugo-winey-49bb34147 has not been found
+2023-01-23 12:04:14,076 - utils_api - INFO - hugo-winey-49bb34147 has been added flag troubling profile
+2023-01-23 12:05:16,300 - utils_api - WARNING - Proile adam-horne-7b04391 has not been found
+2023-01-23 12:05:16,312 - utils_api - INFO - adam-horne-7b04391 has been added flag troubling profile
+2023-01-23 12:06:19,531 - utils_api - WARNING - Proile george-clifton-brown-05451799 has not been found
+2023-01-23 12:06:19,554 - utils_api - INFO - george-clifton-brown-05451799 has been added flag troubling profile
+2023-01-23 12:07:24,779 - utils_api - WARNING - Proile james-tuson-fpfs-0bba2649 has not been found
+2023-01-23 12:07:24,811 - utils_api - INFO - james-tuson-fpfs-0bba2649 has been added flag troubling profile
+2023-01-23 12:08:30,060 - utils_api - WARNING - Proile paul-short-55387017b has not been found
+2023-01-23 12:08:30,077 - utils_api - INFO - paul-short-55387017b has been added flag troubling profile
+2023-01-23 12:09:32,329 - utils_api - WARNING - leo-davies for you is aready a connection of level DISTANCE_1
+2023-01-23 12:09:32,339 - utils_api - INFO - leo-davies has been added flag already 1st
+2023-01-23 12:10:36,553 - utils_api - WARNING - Proile john-may-b4b9b13b has not been found
+2023-01-23 12:10:36,562 - utils_api - INFO - john-may-b4b9b13b has been added flag troubling profile
+2023-01-23 12:11:40,779 - utils_api - WARNING - Proile jerome-sibony-6a39a0 has not been found
+2023-01-23 12:11:40,791 - utils_api - INFO - jerome-sibony-6a39a0 has been added flag troubling profile
+2023-01-23 12:12:45,032 - utils_api - INFO - marga-mateos-werner-2a02585a for you is a connection of level DISTANCE_2
+2023-01-23 12:12:45,048 - utils_api - INFO - marga-mateos-werner-2a02585a has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:13:53,025 - utils_api - INFO - Sent invitation + note to marga-mateos-werner-2a02585a
+2023-01-23 12:13:53,038 - utils_api - INFO - new profile urn for user marga-mateos-werner-2a02585a has been added
+2023-01-23 12:14:57,284 - utils_api - INFO - tomas-mateos-werner-6a17a9 for you is a connection of level DISTANCE_2
+2023-01-23 12:14:57,297 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:15:24,879 - __main__ - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:15:28,009 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:15:28,460 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 12:16:33,149 - utils_api - INFO - tomas-mateos-werner-6a17a9 for you is a connection of level DISTANCE_2
+2023-01-23 12:16:33,162 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:17:42,290 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 12:18:47,680 - utils_api - INFO - danielmateos for you is a connection of level DISTANCE_2
+2023-01-23 12:18:47,690 - utils_api - INFO - danielmateos has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:19:54,724 - utils_api - INFO - new profile urn for user danielmateos has been added
+2023-01-23 12:20:59,044 - utils_api - INFO - haroon-sheikh-2556aa17 for you is a connection of level OUT_OF_NETWORK
+2023-01-23 12:20:59,054 - utils_api - INFO - haroon-sheikh-2556aa17 has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-23 12:22:06,979 - utils_api - INFO - new profile urn for user haroon-sheikh-2556aa17 has been added
+2023-01-23 12:23:29,157 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:23:29,552 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 12:24:34,873 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:25:41,285 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 12:26:45,656 - utils_api - INFO - alexandra-altinger-11965827 has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:27:52,700 - utils_api - INFO - new profile urn for user alexandra-altinger-11965827 has been added
+2023-01-23 12:28:54,953 - utils_api - INFO - daniel-a-dupont-3a724012 has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:30:03,045 - utils_api - INFO - new profile urn for user daniel-a-dupont-3a724012 has been added
+2023-01-23 12:31:06,335 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-23 12:31:55,220 - __main__ - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:32:00,755 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:32:01,146 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 12:33:03,541 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:33:19,282 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 12:33:19,722 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 12:34:23,052 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 12:35:33,130 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 12:36:37,442 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-23 12:37:43,545 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-23 14:43:48,681 - __main__ - INFO - --------------------------------------------------------------------------------
+2023-01-23 14:43:54,990 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 14:43:55,488 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 14:45:00,217 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 14:46:10,347 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 14:47:12,837 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-23 14:48:19,779 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-23 14:49:25,153 - utils_api - INFO - mark-preston-227ba98 has been updated on network information with connection level DISTANCE_3
+2023-01-23 14:50:34,432 - utils_api - INFO - Sent invitation + note to mark-preston-227ba98
+2023-01-23 14:50:34,464 - utils_api - DEBUG - new profile urn for user mark-preston-227ba98 has been added
+2023-01-23 14:51:36,759 - utils_api - INFO - roelof-botha-a0753611 has been updated on network information with connection level DISTANCE_2
+2023-01-23 14:52:43,899 - utils_api - INFO - Sent invitation + note to roelof-botha-a0753611
+2023-01-23 14:52:43,928 - utils_api - DEBUG - new profile urn for user roelof-botha-a0753611 has been added
+2023-01-23 14:53:47,245 - utils_api - INFO - patrick-lynch-a4667290 has been updated on network information with connection level DISTANCE_2
+2023-01-23 14:54:53,498 - utils_api - INFO - Sent invitation + note to patrick-lynch-a4667290
+2023-01-23 14:54:53,513 - utils_api - DEBUG - new profile urn for user patrick-lynch-a4667290 has been added
+2023-01-23 14:55:55,801 - utils_api - INFO - ronnie-armist-08aa3a13 has been updated on network information with connection level DISTANCE_2
+2023-01-23 14:57:01,911 - utils_api - INFO - Sent invitation + note to ronnie-armist-08aa3a13
+2023-01-23 14:57:01,930 - utils_api - DEBUG - new profile urn for user ronnie-armist-08aa3a13 has been added
+2023-01-23 14:58:07,254 - utils_api - INFO - mona-shah-cfa-083a3695 has been updated on network information with connection level DISTANCE_2
+2023-01-23 14:59:16,360 - utils_api - INFO - Sent invitation + note to mona-shah-cfa-083a3695
+2023-01-23 14:59:16,385 - utils_api - DEBUG - new profile urn for user mona-shah-cfa-083a3695 has been added
+2023-01-23 15:00:18,715 - utils_api - INFO - nick-smith-b2244619 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:01:28,864 - utils_api - INFO - Sent invitation + note to nick-smith-b2244619
+2023-01-23 15:01:28,888 - utils_api - DEBUG - new profile urn for user nick-smith-b2244619 has been added
+2023-01-23 15:02:31,167 - utils_api - INFO - simon-ward-79948649 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:03:38,197 - utils_api - INFO - Sent invitation + note to simon-ward-79948649
+2023-01-23 15:03:38,225 - utils_api - DEBUG - new profile urn for user simon-ward-79948649 has been added
+2023-01-23 15:04:40,511 - utils_api - INFO - graham-wainer-49701b1 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:05:48,760 - utils_api - INFO - Sent invitation + note to graham-wainer-49701b1
+2023-01-23 15:05:48,789 - utils_api - DEBUG - new profile urn for user graham-wainer-49701b1 has been added
+2023-01-23 15:06:53,081 - utils_api - INFO - anton-sternberg-207622160 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:07:59,230 - utils_api - INFO - Sent invitation + note to anton-sternberg-207622160
+2023-01-23 15:07:59,259 - utils_api - DEBUG - new profile urn for user anton-sternberg-207622160 has been added
+2023-01-23 15:09:04,672 - utils_api - INFO - david-murray-25759a4a has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:10:12,762 - utils_api - INFO - Sent invitation + note to david-murray-25759a4a
+2023-01-23 15:10:12,798 - utils_api - DEBUG - new profile urn for user david-murray-25759a4a has been added
+2023-01-23 15:18:36,617 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 15:18:37,143 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 15:19:46,337 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 15:19:46,793 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 15:19:46,808 - utils_api - INFO - already sent 1 message to flemingprivateoffice
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to chuck-powers-09b19329
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to anthony-moore-30613926
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to alexanderkalis
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to simon-hopkins-9514791
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to marc-meyohas-8039364
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to daniel-goldstein-1462552b
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to andywhoward
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to roberthurst001
+2023-01-23 15:19:46,809 - utils_api - INFO - already sent 1 message to tom-beal-35874b5
+2023-01-23 15:19:46,810 - utils_api - INFO - already sent 1 message to tim-williams-74699316
+2023-01-23 15:19:46,810 - utils_api - INFO - already sent 1 message to daniel-jaffe-3414312
+2023-01-23 15:19:46,810 - utils_api - INFO - already sent 1 message to matthewhullcfa
+2023-01-23 15:19:46,810 - utils_api - INFO - already sent 1 message to roberto-giacalone
+2023-01-23 15:24:56,863 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 15:24:57,324 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 15:25:59,715 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:27:08,808 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 15:28:14,139 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-23 15:29:23,012 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-23 15:30:25,326 - utils_api - INFO - robert-murray-75156414 has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-23 15:31:33,620 - utils_api - INFO - Sent invitation + note to robert-murray-75156414
+2023-01-23 15:31:33,677 - utils_api - DEBUG - new profile urn for user robert-murray-75156414 has been added
+2023-01-23 15:32:37,013 - utils_api - INFO - craig-mcdermid-2b216539 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:33:44,240 - utils_api - INFO - Sent invitation + note to craig-mcdermid-2b216539
+2023-01-23 15:33:44,265 - utils_api - DEBUG - new profile urn for user craig-mcdermid-2b216539 has been added
+2023-01-23 15:34:48,568 - utils_api - INFO - andrew-harris-b56b434 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:35:56,712 - utils_api - INFO - Sent invitation + note to andrew-harris-b56b434
+2023-01-23 15:35:56,738 - utils_api - DEBUG - new profile urn for user andrew-harris-b56b434 has been added
+2023-01-23 15:37:01,096 - utils_api - INFO - peter-lenart-cfa-caia-09242b9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:38:06,264 - utils_api - INFO - Sent invitation + note to peter-lenart-cfa-caia-09242b9
+2023-01-23 15:38:06,327 - utils_api - DEBUG - new profile urn for user peter-lenart-cfa-caia-09242b9 has been added
+2023-01-23 15:39:11,671 - utils_api - INFO - matt-j-644a088a has been updated on network information with connection level DISTANCE_3
+2023-01-23 15:40:20,923 - utils_api - INFO - Sent invitation + note to matt-j-644a088a
+2023-01-23 15:40:20,944 - utils_api - DEBUG - new profile urn for user matt-j-644a088a has been added
+2023-01-23 15:41:23,250 - utils_api - INFO - jessica-harris-2b563636 has been updated on network information with connection level DISTANCE_3
+2023-01-23 15:42:33,686 - utils_api - INFO - Sent invitation + note to jessica-harris-2b563636
+2023-01-23 15:42:33,711 - utils_api - DEBUG - new profile urn for user jessica-harris-2b563636 has been added
+2023-01-23 15:43:37,054 - utils_api - INFO - babsevans has been updated on network information with connection level DISTANCE_3
+2023-01-23 15:44:46,431 - utils_api - INFO - Sent invitation + note to babsevans
+2023-01-23 15:44:46,454 - utils_api - DEBUG - new profile urn for user babsevans has been added
+2023-01-23 15:45:51,727 - utils_api - INFO - james-hordern-b-a-hons-frcp-hon-asip-a028b323 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:46:57,777 - utils_api - INFO - Sent invitation + note to james-hordern-b-a-hons-frcp-hon-asip-a028b323
+2023-01-23 15:46:57,801 - utils_api - DEBUG - new profile urn for user james-hordern-b-a-hons-frcp-hon-asip-a028b323 has been added
+2023-01-23 15:48:00,099 - utils_api - INFO - tim-savage-ab9a1927 has been updated on network information with connection level DISTANCE_3
+2023-01-23 15:49:08,348 - utils_api - INFO - Sent invitation + note to tim-savage-ab9a1927
+2023-01-23 15:49:08,381 - utils_api - DEBUG - new profile urn for user tim-savage-ab9a1927 has been added
+2023-01-23 15:50:13,810 - utils_api - INFO - gautam-kainth-3831933 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:51:20,998 - utils_api - INFO - Sent invitation + note to gautam-kainth-3831933
+2023-01-23 15:51:21,022 - utils_api - DEBUG - new profile urn for user gautam-kainth-3831933 has been added
+2023-01-23 15:52:23,439 - utils_api - INFO - casey-gordon-969a26 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:53:31,571 - utils_api - INFO - Sent invitation + note to casey-gordon-969a26
+2023-01-23 15:53:31,601 - utils_api - DEBUG - new profile urn for user casey-gordon-969a26 has been added
+2023-01-23 15:54:35,086 - utils_api - INFO - laura-cesenni-2a137553 has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:55:45,233 - utils_api - INFO - Sent invitation + note to laura-cesenni-2a137553
+2023-01-23 15:55:45,264 - utils_api - DEBUG - new profile urn for user laura-cesenni-2a137553 has been added
+2023-01-23 15:56:48,636 - utils_api - INFO - carlozuccaro has been updated on network information with connection level DISTANCE_2
+2023-01-23 15:57:58,851 - utils_api - INFO - Sent invitation + note to carlozuccaro
+2023-01-23 15:57:58,873 - utils_api - DEBUG - new profile urn for user carlozuccaro has been added
+2023-01-23 15:59:04,131 - utils_api - WARNING - Proile angus-macdonald-686b8322 has not been found
+2023-01-23 15:59:04,156 - utils_api - INFO - angus-macdonald-686b8322 has been added flag troubling profile
+2023-01-23 16:00:06,498 - utils_api - INFO - janine-hutchinson-0375308 has been updated on network information with connection level DISTANCE_3
+2023-01-23 16:01:15,682 - utils_api - INFO - Sent invitation + note to janine-hutchinson-0375308
+2023-01-23 16:01:15,699 - utils_api - DEBUG - new profile urn for user janine-hutchinson-0375308 has been added
+2023-01-23 16:02:19,996 - utils_api - INFO - evdemon has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:03:28,202 - utils_api - INFO - Sent invitation + note to evdemon
+2023-01-23 16:03:28,226 - utils_api - DEBUG - new profile urn for user evdemon has been added
+2023-01-23 16:04:32,643 - utils_api - INFO - stewart-carlile has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:05:39,850 - utils_api - INFO - Sent invitation + note to stewart-carlile
+2023-01-23 16:05:39,903 - utils_api - DEBUG - new profile urn for user stewart-carlile has been added
+2023-01-23 16:06:45,240 - utils_api - INFO - alex-lu-6aa19a1 has been updated on network information with connection level DISTANCE_3
+2023-01-23 16:07:51,455 - utils_api - INFO - Sent invitation + note to alex-lu-6aa19a1
+2023-01-23 16:07:51,482 - utils_api - DEBUG - new profile urn for user alex-lu-6aa19a1 has been added
+2023-01-23 16:08:53,841 - utils_api - INFO - hugo-pingray-b89ab162 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:10:01,092 - utils_api - INFO - Sent invitation + note to hugo-pingray-b89ab162
+2023-01-23 16:10:01,122 - utils_api - DEBUG - new profile urn for user hugo-pingray-b89ab162 has been added
+2023-01-23 16:11:06,470 - utils_api - WARNING - aminenedjai for you is aready a connection of level DISTANCE_1
+2023-01-23 16:11:06,494 - utils_api - INFO - aminenedjai has been added flag already 1st
+2023-01-23 16:12:10,839 - utils_api - INFO - piervan has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:13:19,227 - utils_api - INFO - Sent invitation + note to piervan
+2023-01-23 16:13:19,251 - utils_api - DEBUG - new profile urn for user piervan has been added
+2023-01-23 16:14:23,543 - utils_api - INFO - simonmfoster has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:15:33,873 - utils_api - INFO - Sent invitation + note to simonmfoster
+2023-01-23 16:15:33,899 - utils_api - DEBUG - new profile urn for user simonmfoster has been added
+2023-01-23 16:16:37,282 - utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-23 16:20:41,818 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:21:53,067 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 16:22:57,389 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-23 16:24:05,571 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-23 16:25:09,889 - utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-23 16:29:12,471 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:30:20,585 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 16:31:23,951 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-23 16:32:35,117 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-23 16:33:40,561 - utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-23 16:41:12,485 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 16:41:13,046 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 16:42:17,392 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:43:26,621 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-23 16:44:30,014 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-23 16:45:38,218 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-23 16:46:40,737 - utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-23 16:46:40,741 - utils_api - ERROR - message with name was longer than 300 char
+2023-01-23 16:47:43,025 - utils_api - INFO - john-clifford-424898135 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:48:48,303 - utils_api - INFO - Sent invitation + note to john-clifford-424898135
+2023-01-23 16:48:48,330 - utils_api - DEBUG - new profile urn for user john-clifford-424898135 has been added
+2023-01-23 16:49:50,605 - utils_api - INFO - hugues-decobert-b185448 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:50:58,757 - utils_api - INFO - Sent invitation + note to hugues-decobert-b185448
+2023-01-23 16:50:58,786 - utils_api - DEBUG - new profile urn for user hugues-decobert-b185448 has been added
+2023-01-23 16:52:02,138 - utils_api - INFO - jacques-benhamou-9ba8755 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:53:08,390 - utils_api - INFO - Sent invitation + note to jacques-benhamou-9ba8755
+2023-01-23 16:53:08,428 - utils_api - DEBUG - new profile urn for user jacques-benhamou-9ba8755 has been added
+2023-01-23 16:54:10,800 - utils_api - INFO - james-cox-3800b525 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:55:17,112 - utils_api - INFO - Sent invitation + note to james-cox-3800b525
+2023-01-23 16:55:17,144 - utils_api - DEBUG - new profile urn for user james-cox-3800b525 has been added
+2023-01-23 16:56:20,430 - utils_api - INFO - rosanne-gray-058b431a has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:57:26,566 - utils_api - INFO - Sent invitation + note to rosanne-gray-058b431a
+2023-01-23 16:57:26,580 - utils_api - DEBUG - new profile urn for user rosanne-gray-058b431a has been added
+2023-01-23 16:58:29,982 - utils_api - INFO - mathias-terheggen-a84982 has been updated on network information with connection level DISTANCE_2
+2023-01-23 16:59:38,369 - utils_api - INFO - Sent invitation + note to mathias-terheggen-a84982
+2023-01-23 16:59:38,415 - utils_api - DEBUG - new profile urn for user mathias-terheggen-a84982 has been added
+2023-01-23 17:00:41,225 - utils_api - INFO - alexandra-galligan-0a53981b has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:01:52,612 - utils_api - INFO - Sent invitation + note to alexandra-galligan-0a53981b
+2023-01-23 17:01:52,661 - utils_api - DEBUG - new profile urn for user alexandra-galligan-0a53981b has been added
+2023-01-23 17:02:57,056 - utils_api - INFO - saleem-siddiqi-ba1b02 has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:04:07,333 - utils_api - INFO - Sent invitation + note to saleem-siddiqi-ba1b02
+2023-01-23 17:04:07,391 - utils_api - DEBUG - new profile urn for user saleem-siddiqi-ba1b02 has been added
+2023-01-23 17:05:12,713 - utils_api - INFO - alex-balfour-51797712 has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:06:20,922 - utils_api - INFO - Sent invitation + note to alex-balfour-51797712
+2023-01-23 17:06:20,950 - utils_api - DEBUG - new profile urn for user alex-balfour-51797712 has been added
+2023-01-23 17:07:25,272 - utils_api - INFO - gregory-perdon-68a917 has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:08:31,657 - utils_api - INFO - Sent invitation + note to gregory-perdon-68a917
+2023-01-23 17:08:31,683 - utils_api - DEBUG - new profile urn for user gregory-perdon-68a917 has been added
+2023-01-23 17:09:34,063 - utils_api - INFO - eren-osman-cfa-0020b632 has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:10:43,188 - utils_api - INFO - Sent invitation + note to eren-osman-cfa-0020b632
+2023-01-23 17:10:43,207 - utils_api - DEBUG - new profile urn for user eren-osman-cfa-0020b632 has been added
+2023-01-23 17:11:47,505 - utils_api - INFO - christophegalan has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:12:54,890 - utils_api - INFO - Sent invitation + note to christophegalan
+2023-01-23 17:12:54,908 - utils_api - DEBUG - new profile urn for user christophegalan has been added
+2023-01-23 17:14:00,201 - utils_api - INFO - carlo-ravizza-2345192 has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:15:07,497 - utils_api - INFO - Sent invitation + note to carlo-ravizza-2345192
+2023-01-23 17:15:07,525 - utils_api - DEBUG - new profile urn for user carlo-ravizza-2345192 has been added
+2023-01-23 17:16:11,846 - utils_api - INFO - martine-vice-holter-29998871 has been updated on network information with connection level DISTANCE_3
+2023-01-23 17:17:21,112 - utils_api - INFO - Sent invitation + note to martine-vice-holter-29998871
+2023-01-23 17:17:21,122 - utils_api - DEBUG - new profile urn for user martine-vice-holter-29998871 has been added
+2023-01-23 17:18:25,399 - utils_api - INFO - gareth-ringer-7064111 has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:19:33,617 - utils_api - INFO - Sent invitation + note to gareth-ringer-7064111
+2023-01-23 17:19:33,638 - utils_api - DEBUG - new profile urn for user gareth-ringer-7064111 has been added
+2023-01-23 17:20:35,920 - utils_api - INFO - tom-balls-a8bb42168 has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:21:45,931 - utils_api - INFO - Sent invitation + note to tom-balls-a8bb42168
+2023-01-23 17:21:45,951 - utils_api - DEBUG - new profile urn for user tom-balls-a8bb42168 has been added
+2023-01-23 17:22:49,277 - utils_api - INFO - nealgroves has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:23:57,426 - utils_api - INFO - Sent invitation + note to nealgroves
+2023-01-23 17:23:57,443 - utils_api - DEBUG - new profile urn for user nealgroves has been added
+2023-01-23 17:25:01,730 - utils_api - INFO - jamiesmorrison has been updated on network information with connection level DISTANCE_2
+2023-01-23 17:26:10,906 - utils_api - INFO - Sent invitation + note to jamiesmorrison
+2023-01-23 17:26:10,937 - utils_api - DEBUG - new profile urn for user jamiesmorrison has been added
+2023-01-23 17:27:16,343 - utils_api - INFO - daniel-hayward-a272a696 has been updated on network information with connection level DISTANCE_3
+2023-01-23 17:28:22,559 - utils_api - INFO - Sent invitation + note to daniel-hayward-a272a696
+2023-01-23 17:28:22,586 - utils_api - DEBUG - new profile urn for user daniel-hayward-a272a696 has been added
+2023-01-23 17:29:27,949 - utils_api - INFO - adam-bonell-11644725 has been updated on network information with connection level DISTANCE_3
+2023-01-23 17:30:36,063 - utils_api - INFO - Sent invitation + note to adam-bonell-11644725
+2023-01-23 17:30:36,109 - utils_api - DEBUG - new profile urn for user adam-bonell-11644725 has been added
+2023-01-23 17:40:09,386 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 17:40:09,910 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 17:41:03,990 - utils_api - INFO - already sent 1 message to flemingprivateoffice
+2023-01-23 17:41:03,991 - utils_api - INFO - already sent 1 message to chuck-powers-09b19329
+2023-01-23 17:41:03,991 - utils_api - INFO - already sent 1 message to anthony-moore-30613926
+2023-01-23 17:41:03,991 - utils_api - INFO - already sent 1 message to alexanderkalis
+2023-01-23 17:41:03,991 - utils_api - INFO - already sent 1 message to simon-hopkins-9514791
+2023-01-23 17:41:03,991 - utils_api - INFO - already sent 1 message to marc-meyohas-8039364
+2023-01-23 17:41:03,991 - utils_api - INFO - already sent 1 message to daniel-goldstein-1462552b
+2023-01-23 17:45:14,268 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 17:45:14,755 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 17:47:04,103 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-23 17:47:04,820 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-23 17:47:53,068 - utils_api - INFO - already sent 1 message to flemingprivateoffice
+2023-01-23 17:47:53,069 - utils_api - INFO - already sent 1 message to chuck-powers-09b19329
+2023-01-23 17:47:53,069 - utils_api - INFO - already sent 1 message to anthony-moore-30613926
+2023-01-23 17:47:53,069 - utils_api - INFO - already sent 1 message to alexanderkalis
+2023-01-23 17:47:53,069 - utils_api - INFO - already sent 1 message to simon-hopkins-9514791
+2023-01-23 17:47:53,069 - utils_api - INFO - already sent 1 message to marc-meyohas-8039364
+2023-01-23 17:47:53,070 - utils_api - INFO - already sent 1 message to daniel-goldstein-1462552b
+2023-01-23 17:47:53,070 - utils_api - INFO - already sent 1 message to francis-akpata-908a218a
+2023-01-23 17:47:53,070 - utils_api - INFO - already sent 1 message to andywhoward
+2023-01-23 17:47:53,070 - utils_api - INFO - already sent 1 message to roberthurst001
+2023-01-23 17:47:53,070 - utils_api - INFO - already sent 1 message to tom-beal-35874b5
+2023-01-23 17:47:53,070 - utils_api - INFO - already sent 1 message to tim-williams-74699316
+2023-01-23 17:47:53,071 - utils_api - INFO - already sent 1 message to daniel-jaffe-3414312
+2023-01-23 17:47:53,071 - utils_api - INFO - already sent 1 message to matthewhullcfa
+2023-01-23 17:47:53,071 - utils_api - INFO - already sent 1 message to roberto-giacalone
+2023-01-23 17:48:57,364 - utils_api - ERROR - not sent message to jackinglis
+2023-01-23 17:50:01,976 - utils_api - INFO - sent cta message c1 to jackinglis using profile_urn
