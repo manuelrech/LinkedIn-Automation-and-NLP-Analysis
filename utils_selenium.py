@@ -112,20 +112,21 @@ def send_in_mail_message():
         logger.info(f'send inmail to {profile_id}')
         driver.switch_to.window(driver.window_handles[0])
 
-def get_new_connections(stopping_id):
+def get_new_connections(stopping_id, api):
     # stopping id is created just before the campaing starts, creating a cutoff for which we do not need to look more back in time for connections
     # in simple works, the last connection before the campaign starst. 
 
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')    
     network_information = pd.read_csv('datasets/network_info.csv')
+    family_offices_UK = pd.read_csv('family_offices_UK.csv')
 
-    driver = linkedin_login()
+    driver = linkedin_login('gianluca')
     driver.get("https://www.linkedin.com/mynetwork/invite-connect/connections")
 
-    recently_added_button = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[1]/div[1]/div/button/span')))
+    recently_added_button = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[1]/div[1]/div/button/span')))
     assert recently_added_button.text == 'Recently added'
 
-    table_connections = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[2]/div[1]')))
+    table_connections = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[2]/div[1]')))
 
     lis = table_connections.find_elements(By.TAG_NAME, 'li')
 
@@ -138,7 +139,6 @@ def get_new_connections(stopping_id):
         if profile_id == stopping_id:
             break
 
-        print(profile_id)
 
         if not submitted_invitation.profile_id.isin([profile_id]).any():
             continue
@@ -146,6 +146,7 @@ def get_new_connections(stopping_id):
         if submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'].iloc[0] == True:
             continue
             
+        print(profile_id)
         submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'] = True
         logger.info(f'{profile_id} has accepted invitation, updated column on submitted invitation')
         submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
@@ -153,6 +154,9 @@ def get_new_connections(stopping_id):
         network_information.loc[network_information.profile_id == profile_id] = utils_common.create_row_network_info(public_identifier=profile_id, connection_level='DISTANCE_1')
         logger.info(f'network info has been updated to 1 for {profile_id}')
         network_information.to_csv('datasets/network_info.csv', index=0)
+
+        if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'conversation_urn'].iloc[0]):
+           family_offices_UK = utils_api.get_conversation_urn(api=api, sleeping_time=60)
 
     driver.execute_script("arguments[0].scrollIntoView();", nome)
 

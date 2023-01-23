@@ -9,7 +9,7 @@ if not 'loggers' in os.listdir():
             os.mkdir('loggers')
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler = logging.FileHandler('loggers/utils_common.log')
 file_handler.setFormatter(formatter)
@@ -96,7 +96,7 @@ def setup_begging_datasets():
         logger.info('submitted_call_to_action file has been created from 0')
 
     logger.info('read in all files')
-    return family_offices_UK, network_info, submitted_invitation, message, submitted_call_to_action
+
 
 def create_message(type, text, code):
     message_begin = pd.read_csv('datasets/message.csv')
@@ -111,7 +111,7 @@ def create_row_network_info(public_identifier, connection_level):
     human_readable_date = current_datetime.strftime("%Y-%m-%d %H:%M")
     timestamp = int(current_datetime.timestamp())
     row_network_info = [timestamp,human_readable_date, public_identifier, connection_level]
-    logger.info(f'Created row in network info for {public_identifier}')
+    # logger.info(f'Created row in network info for {public_identifier}')
     
     return row_network_info
 

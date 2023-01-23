@@ -12,7 +12,7 @@ if not 'loggers' in os.listdir():
             os.mkdir('loggers')
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler = logging.FileHandler('loggers/utils_api.log')
 file_handler.setFormatter(formatter)
@@ -49,6 +49,7 @@ def send_invitations_note(api, how_many, sleeping_time=60):
 
     counter = 0
     for profile_id, nome in zip(family_offices_UK.LinkedIn, family_offices_UK.Nome):
+
         if counter >= how_many:
             break
 
@@ -66,8 +67,9 @@ def send_invitations_note(api, how_many, sleeping_time=60):
 
         if network_information == {}:
 
-            logger.error(f"Proile {profile_id} has not been found")
+            logger.warning(f"Proile {profile_id} has not been found")
             family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'troubling_profile'] = True
+            family_offices_UK.to_csv('family_offices_UK.csv', index=0)
             logger.info(f"{profile_id} has been added flag troubling profile")
             
             continue
@@ -82,33 +84,48 @@ def send_invitations_note(api, how_many, sleeping_time=60):
         
         if connection_level == 'DISTANCE_1':
 
-            logger.info(f"{profile_id} for you is aready a connection of level {connection_level}")
+            logger.warning(f"{profile_id} for you is aready a connection of level {connection_level}")
             family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'already_1st'] = True
+            family_offices_UK.to_csv('family_offices_UK.csv', index=0)
             logger.info(f"{profile_id} has been added flag already 1st")
 
             continue
 
         assert connection_level in ('DISTANCE_2', 'DISTANCE_3', 'OUT_OF_NETWORK')
         
-        logger.info(f"{profile_id} for you is a connection of level {connection_level}")
+        # logger.info(f"{profile_id} for you is a connection of level {connection_level}")
         network_info.loc[len(network_info)] = utils_common.create_row_network_info(profile_id, connection_level)
         network_info.to_csv('datasets/network_info.csv', index=0)
         logger.info(f"{profile_id} has been updated on network information with connection level {connection_level}")
 
 
         note, code = utils_common.randomly_get_message(message_begin=message, type='note')
+        note = note.format(nome)
+        if len(note) > 300:
+            logger.error('message with name was longer than 300 char')
+            continue
+
         result, profile_urn = api.add_connection(profile_public_id = profile_id, message=note.format(nome))
         sleep(sleeping_time)
 
         if result == False:
+
             logger.info(f"Sent invitation + note to {profile_id}")
             family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'profile_urn'] = profile_urn
             family_offices_UK.to_csv('family_offices_UK.csv', index=0)
-            logger.info(f'new profile urn for user {profile_id} has been added')
+            logger.debug(f'new profile urn for user {profile_id} has been added')
 
             submitted_invitation.loc[len(submitted_invitation)] = utils_common.create_row_submitted_invitation(profile_id, message_code=code)
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
             counter += 1
+        
+        elif result == True:
+
+            logger.error(f"there's been an error while sending a message to {profile_id}")
+        
+        else:
+
+            logger.error(f"Result has value: {result}")
 
 def get_conversation_urn(api, sleeping_time=60):
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
@@ -129,7 +146,7 @@ def get_conversation_urn(api, sleeping_time=60):
 
             conversation_urn = conversations['elements'][i]['dashEntityUrn'].split(':')[-1]
             family_offices_UK.loc[family_offices_UK.LinkedIn == pi, 'conversation_urn'] = conversation_urn
-            logger.info(f"added conversation urn for user {pi}")
+            logger.debug(f"added conversation urn for user {pi}")
             family_offices_UK.to_csv('family_offices_UK.csv', index=0)
             fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
 
@@ -154,7 +171,7 @@ def get_conversation_urn(api, sleeping_time=60):
 
                 conversation_urn = conversations['elements'][i]['dashEntityUrn'].split(':')[-1]
                 family_offices_UK.loc[family_offices_UK.LinkedIn == pi, 'conversation_urn'] = conversation_urn
-                logger.info(f"updated conversation urn for user {pi}")
+                logger.debug(f"updated conversation urn for user {pi}")
                 family_offices_UK.to_csv('family_offices_UK.csv', index=0)
                 fo_si_merged = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
     
@@ -216,12 +233,13 @@ def get_conversation_urn(api, sleeping_time=60):
 #                 family_offices_UK = get_conversation_urn(api=api, sleeping_time=60)
     
 def send_message_new_1st_connections(api, sleeping_time=60):
+
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     message = pd.read_csv('datasets/message.csv')
     submitted_call_to_action = pd.read_csv('datasets/submitted_call_to_action.csv')
 
-    si_fo = pd.merge(submitted_invitation,  family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
+    si_fo = pd.merge(submitted_invitation, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
     si_fo_accepted_invitation = si_fo[si_fo.accepted_invitation == True]
 
     for nome, profile_urn, conversation_urn, profile_id in zip(si_fo_accepted_invitation.Nome, si_fo_accepted_invitation.profile_urn, si_fo_accepted_invitation.conversation_urn, si_fo_accepted_invitation.profile_id):
@@ -238,12 +256,19 @@ def send_message_new_1st_connections(api, sleeping_time=60):
             sleep(sleeping_time)
             if result == False:
                 tool = 'conversation_urn'
+            elif result  == True:
+                logger.error(f"not sent message to {profile_id}")
+                raise Exception
     
         except:
             result = api.send_message(message_body=cta.format(nome), recipients=[profile_urn])
             sleep(sleeping_time)
             if result == False:
                 tool = 'profile_urn'
+                
+            elif result  == True:
+                logger.error(f"not sent message to {profile_id}")
+                raise Exception
 
         finally:
 
