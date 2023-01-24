@@ -1,11 +1,9 @@
 from linkedin_api import Linkedin
-import utils_common
-import logging
-from datetime import datetime
+from utils import utils_common
 from time import sleep
 import pandas as pd
+import logging
 import os
-import random
 
 
 if not 'loggers' in os.listdir():
@@ -41,7 +39,9 @@ def autenticate_linkedin_API(profile = None):
     logger.info(f"Logged into API using {profile}'s profile")
     return api
 
-def send_invitations_note(api, how_many, sleeping_time=60):
+def send_invitations_note(how_many, sleeping_time=60):
+    api = autenticate_linkedin_API('gianluca')
+
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     network_info = pd.read_csv('datasets/network_info.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
@@ -127,7 +127,9 @@ def send_invitations_note(api, how_many, sleeping_time=60):
 
             logger.error(f"Result has value: {result}")
 
-def get_conversation_urn(api, sleeping_time=60):
+def get_conversation_urn(sleeping_time=60):
+    api = autenticate_linkedin_API('gianluca')
+
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
 
@@ -232,7 +234,9 @@ def get_conversation_urn(api, sleeping_time=60):
 #             if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == public_identifier, 'conversation_urn'].iloc[0]):
 #                 family_offices_UK = get_conversation_urn(api=api, sleeping_time=60)
     
-def send_message_new_1st_connections(api, sleeping_time=60):
+def send_message_new_1st_connections(sleeping_time=60):
+
+    api = autenticate_linkedin_API('gianluca')
 
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     family_offices_UK = pd.read_csv('family_offices_UK.csv')

@@ -1,8 +1,7 @@
 from selenium import webdriver
 from datetime import datetime
 import pandas as  pd
-import utils_common
-import utils_api
+from utils import utils_api, utils_common
 import logging
 from time import sleep
 from selenium import  webdriver
@@ -112,7 +111,7 @@ def send_in_mail_message():
         logger.info(f'send inmail to {profile_id}')
         driver.switch_to.window(driver.window_handles[0])
 
-def get_new_connections(stopping_id, api):
+def get_new_connections(stopping_id):
     # stopping id is created just before the campaing starts, creating a cutoff for which we do not need to look more back in time for connections
     # in simple works, the last connection before the campaign starst. 
 
@@ -130,35 +129,39 @@ def get_new_connections(stopping_id, api):
 
     lis = table_connections.find_elements(By.TAG_NAME, 'li')
 
-    for li in lis:
+    found=False
+    while found == False:
 
-        nome = li.find_element(By.TAG_NAME, 'a')
-        profile_id = nome.get_attribute('href')
-        profile_id = profile_id.split('/')[-2]
+        for li in lis:
 
-        if profile_id == stopping_id:
-            break
+            nome = li.find_element(By.TAG_NAME, 'a')
+            profile_id = nome.get_attribute('href')
+            profile_id = profile_id.split('/')[-2]
 
+            if profile_id == stopping_id:
+                found = True
+                break
 
-        if not submitted_invitation.profile_id.isin([profile_id]).any():
-            continue
+            if not submitted_invitation.profile_id.isin([profile_id]).any():
+                continue
 
-        if submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'].iloc[0] == True:
-            continue
-            
-        print(profile_id)
-        submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'] = True
-        logger.info(f'{profile_id} has accepted invitation, updated column on submitted invitation')
-        submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
+            if submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'].iloc[0] == True:
+                continue
+                
+            print(profile_id)
+            submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'] = True
+            logger.info(f'{profile_id} has accepted invitation, updated column on submitted invitation')
+            submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
 
-        network_information.loc[network_information.profile_id == profile_id] = utils_common.create_row_network_info(public_identifier=profile_id, connection_level='DISTANCE_1')
-        logger.info(f'network info has been updated to 1 for {profile_id}')
-        network_information.to_csv('datasets/network_info.csv', index=0)
+            network_information.loc[network_information.profile_id == profile_id] = utils_common.create_row_network_info(public_identifier=profile_id, connection_level='DISTANCE_1')
+            logger.info(f'network info has been updated to 1 for {profile_id}')
+            network_information.to_csv('datasets/network_info.csv', index=0)
 
-        if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'conversation_urn'].iloc[0]):
-           family_offices_UK = utils_api.get_conversation_urn(api=api, sleeping_time=60)
+            if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'conversation_urn'].iloc[0]):
+                family_offices_UK = utils_api.get_conversation_urn(sleeping_time=60)
 
-    driver.execute_script("arguments[0].scrollIntoView();", nome)
+        driver.execute_script("arguments[0].scrollIntoView();", nome)
 
+    driver.close()
 
 

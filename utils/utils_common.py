@@ -97,7 +97,6 @@ def setup_begging_datasets():
 
     logger.info('read in all files')
 
-
 def create_message(type, text, code):
     message_begin = pd.read_csv('datasets/message.csv')
     new_message = [type, text, code]

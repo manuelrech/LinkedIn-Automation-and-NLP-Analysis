@@ -47,3 +47,32 @@
 2023-01-23 17:47:47,008 - utils_selenium - INFO - successfully logged into linkedin with selenium
 2023-01-23 17:47:51,620 - utils_selenium - INFO - jackinglis has accepted invitation, updated column on submitted invitation
 2023-01-23 17:47:51,631 - utils_selenium - INFO - network info has been updated to 1 for jackinglis
+2023-01-24 09:43:41,570 - utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 09:48:48,660 - utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 10:57:55,743 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 11:32:34,875 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 11:33:20,893 - utils.utils_selenium - INFO - successfully logged into linkedin with selenium
+2023-01-24 11:33:25,347 - utils.utils_selenium - INFO - peter-lenart-cfa-caia-09242b9 has accepted invitation, updated column on submitted invitation
+2023-01-24 11:33:25,368 - utils.utils_selenium - INFO - network info has been updated to 1 for peter-lenart-cfa-caia-09242b9
+2023-01-24 11:34:30,751 - utils.utils_selenium - INFO - olivermulry has accepted invitation, updated column on submitted invitation
+2023-01-24 11:34:30,754 - utils.utils_selenium - INFO - network info has been updated to 1 for olivermulry
+2023-01-24 11:34:30,766 - utils.utils_selenium - INFO - chris-herson-cfa-61740125 has accepted invitation, updated column on submitted invitation
+2023-01-24 11:34:30,768 - utils.utils_selenium - INFO - network info has been updated to 1 for chris-herson-cfa-61740125
+2023-01-24 11:34:30,797 - utils.utils_selenium - INFO - peter-clark-44540973 has accepted invitation, updated column on submitted invitation
+2023-01-24 11:34:30,798 - utils.utils_selenium - INFO - network info has been updated to 1 for peter-clark-44540973
+2023-01-24 11:34:30,810 - utils.utils_selenium - INFO - piervan has accepted invitation, updated column on submitted invitation
+2023-01-24 11:34:30,811 - utils.utils_selenium - INFO - network info has been updated to 1 for piervan
+2023-01-24 12:50:39,744 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 13:12:08,013 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 14:35:38,791 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 15:08:19,612 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 18:15:07,668 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 18:15:49,741 - utils.utils_selenium - INFO - successfully logged into linkedin with selenium
+2023-01-24 18:15:54,216 - utils.utils_selenium - INFO - sebastien-delcourt-8356121 has accepted invitation, updated column on submitted invitation
+2023-01-24 18:15:54,228 - utils.utils_selenium - INFO - network info has been updated to 1 for sebastien-delcourt-8356121
+2023-01-24 18:16:56,509 - utils.utils_selenium - INFO - --------------------------------------------------------------------------------
+2023-01-24 18:17:41,844 - utils.utils_selenium - INFO - successfully logged into linkedin with selenium
+2023-01-24 18:17:46,290 - utils.utils_selenium - INFO - chris-west-8a927215 has accepted invitation, updated column on submitted invitation
+2023-01-24 18:17:46,301 - utils.utils_selenium - INFO - network info has been updated to 1 for chris-west-8a927215
+2023-01-24 18:18:51,157 - utils.utils_selenium - INFO - vatsi has accepted invitation, updated column on submitted invitation
+2023-01-24 18:18:51,160 - utils.utils_selenium - INFO - network info has been updated to 1 for vatsi
