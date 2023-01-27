@@ -1,38 +1,16 @@
-## This project automates the interaction with people on linkedin and help grow network
+# Overview
+This project automates the process of sending connection invites and notes, fetching 1st level connections, sending messages to new connections and sending inmails to those who do not accept the invitation. The automation is done using selenium and linkedin-api. The responses data is then analyzed with NLP using pre-trained RoBERTa in the transformers library of Huggingface to understand which messages were more effective
 
-All what is needed is a database of people to target that can be:
-- imported from external csvs
-- scraped using linkedin api (in next version)
 
-In this version the csv files with people's linked need to have these mandatory columns: `['Name', 'LinkedIn_url']`. The second to interact using api and the first to send a personalized message with the right name (in next version also name will be automatically retrieved). 
+## Getting started
+The project requires a database of people to target, which can be imported from external csvs or scraped using linkedin api (in next version). The current version requires csv files with people's linkedin urls and names, which are mandatory columns. The LinkedIn url is used to interact using the API, and the name is used to send a personalized message.
 
-The project is divided into 3 parts
+Project Structure
+The project is divided into 3 parts:
 
-### Sending connection invite + note
-We send people a connection invite and a note to make the connection meaningful
+- Sending connection invite + note
+- Fetching 1st level connections
+- Sending messages to new connections
+- Sending inmails to those who do not accept the invitation
 
-This is done using the call in `main.py`
-    
-    utils_common.repeat_times(3, utils_api.send_invitations_note, api, 30, 60)
-
-the first parameter is how many times the code is repeated (there are connection errow when you let the code run), the second is the function, the other are `*args` of the second function. 
-
-### Fetching for 1st connections
-Some of the people to which we have sent the invitation may accept it and therefore we want to update our database so that we keep track of accpeted invitations. 
-
-The second call in `main.py` is 
-
-    utils_common.repeat_times(3, utils_selenium.get_new_connections, 'ian-allison-438a4aaa', api)
-
-the first parameter is how many times the code is repeated (there are connection errow when you let the code run), the second is the function, the other are `*args` of the second function. 
-
-### Sending messages to 1st connections
-People who accept invitation are targeted with a message 
-
-The third call in `main.py` is 
-
-    utils_common.repeat_times(3, utils_api.send_message_new_1st_connections, api, 60)
-
-the first parameter is how many times the code is repeated (there are connection errow when you let the code run), the second is the function, the other are `*args` of the second function. 
-
-### Sending inmail to those who do not accept invitation
+The automation process is done using the calls in main.py. Each call is made using the utils_common.repeat_times() function, which repeats the process multiple times to handle connection errors. The specific functions and arguments for each call are detailed in the comments of main.py.riteria when we fetch among the most recent connections
