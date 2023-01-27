@@ -1,5 +1,5 @@
 from linkedin_api import Linkedin
-from utils import utils_common
+import utils_common
 from time import sleep
 import pandas as pd
 import logging
@@ -40,6 +40,7 @@ def autenticate_linkedin_API(profile = None):
     return api
 
 def send_invitations_note(how_many, sleeping_time=60):
+    
     api = autenticate_linkedin_API('gianluca')
 
     family_offices_UK = pd.read_csv('family_offices_UK.csv')
@@ -103,6 +104,9 @@ def send_invitations_note(how_many, sleeping_time=60):
         note = note.format(nome)
         if len(note) > 300:
             logger.error('message with name was longer than 300 char')
+            family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'troubling_profile'] = True
+            family_offices_UK.to_csv('family_offices_UK.csv', index=0)
+            logger.info(f"{profile_id} has been added flag troubling profile")
             continue
 
         result, profile_urn = api.add_connection(profile_public_id = profile_id, message=note.format(nome))
@@ -122,6 +126,9 @@ def send_invitations_note(how_many, sleeping_time=60):
         elif result == True:
 
             logger.error(f"there's been an error while sending a message to {profile_id}")
+            family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'troubling_profile'] = True
+            family_offices_UK.to_csv('family_offices_UK.csv', index=0)
+            logger.info(f"{profile_id} has been added flag troubling profile")
         
         else:
 
