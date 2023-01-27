@@ -122,6 +122,7 @@ def send_in_mail_message(sleeps=60):
         sleep(10)
 
     logger.info('no more people to send inmail for the moment')
+
 def get_new_connections(stopping_id):
     # stopping id is created just before the campaing starts, creating a cutoff for which we do not need to look more back in time for connections
     # in simple works, the last connection before the campaign starst. 
@@ -142,7 +143,7 @@ def get_new_connections(stopping_id):
 
     found=False
     while found == False:
-
+        print(found)
         for li in lis:
 
             nome = li.find_element(By.TAG_NAME, 'a')
@@ -174,6 +175,3 @@ def get_new_connections(stopping_id):
         driver.execute_script("arguments[0].scrollIntoView();", nome)
 
     driver.close()
-
-
-# send_in_mail_message()
