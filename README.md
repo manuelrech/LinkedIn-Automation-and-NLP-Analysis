@@ -14,3 +14,7 @@ The project is divided into 3 parts:
 - Sending inmails to those who do not accept the invitation
 
 The automation process is done using the calls in main.py. Each call is made using the utils_common.repeat_times() function, which repeats the process multiple times to handle connection errors. The specific functions and arguments for each call are detailed in the comments of main.py.riteria when we fetch among the most recent connections
+
+
+## Note
+For privacy reasons i cannot disclose the beginning datasets, but you can create an example one by picking ten of your friends profile_id and create a csv, the folders should create as magic
