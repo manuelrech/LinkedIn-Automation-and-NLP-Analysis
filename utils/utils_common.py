@@ -1,9 +1,20 @@
-import os
-import logging
+from datetime  import datetime
 from time import sleep
 import pandas as pd
-from datetime  import datetime
+import logging
 import random
+import os
+
+if not 'loggers' in os.listdir():
+            os.mkdir('loggers')
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler = logging.FileHandler('loggers/utils_common.log')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+logger.info('-'*80)
 
 def setup_correct_directory(directory_name = 'Linkedin'):
     try:
@@ -17,20 +28,6 @@ def setup_correct_directory(directory_name = 'Linkedin'):
 
     except Exception as e:
         logger.error(f"There's been an error, {e} while reading file, check that you are in the right folder")
-
-setup_correct_directory()
-
-if not 'loggers' in os.listdir():
-            os.mkdir('loggers')
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-file_handler = logging.FileHandler('loggers/utils_common.log')
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
-logger.info('-'*80)
-
 
 def repeat_times(max_attempts, function, *args):    
     counter = 0

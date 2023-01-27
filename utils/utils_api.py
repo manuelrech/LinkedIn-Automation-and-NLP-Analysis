@@ -1,5 +1,5 @@
 from linkedin_api import Linkedin
-import utils_common
+from utils import utils_common
 from time import sleep
 import pandas as pd
 import logging

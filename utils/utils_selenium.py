@@ -1,7 +1,7 @@
 from selenium import webdriver
 from datetime import datetime
 import pandas as  pd
-import utils_common, utils_api
+from utils import utils_common, utils_api
 import logging
 from time import sleep
 from selenium import  webdriver
