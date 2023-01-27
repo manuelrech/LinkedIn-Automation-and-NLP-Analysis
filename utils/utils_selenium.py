@@ -87,7 +87,11 @@ def send_in_mail_message(sleeps=60):
 
         driver.get(f"https://www.linkedin.com/sales/lead/{profile_urn},name")
 
-        message_button = WebDriverWait(driver, sleeps).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[1]/div[3]/div/div[1]/div/div/section[1]/section[1]/div[2]/section/div[1]/div[2]/button')))
+        try:
+            message_button = WebDriverWait(driver, sleeps).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[1]/div[3]/div/div[1]/div/div/section[1]/section[1]/div[2]/section/div[1]/div[2]/button')))
+        except:
+            message_button = WebDriverWait(driver, sleeps).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[1]/div[3]/div/div/div/div/section[1]/section[1]/div[2]/section/div[1]/div/button')))
+                                                                                                    
         message_button.click()
 
         try:

@@ -517,3 +517,31 @@ Stacktrace:
 2023-01-27 10:53:03,361 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
 2023-01-27 10:53:03,368 - utils_common - INFO - family offices UK has been read
 2023-01-27 10:53:03,373 - utils_common - INFO - read in all files
+2023-01-27 11:10:02,981 - utils_common - ERROR - Error Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104d46fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000104cc4643 chromedriver + 4351555
+2   chromedriver                        0x0000000104912b27 chromedriver + 477991
+3   chromedriver                        0x000000010495776c chromedriver + 759660
+4   chromedriver                        0x00000001049579c1 chromedriver + 760257
+5   chromedriver                        0x000000010499b204 chromedriver + 1036804
+6   chromedriver                        0x000000010497d5fd chromedriver + 914941
+7   chromedriver                        0x00000001049985fe chromedriver + 1025534
+8   chromedriver                        0x000000010497d3a3 chromedriver + 914339
+9   chromedriver                        0x000000010494757f chromedriver + 693631
+10  chromedriver                        0x0000000104948b1e chromedriver + 699166
+11  chromedriver                        0x0000000104d13b9e chromedriver + 4676510
+12  chromedriver                        0x0000000104d1891e chromedriver + 4696350
+13  chromedriver                        0x0000000104d2019f chromedriver + 4727199
+14  chromedriver                        0x0000000104d1981a chromedriver + 4700186
+15  chromedriver                        0x0000000104ceca62 chromedriver + 4516450
+16  chromedriver                        0x0000000104d388c8 chromedriver + 4827336
+17  chromedriver                        0x0000000104d38a45 chromedriver + 4827717
+18  chromedriver                        0x0000000104d4e7ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007ff812a31259 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff812a2cc7b thread_start + 15
+ in <function send_in_mail_message at 0x1295e3ba0>, attempt 0
+2023-01-27 11:16:39,079 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-27 11:16:39,119 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-27 11:16:39,128 - utils_common - INFO - family offices UK has been read
+2023-01-27 11:16:39,133 - utils_common - INFO - read in all files
