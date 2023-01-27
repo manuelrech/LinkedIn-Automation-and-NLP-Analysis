@@ -1,3 +1,6 @@
 datasets/*
 loggers/*
-.csv
+*.csv
+loggers/utils_api.log
+loggers/utils_common.log
+loggers/utils_selenium.log
