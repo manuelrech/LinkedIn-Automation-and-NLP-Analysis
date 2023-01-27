@@ -3771,3 +3771,209 @@
 2023-01-24 18:22:56,827 - utils.utils_api - INFO - already sent 1 message to olivermulry
 2023-01-24 18:24:00,505 - utils.utils_api - INFO - sent cta message c1 to chris-west-8a927215 using conversation_urn
 2023-01-24 18:25:03,105 - utils.utils_api - INFO - sent cta message c1 to sebastien-delcourt-8356121 using conversation_urn
+2023-01-25 09:48:23,620 - utils.utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 09:48:24,361 - utils.utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 09:49:29,066 - utils.utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-25 09:50:36,976 - utils.utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-25 09:51:39,229 - utils.utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-25 09:52:48,164 - utils.utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-25 09:53:50,427 - utils.utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-25 09:53:50,429 - utils.utils_api - ERROR - message with name was longer than 300 char
+2023-01-25 09:54:52,725 - utils.utils_api - INFO - bhavikjayendrakumarshah has been updated on network information with connection level DISTANCE_2
+2023-01-25 09:54:52,729 - utils.utils_api - ERROR - message with name was longer than 300 char
+2023-01-25 09:55:56,089 - utils.utils_api - INFO - richard-postlethwaite-b9191916 has been updated on network information with connection level DISTANCE_2
+2023-01-25 09:57:06,108 - utils.utils_api - INFO - Sent invitation + note to richard-postlethwaite-b9191916
+2023-01-25 09:57:06,128 - utils.utils_api - DEBUG - new profile urn for user richard-postlethwaite-b9191916 has been added
+2023-01-25 09:58:09,394 - utils.utils_api - INFO - ben-palairet-90574135 has been updated on network information with connection level DISTANCE_2
+2023-01-25 09:59:21,017 - utils.utils_api - INFO - Sent invitation + note to ben-palairet-90574135
+2023-01-25 09:59:21,040 - utils.utils_api - DEBUG - new profile urn for user ben-palairet-90574135 has been added
+2023-01-25 10:00:25,298 - utils.utils_api - INFO - michael-j-oliver-629789a has been updated on network information with connection level DISTANCE_2
+2023-01-25 10:01:32,242 - utils.utils_api - INFO - Sent invitation + note to michael-j-oliver-629789a
+2023-01-25 10:01:32,262 - utils.utils_api - DEBUG - new profile urn for user michael-j-oliver-629789a has been added
+2023-01-25 10:02:37,525 - utils.utils_api - INFO - hugokingoakley has been updated on network information with connection level DISTANCE_2
+2023-01-25 10:03:47,718 - utils.utils_api - INFO - Sent invitation + note to hugokingoakley
+2023-01-25 10:03:47,731 - utils.utils_api - DEBUG - new profile urn for user hugokingoakley has been added
+2023-01-25 10:04:53,050 - utils.utils_api - INFO - alexander-church-64a94028 has been updated on network information with connection level DISTANCE_3
+2023-01-25 10:06:03,769 - utils.utils_api - INFO - Sent invitation + note to alexander-church-64a94028
+2023-01-25 10:06:03,838 - utils.utils_api - DEBUG - new profile urn for user alexander-church-64a94028 has been added
+2023-01-25 10:07:09,198 - utils.utils_api - INFO - vincent-smith-20a758206 has been updated on network information with connection level DISTANCE_3
+2023-01-25 10:08:20,209 - utils.utils_api - INFO - Sent invitation + note to vincent-smith-20a758206
+2023-01-25 10:08:20,263 - utils.utils_api - DEBUG - new profile urn for user vincent-smith-20a758206 has been added
+2023-01-25 10:09:25,882 - utils.utils_api - INFO - greenandrew75 has been updated on network information with connection level DISTANCE_2
+2023-01-25 10:12:35,080 - utils.utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 10:15:38,904 - utils.utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 10:16:41,713 - utils.utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-25 10:17:49,756 - utils.utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-25 10:18:55,439 - utils.utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-25 10:28:22,945 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 10:28:23,839 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 10:29:26,627 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-25 10:30:31,605 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-25 10:31:34,897 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-25 10:32:42,769 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-25 10:33:48,049 - utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-25 10:33:48,051 - utils_api - ERROR - message with name was longer than 300 char
+2023-01-25 10:35:49,340 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 10:35:50,442 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 10:36:54,468 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been updated on network information with connection level DISTANCE_2
+2023-01-25 10:38:02,658 - utils_api - ERROR - there's been an error while sending a message to tomas-mateos-werner-6a17a9
+2023-01-25 10:38:02,673 - utils_api - INFO - tomas-mateos-werner-6a17a9 has been added flag troubling profile
+2023-01-25 10:44:08,043 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 10:45:12,878 - utils_api - INFO - douglas-crichton-0815296a has been updated on network information with connection level DISTANCE_3
+2023-01-25 10:46:20,883 - utils_api - ERROR - there's been an error while sending a message to douglas-crichton-0815296a
+2023-01-25 10:46:20,920 - utils_api - INFO - douglas-crichton-0815296a has been added flag troubling profile
+2023-01-25 10:47:25,244 - utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been updated on network information with connection level OUT_OF_NETWORK
+2023-01-25 10:47:25,253 - utils_api - ERROR - message with name was longer than 300 char
+2023-01-25 10:47:25,259 - utils_api - INFO - theophilus-yakubu-danjuma-warning-82341210b has been added flag troubling profile
+2023-01-25 10:48:28,625 - utils_api - INFO - bhavikjayendrakumarshah has been updated on network information with connection level DISTANCE_2
+2023-01-25 10:48:28,632 - utils_api - ERROR - message with name was longer than 300 char
+2023-01-25 10:48:28,638 - utils_api - INFO - bhavikjayendrakumarshah has been added flag troubling profile
+2023-01-25 10:49:32,976 - utils_api - INFO - greenandrew75 has been updated on network information with connection level DISTANCE_2
+2023-01-25 11:05:39,396 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:06:41,239 - __main__ - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:07:03,298 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:07:04,421 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 11:22:19,388 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:23:08,508 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:23:09,516 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 11:24:15,751 - utils_api - INFO - greenandrew75 has been updated on network information with connection level DISTANCE_2
+2023-01-25 11:25:24,988 - utils_api - INFO - Sent invitation + note to greenandrew75
+2023-01-25 11:25:25,024 - utils_api - DEBUG - new profile urn for user greenandrew75 has been added
+2023-01-25 11:26:30,366 - utils_api - INFO - samantha-wren-02393a1 has been updated on network information with connection level DISTANCE_2
+2023-01-25 11:29:35,879 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 11:32:41,905 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 11:33:46,977 - utils_api - INFO - samantha-wren-02393a1 has been updated on network information with connection level DISTANCE_2
+2023-01-25 11:34:53,137 - utils_api - INFO - Sent invitation + note to samantha-wren-02393a1
+2023-01-25 11:34:53,166 - utils_api - DEBUG - new profile urn for user samantha-wren-02393a1 has been added
+2023-01-25 15:20:19,387 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 15:20:20,978 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 15:21:25,217 - utils_api - INFO - julian-wood-34a23a has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:22:34,939 - utils_api - INFO - Sent invitation + note to julian-wood-34a23a
+2023-01-25 15:22:34,998 - utils_api - DEBUG - new profile urn for user julian-wood-34a23a has been added
+2023-01-25 15:23:40,347 - utils_api - INFO - doug-rogers-5b470874 has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:24:49,683 - utils_api - INFO - Sent invitation + note to doug-rogers-5b470874
+2023-01-25 15:24:49,706 - utils_api - DEBUG - new profile urn for user doug-rogers-5b470874 has been added
+2023-01-25 15:25:54,053 - utils_api - INFO - henry-beckwith-96718b33 has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:27:04,547 - utils_api - INFO - Sent invitation + note to henry-beckwith-96718b33
+2023-01-25 15:27:04,563 - utils_api - DEBUG - new profile urn for user henry-beckwith-96718b33 has been added
+2023-01-25 15:28:07,914 - utils_api - INFO - james-wilcox-b9a735142 has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:29:17,778 - utils_api - INFO - Sent invitation + note to james-wilcox-b9a735142
+2023-01-25 15:29:17,801 - utils_api - DEBUG - new profile urn for user james-wilcox-b9a735142 has been added
+2023-01-25 15:30:20,374 - utils_api - INFO - jeff-sinclair-a1580 has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:31:31,872 - utils_api - INFO - Sent invitation + note to jeff-sinclair-a1580
+2023-01-25 15:31:31,896 - utils_api - DEBUG - new profile urn for user jeff-sinclair-a1580 has been added
+2023-01-25 15:32:34,295 - utils_api - INFO - mutaz-otaibi-9982b11 has been updated on network information with connection level DISTANCE_3
+2023-01-25 15:33:42,393 - utils_api - INFO - Sent invitation + note to mutaz-otaibi-9982b11
+2023-01-25 15:33:42,409 - utils_api - DEBUG - new profile urn for user mutaz-otaibi-9982b11 has been added
+2023-01-25 15:34:46,749 - utils_api - INFO - hussam-otaibi-409585 has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:35:54,960 - utils_api - INFO - Sent invitation + note to hussam-otaibi-409585
+2023-01-25 15:35:54,984 - utils_api - DEBUG - new profile urn for user hussam-otaibi-409585 has been added
+2023-01-25 15:36:57,333 - utils_api - INFO - marc-hendriks-223545ba has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:38:07,293 - utils_api - INFO - Sent invitation + note to marc-hendriks-223545ba
+2023-01-25 15:38:07,316 - utils_api - DEBUG - new profile urn for user marc-hendriks-223545ba has been added
+2023-01-25 15:39:10,666 - utils_api - INFO - daniel-bossal-faulkner has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:40:18,521 - utils_api - INFO - Sent invitation + note to daniel-bossal-faulkner
+2023-01-25 15:40:18,551 - utils_api - DEBUG - new profile urn for user daniel-bossal-faulkner has been added
+2023-01-25 15:41:20,925 - utils_api - INFO - neilhutchinson has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:42:29,249 - utils_api - INFO - Sent invitation + note to neilhutchinson
+2023-01-25 15:42:29,260 - utils_api - DEBUG - new profile urn for user neilhutchinson has been added
+2023-01-25 15:43:34,649 - utils_api - INFO - rcavendish has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:44:43,958 - utils_api - INFO - Sent invitation + note to rcavendish
+2023-01-25 15:44:43,979 - utils_api - DEBUG - new profile urn for user rcavendish has been added
+2023-01-25 15:45:47,343 - utils_api - INFO - pedrocavendishcarvalho has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:46:54,681 - utils_api - INFO - Sent invitation + note to pedrocavendishcarvalho
+2023-01-25 15:46:54,708 - utils_api - DEBUG - new profile urn for user pedrocavendishcarvalho has been added
+2023-01-25 15:47:59,413 - utils_api - INFO - guy-harper-09995635 has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:49:07,430 - utils_api - ERROR - there's been an error while sending a message to guy-harper-09995635
+2023-01-25 15:49:07,456 - utils_api - INFO - guy-harper-09995635 has been added flag troubling profile
+2023-01-25 15:50:12,850 - utils_api - INFO - andrew-limb-20999a54 has been updated on network information with connection level DISTANCE_3
+2023-01-25 15:51:20,933 - utils_api - ERROR - there's been an error while sending a message to andrew-limb-20999a54
+2023-01-25 15:51:20,949 - utils_api - INFO - andrew-limb-20999a54 has been added flag troubling profile
+2023-01-25 15:52:24,426 - utils_api - INFO - michael-bruun-486883 has been updated on network information with connection level DISTANCE_2
+2023-01-25 15:53:35,474 - utils_api - ERROR - there's been an error while sending a message to michael-bruun-486883
+2023-01-25 15:53:35,497 - utils_api - INFO - michael-bruun-486883 has been added flag troubling profile
+2023-01-25 16:30:16,771 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 16:30:19,939 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 16:31:27,986 - utils_api - INFO - lin-yue-2021 has been updated on network information with connection level DISTANCE_2
+2023-01-25 16:32:34,197 - utils_api - ERROR - there's been an error while sending a message to lin-yue-2021
+2023-01-25 16:32:34,223 - utils_api - INFO - lin-yue-2021 has been added flag troubling profile
+2023-01-25 16:33:36,640 - utils_api - INFO - fleur-dubbelboer-9a41978b has been updated on network information with connection level DISTANCE_3
+2023-01-25 16:34:47,510 - utils_api - ERROR - there's been an error while sending a message to fleur-dubbelboer-9a41978b
+2023-01-25 16:34:47,535 - utils_api - INFO - fleur-dubbelboer-9a41978b has been added flag troubling profile
+2023-01-25 18:07:55,577 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:09:07,275 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 18:10:21,629 - utils_api - DEBUG - added conversation urn for user rcavendish
+2023-01-25 18:10:21,647 - utils_api - DEBUG - added conversation urn for user hugokingoakley
+2023-01-25 18:10:21,652 - utils_api - DEBUG - added conversation urn for user daniel-bossal-faulkner
+2023-01-25 18:10:21,657 - utils_api - DEBUG - added conversation urn for user greenandrew75
+2023-01-25 18:10:21,661 - utils_api - DEBUG - added conversation urn for user wilsonlihn
+2023-01-25 18:10:21,665 - utils_api - DEBUG - added conversation urn for user chris-burton-vistra
+2023-01-25 18:10:21,669 - utils_api - DEBUG - added conversation urn for user nealgroves
+2023-01-25 18:10:21,675 - utils_api - DEBUG - added conversation urn for user matthew-weaver-40490b24
+2023-01-25 18:13:23,995 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-25 18:13:24,076 - utils_api - INFO - already sent 1 message to flemingprivateoffice
+2023-01-25 18:13:24,076 - utils_api - INFO - already sent 1 message to chuck-powers-09b19329
+2023-01-25 18:13:24,076 - utils_api - INFO - already sent 1 message to anthony-moore-30613926
+2023-01-25 18:13:24,077 - utils_api - INFO - already sent 1 message to alexanderkalis
+2023-01-25 18:13:24,077 - utils_api - INFO - already sent 1 message to simon-hopkins-9514791
+2023-01-25 18:13:24,077 - utils_api - INFO - already sent 1 message to marc-meyohas-8039364
+2023-01-25 18:13:24,077 - utils_api - INFO - already sent 1 message to daniel-goldstein-1462552b
+2023-01-25 18:13:24,077 - utils_api - INFO - already sent 1 message to francis-akpata-908a218a
+2023-01-25 18:13:24,077 - utils_api - INFO - already sent 1 message to chris-herson-cfa-61740125
+2023-01-25 18:13:24,078 - utils_api - INFO - already sent 1 message to andywhoward
+2023-01-25 18:13:24,078 - utils_api - INFO - already sent 1 message to roberthurst001
+2023-01-25 18:13:24,078 - utils_api - INFO - already sent 1 message to tom-beal-35874b5
+2023-01-25 18:13:24,078 - utils_api - INFO - already sent 1 message to tim-williams-74699316
+2023-01-25 18:13:24,078 - utils_api - INFO - already sent 1 message to daniel-jaffe-3414312
+2023-01-25 18:13:24,078 - utils_api - INFO - already sent 1 message to matthewhullcfa
+2023-01-25 18:13:24,079 - utils_api - INFO - already sent 1 message to roberto-giacalone
+2023-01-25 18:13:24,079 - utils_api - INFO - already sent 1 message to jackinglis
+2023-01-25 18:13:24,079 - utils_api - INFO - already sent 1 message to peter-clark-44540973
+2023-01-25 18:13:24,079 - utils_api - INFO - already sent 1 message to peter-lenart-cfa-caia-09242b9
+2023-01-25 18:13:24,079 - utils_api - INFO - already sent 1 message to piervan
+2023-01-25 18:14:29,473 - utils_api - INFO - sent cta message c0 to nealgroves using conversation_urn
+2023-01-25 18:14:29,476 - utils_api - INFO - already sent 1 message to vatsi
+2023-01-25 18:14:29,476 - utils_api - INFO - already sent 1 message to olivermulry
+2023-01-25 18:15:32,046 - utils_api - INFO - sent cta message c1 to wilsonlihn using conversation_urn
+2023-01-25 18:15:32,048 - utils_api - INFO - already sent 1 message to chris-west-8a927215
+2023-01-25 18:15:32,048 - utils_api - INFO - already sent 1 message to sebastien-delcourt-8356121
+2023-01-25 18:16:35,729 - utils_api - INFO - sent cta message c2 to chris-burton-vistra using conversation_urn
+2023-01-25 18:17:40,412 - utils_api - INFO - sent cta message c3 to matthew-weaver-40490b24 using conversation_urn
+2023-01-25 18:18:45,126 - utils_api - INFO - sent cta message c2 to hugokingoakley using conversation_urn
+2023-01-25 18:19:50,710 - utils_api - INFO - sent cta message c0 to greenandrew75 using conversation_urn
+2023-01-25 18:20:53,367 - utils_api - INFO - sent cta message c3 to daniel-bossal-faulkner using conversation_urn
+2023-01-25 18:21:57,906 - utils_api - INFO - sent cta message c2 to rcavendish using conversation_urn
+2023-01-25 18:26:10,448 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:26:36,043 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:29:41,046 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:51:15,416 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:51:41,046 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:51:58,609 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:54:17,417 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:55:54,257 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:57:46,409 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:00:13,620 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:03:09,250 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:11:55,028 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:15:05,380 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:19:13,142 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 10:18:31,160 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 10:47:02,912 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 10:47:15,429 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 11:01:46,263 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 11:13:47,269 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:01:12,471 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:01:34,698 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:02:13,796 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:04:55,171 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:05:48,386 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-26 21:06:51,637 - utils_api - DEBUG - added conversation urn for user benny-menashe-90457823
+2023-01-26 21:06:51,674 - utils_api - DEBUG - added conversation urn for user elio-leoni-sceti-5b323415b
+2023-01-26 21:06:51,678 - utils_api - DEBUG - added conversation urn for user casey-gordon-969a26
+2023-01-26 21:06:52,175 - utils_api - INFO - Logged into API using gianluca's profile
+2023-01-26 21:08:59,502 - utils_api - DEBUG - updated conversation urn for user julian-wood-34a23a
+2023-01-26 21:08:59,527 - utils_api - DEBUG - updated conversation urn for user pedrocavendishcarvalho
+2023-01-26 21:13:41,713 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-27 09:44:38,897 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-27 09:44:44,944 - utils_api - INFO - --------------------------------------------------------------------------------
+2023-01-27 10:53:03,322 - utils_api - INFO - --------------------------------------------------------------------------------

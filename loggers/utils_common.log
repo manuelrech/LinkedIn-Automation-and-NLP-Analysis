@@ -331,3 +331,189 @@
 2023-01-24 18:16:56,510 - utils.utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
 2023-01-24 18:16:56,518 - utils.utils_common - INFO - family offices UK has been read
 2023-01-24 18:16:56,523 - utils.utils_common - INFO - read in all files
+2023-01-25 09:48:23,619 - utils.utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 09:48:23,651 - utils.utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 09:48:23,657 - utils.utils_common - INFO - family offices UK has been read
+2023-01-25 09:48:23,662 - utils.utils_common - INFO - read in all files
+2023-01-25 09:57:06,128 - utils.utils_common - INFO - Created row in submitted_invitation for  richard-postlethwaite-b9191916
+2023-01-25 09:59:21,041 - utils.utils_common - INFO - Created row in submitted_invitation for  ben-palairet-90574135
+2023-01-25 10:01:32,262 - utils.utils_common - INFO - Created row in submitted_invitation for  michael-j-oliver-629789a
+2023-01-25 10:03:47,731 - utils.utils_common - INFO - Created row in submitted_invitation for  hugokingoakley
+2023-01-25 10:06:03,840 - utils.utils_common - INFO - Created row in submitted_invitation for  alexander-church-64a94028
+2023-01-25 10:08:20,264 - utils.utils_common - INFO - Created row in submitted_invitation for  vincent-smith-20a758206
+2023-01-25 10:09:32,530 - utils.utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x12994e980>, attempt 0
+2023-01-25 10:12:38,049 - utils.utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x12994e980>, attempt 1
+2023-01-25 10:19:03,885 - utils.utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x12994e980>, attempt 2
+2023-01-25 10:22:03,889 - utils.utils_common - ERROR - Error: Max attempts reached in <function send_invitations_note at 0x12994e980>
+2023-01-25 10:28:22,945 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 10:28:22,978 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 10:28:22,986 - utils_common - INFO - family offices UK has been read
+2023-01-25 10:28:22,991 - utils_common - INFO - read in all files
+2023-01-25 10:33:52,233 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x129092980>, attempt 0
+2023-01-25 10:35:49,340 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 10:35:49,374 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 10:35:49,378 - utils_common - INFO - family offices UK has been read
+2023-01-25 10:35:49,384 - utils_common - INFO - read in all files
+2023-01-25 10:38:06,873 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x128df2980>, attempt 0
+2023-01-25 10:41:07,123 - utils_common - ERROR - Error HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /uas/authenticate (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:992)'))) in <function send_invitations_note at 0x128df2980>, attempt 1
+2023-01-25 10:49:37,247 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x128df2980>, attempt 2
+2023-01-25 10:52:37,263 - utils_common - ERROR - Error: Max attempts reached in <function send_invitations_note at 0x128df2980>
+2023-01-25 11:05:39,396 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:05:39,430 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 11:05:39,440 - utils_common - INFO - family offices UK has been read
+2023-01-25 11:05:39,446 - utils_common - INFO - read in all files
+2023-01-25 11:05:40,161 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x127876980>, attempt 0
+2023-01-25 11:06:41,239 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:07:03,298 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:07:03,331 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 11:07:03,335 - utils_common - INFO - family offices UK has been read
+2023-01-25 11:07:03,338 - utils_common - INFO - read in all files
+2023-01-25 11:07:08,110 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x1292a6980>, attempt 0
+2023-01-25 11:22:19,388 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:22:19,422 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 11:22:19,430 - utils_common - INFO - family offices UK has been read
+2023-01-25 11:22:19,437 - utils_common - INFO - read in all files
+2023-01-25 11:22:20,013 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x126dd6980>, attempt 0
+2023-01-25 11:23:08,507 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 11:23:08,542 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 11:23:08,545 - utils_common - INFO - family offices UK has been read
+2023-01-25 11:23:08,550 - utils_common - INFO - read in all files
+2023-01-25 11:25:25,025 - utils_common - INFO - Created row in submitted_invitation for  greenandrew75
+2023-01-25 11:26:34,597 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x12ab1a980>, attempt 0
+2023-01-25 11:29:40,764 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x12ab1a980>, attempt 1
+2023-01-25 11:34:53,166 - utils_common - INFO - Created row in submitted_invitation for  samantha-wren-02393a1
+2023-01-25 11:36:29,947 - utils_common - ERROR - Error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) in <function send_invitations_note at 0x12ab1a980>, attempt 2
+2023-01-25 11:39:29,953 - utils_common - ERROR - Error: Max attempts reached in <function send_invitations_note at 0x12ab1a980>
+2023-01-25 15:20:19,386 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 15:20:19,421 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 15:20:19,429 - utils_common - INFO - family offices UK has been read
+2023-01-25 15:20:19,435 - utils_common - INFO - read in all files
+2023-01-25 15:22:34,999 - utils_common - INFO - Created row in submitted_invitation for  julian-wood-34a23a
+2023-01-25 15:24:49,706 - utils_common - INFO - Created row in submitted_invitation for  doug-rogers-5b470874
+2023-01-25 15:27:04,563 - utils_common - INFO - Created row in submitted_invitation for  henry-beckwith-96718b33
+2023-01-25 15:29:17,801 - utils_common - INFO - Created row in submitted_invitation for  james-wilcox-b9a735142
+2023-01-25 15:31:31,896 - utils_common - INFO - Created row in submitted_invitation for  jeff-sinclair-a1580
+2023-01-25 15:33:42,409 - utils_common - INFO - Created row in submitted_invitation for  mutaz-otaibi-9982b11
+2023-01-25 15:35:54,984 - utils_common - INFO - Created row in submitted_invitation for  hussam-otaibi-409585
+2023-01-25 15:38:07,316 - utils_common - INFO - Created row in submitted_invitation for  marc-hendriks-223545ba
+2023-01-25 15:40:18,552 - utils_common - INFO - Created row in submitted_invitation for  daniel-bossal-faulkner
+2023-01-25 15:42:29,260 - utils_common - INFO - Created row in submitted_invitation for  neilhutchinson
+2023-01-25 15:44:43,979 - utils_common - INFO - Created row in submitted_invitation for  rcavendish
+2023-01-25 15:46:54,709 - utils_common - INFO - Created row in submitted_invitation for  pedrocavendishcarvalho
+2023-01-25 16:30:16,770 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 16:30:16,808 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 16:30:16,815 - utils_common - INFO - family offices UK has been read
+2023-01-25 16:30:16,820 - utils_common - INFO - read in all files
+2023-01-25 18:07:55,576 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:07:55,612 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 18:07:55,621 - utils_common - INFO - family offices UK has been read
+2023-01-25 18:07:55,626 - utils_common - INFO - read in all files
+2023-01-25 18:26:10,448 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:26:10,479 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 18:26:10,488 - utils_common - INFO - family offices UK has been read
+2023-01-25 18:26:10,493 - utils_common - INFO - read in all files
+2023-01-25 18:26:10,500 - utils_common - ERROR - Error linkedin_login() got an unexpected keyword argument 'username' in <function send_in_mail_message at 0x12b8a7c40>, attempt 0
+2023-01-25 18:26:36,043 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:26:36,078 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 18:26:36,082 - utils_common - INFO - family offices UK has been read
+2023-01-25 18:26:36,086 - utils_common - INFO - read in all files
+2023-01-25 18:26:36,091 - utils_common - ERROR - Error linkedin_login() got an unexpected keyword argument 'username' in <function send_in_mail_message at 0x129a97c40>, attempt 0
+2023-01-25 18:29:41,045 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:29:41,081 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 18:29:41,085 - utils_common - INFO - family offices UK has been read
+2023-01-25 18:29:41,089 - utils_common - INFO - read in all files
+2023-01-25 18:29:41,094 - utils_common - ERROR - Error linkedin_login() got an unexpected keyword argument 'username' in <function send_in_mail_message at 0x127857c40>, attempt 0
+2023-01-25 18:32:41,190 - utils_common - ERROR - Error linkedin_login() got an unexpected keyword argument 'username' in <function send_in_mail_message at 0x127857c40>, attempt 1
+2023-01-25 18:35:41,237 - utils_common - ERROR - Error linkedin_login() got an unexpected keyword argument 'username' in <function send_in_mail_message at 0x127857c40>, attempt 2
+2023-01-25 18:38:41,336 - utils_common - ERROR - Error: Max attempts reached in <function send_in_mail_message at 0x127857c40>
+2023-01-25 18:51:15,416 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:51:15,451 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-25 18:51:15,460 - utils_common - INFO - family offices UK has been read
+2023-01-25 18:51:15,465 - utils_common - INFO - read in all files
+2023-01-25 18:51:15,473 - utils_common - ERROR - Error linkedin_login() got an unexpected keyword argument 'username' in <function send_in_mail_message at 0x12b73bc40>, attempt 0
+2023-01-25 18:51:41,045 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:51:58,609 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:54:17,417 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:55:54,257 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 18:57:46,408 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:00:13,619 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:03:09,250 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:11:55,028 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:15:05,380 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-25 19:19:13,141 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 10:18:31,160 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 10:47:02,911 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 10:47:15,429 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 11:01:46,263 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 11:13:47,268 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:01:12,470 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:01:34,698 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:02:13,796 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:02:13,829 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-26 21:02:13,837 - utils_common - INFO - family offices UK has been read
+2023-01-26 21:02:13,843 - utils_common - INFO - read in all files
+2023-01-26 21:04:55,171 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:04:55,207 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-26 21:04:55,212 - utils_common - INFO - family offices UK has been read
+2023-01-26 21:04:55,217 - utils_common - INFO - read in all files
+2023-01-26 21:13:41,713 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-26 21:13:41,754 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-26 21:13:41,761 - utils_common - INFO - family offices UK has been read
+2023-01-26 21:13:41,766 - utils_common - INFO - read in all files
+2023-01-26 21:15:47,596 - utils_common - ERROR - Error Message: 
+Stacktrace:
+0   chromedriver                        0x00000001032cdfa8 chromedriver + 4886440
+1   chromedriver                        0x000000010324b643 chromedriver + 4351555
+2   chromedriver                        0x0000000102e99b27 chromedriver + 477991
+3   chromedriver                        0x0000000102ede76c chromedriver + 759660
+4   chromedriver                        0x0000000102ede9c1 chromedriver + 760257
+5   chromedriver                        0x0000000102f22204 chromedriver + 1036804
+6   chromedriver                        0x0000000102f045fd chromedriver + 914941
+7   chromedriver                        0x0000000102f1f5fe chromedriver + 1025534
+8   chromedriver                        0x0000000102f043a3 chromedriver + 914339
+9   chromedriver                        0x0000000102ece57f chromedriver + 693631
+10  chromedriver                        0x0000000102ecfb1e chromedriver + 699166
+11  chromedriver                        0x000000010329ab9e chromedriver + 4676510
+12  chromedriver                        0x000000010329f91e chromedriver + 4696350
+13  chromedriver                        0x00000001032a719f chromedriver + 4727199
+14  chromedriver                        0x00000001032a081a chromedriver + 4700186
+15  chromedriver                        0x0000000103273a62 chromedriver + 4516450
+16  chromedriver                        0x00000001032bf8c8 chromedriver + 4827336
+17  chromedriver                        0x00000001032bfa45 chromedriver + 4827717
+18  chromedriver                        0x00000001032d57ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007ff812a31259 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff812a2cc7b thread_start + 15
+ in <function send_in_mail_message at 0x12b55bba0>, attempt 0
+2023-01-27 09:44:38,896 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-27 09:44:44,944 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-27 09:44:44,974 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-27 09:44:44,983 - utils_common - INFO - family offices UK has been read
+2023-01-27 09:44:44,988 - utils_common - INFO - read in all files
+2023-01-27 09:47:50,425 - utils_common - ERROR - Error Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104f44fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000104ec2643 chromedriver + 4351555
+2   chromedriver                        0x0000000104b10b27 chromedriver + 477991
+3   chromedriver                        0x0000000104b5576c chromedriver + 759660
+4   chromedriver                        0x0000000104b559c1 chromedriver + 760257
+5   chromedriver                        0x0000000104b99204 chromedriver + 1036804
+6   chromedriver                        0x0000000104b7b5fd chromedriver + 914941
+7   chromedriver                        0x0000000104b965fe chromedriver + 1025534
+8   chromedriver                        0x0000000104b7b3a3 chromedriver + 914339
+9   chromedriver                        0x0000000104b4557f chromedriver + 693631
+10  chromedriver                        0x0000000104b46b1e chromedriver + 699166
+11  chromedriver                        0x0000000104f11b9e chromedriver + 4676510
+12  chromedriver                        0x0000000104f1691e chromedriver + 4696350
+13  chromedriver                        0x0000000104f1e19f chromedriver + 4727199
+14  chromedriver                        0x0000000104f1781a chromedriver + 4700186
+15  chromedriver                        0x0000000104eeaa62 chromedriver + 4516450
+16  chromedriver                        0x0000000104f368c8 chromedriver + 4827336
+17  chromedriver                        0x0000000104f36a45 chromedriver + 4827717
+18  chromedriver                        0x0000000104f4c7ef chromedriver + 4917231
+19  libsystem_pthread.dylib             0x00007ff812a31259 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff812a2cc7b thread_start + 15
+ in <function send_in_mail_message at 0x1279a3ba0>, attempt 0
+2023-01-27 10:53:03,321 - utils_common - INFO - --------------------------------------------------------------------------------
+2023-01-27 10:53:03,361 - utils_common - INFO - Set directory to /Users/manuel/Desktop/Linkedin
+2023-01-27 10:53:03,368 - utils_common - INFO - family offices UK has been read
+2023-01-27 10:53:03,373 - utils_common - INFO - read in all files
