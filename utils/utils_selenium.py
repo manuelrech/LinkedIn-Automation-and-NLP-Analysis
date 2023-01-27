@@ -13,7 +13,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler = logging.FileHandler('loggers/utils_selenium.log')
 file_handler.setFormatter(formatter)
@@ -121,6 +121,7 @@ def send_in_mail_message(sleeps=60):
         logger.info(f'send inmail to {profile_id}')
         sleep(10)
 
+    logger.info('no more people to send inmail for the moment')
 def get_new_connections(stopping_id):
     # stopping id is created just before the campaing starts, creating a cutoff for which we do not need to look more back in time for connections
     # in simple works, the last connection before the campaign starst. 
