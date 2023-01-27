@@ -5,6 +5,21 @@ import pandas as pd
 from datetime  import datetime
 import random
 
+def setup_correct_directory(directory_name = 'Linkedin'):
+    try:
+        home_directory = os.path.expanduser("~")
+        desktop_directory = os.path.join(home_directory, "Desktop")
+        os.makedirs(desktop_directory + f'/{directory_name}' + '/loggers', exist_ok=True)
+        os.makedirs(desktop_directory + f'/{directory_name}' + '/datasets', exist_ok=True)
+        os.chdir(desktop_directory + f'/{directory_name}')
+
+        logger.info(f"Set directory to {desktop_directory}/{directory_name}")
+
+    except Exception as e:
+        logger.error(f"There's been an error, {e} while reading file, check that you are in the right folder")
+
+setup_correct_directory()
+
 if not 'loggers' in os.listdir():
             os.mkdir('loggers')
 
@@ -33,18 +48,6 @@ def repeat_times(max_attempts, function, *args):
         logger.error(f'Error: Max attempts reached in {function}')
         raise Exception("Error: Max attempts reached")
 
-def setup_correct_directory(directory_name = 'Linkedin'):
-    try:
-        home_directory = os.path.expanduser("~")
-        desktop_directory = os.path.join(home_directory, "Desktop")
-        os.makedirs(desktop_directory + f'/{directory_name}' + '/loggers', exist_ok=True)
-        os.makedirs(desktop_directory + f'/{directory_name}' + '/datasets', exist_ok=True)
-        os.chdir(desktop_directory + f'/{directory_name}')
-
-        logger.info(f"Set directory to {desktop_directory}/{directory_name}")
-
-    except Exception as e:
-        logger.error(f"There's been an error, {e} while reading file, check that you are in the right folder")
 
 def setup_begging_datasets():
 
