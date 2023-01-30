@@ -16,7 +16,7 @@ utils_common.setup_begging_datasets() # the first time the script runs this fixe
 
 # utils_common.repeat_times(3, utils_api.send_invitations_note, 40, 60)
 
-utils_common.repeat_times(3, utils_selenium.get_new_connections, 'ian-allison-438a4aaa')
+# utils_common.repeat_times(3, utils_selenium.get_new_connections, 'ian-allison-438a4aaa')
 
 # utils_common.repeat_times(3, utils_api.send_message_new_1st_connections, 60)
 
