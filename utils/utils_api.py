@@ -116,6 +116,7 @@ def send_invitations_note(how_many, sleeping_time=60):
 
             logger.info(f"Sent invitation + note to {profile_id}")
             family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'profile_urn'] = profile_urn
+            family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'troubling_profile'] = False 
             family_offices_UK.to_csv('family_offices_UK.csv', index=0)
             logger.debug(f'new profile urn for user {profile_id} has been added')
 
