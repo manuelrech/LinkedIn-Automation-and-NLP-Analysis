@@ -163,16 +163,16 @@ def get_new_connections(stopping_id):
                 
             print(profile_id)
             submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'] = True
-        logger.info(f'{profile_id} has accepted invitation, updated column on submitted invitation')
-        submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
+            logger.info(f'{profile_id} has accepted invitation, updated column on submitted invitation')
+            submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
 
-        network_information.loc[network_information.profile_id == profile_id] = utils_common.create_row_network_info(public_identifier=profile_id, connection_level='DISTANCE_1')
-        logger.info(f'network info has been updated to 1 for {profile_id}')
-        network_information.to_csv('datasets/network_info.csv', index=0)
+            network_information.loc[network_information.profile_id == profile_id] = utils_common.create_row_network_info(public_identifier=profile_id, connection_level='DISTANCE_1')
+            logger.info(f'network info has been updated to 1 for {profile_id}')
+            network_information.to_csv('datasets/network_info.csv', index=0)
 
-        if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'conversation_urn'].iloc[0]):
-            family_offices_UK = utils_api.get_conversation_urn(sleeping_time=60)
+            if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'conversation_urn'].iloc[0]):
+                family_offices_UK = utils_api.get_conversation_urn(sleeping_time=60)
 
-    driver.execute_script("arguments[0].scrollIntoView();", nome)
+        driver.execute_script("arguments[0].scrollIntoView();", nome)
 
     driver.close()
