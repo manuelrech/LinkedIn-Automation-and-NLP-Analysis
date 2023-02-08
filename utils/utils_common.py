@@ -6,7 +6,7 @@ import random
 import os
 
 if not 'loggers' in os.listdir():
-            os.mkdir('loggers')
+    os.mkdir('loggers')
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -16,10 +16,10 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.info('-'*80)
 
-def setup_correct_directory(directory_name = 'Linkedin'):
+def setup_correct_directory(directory_name):
     try:
         home_directory = os.path.expanduser("~")
-        desktop_directory = os.path.join(home_directory, "Desktop")
+        desktop_directory = os.path.join(home_directory, "Desktop/Linkedin")
         os.makedirs(desktop_directory + f'/{directory_name}' + '/loggers', exist_ok=True)
         os.makedirs(desktop_directory + f'/{directory_name}' + '/datasets', exist_ok=True)
         os.chdir(desktop_directory + f'/{directory_name}')
@@ -29,11 +29,11 @@ def setup_correct_directory(directory_name = 'Linkedin'):
     except Exception as e:
         logger.error(f"There's been an error, {e} while reading file, check that you are in the right folder")
 
-def repeat_times(max_attempts, function, *args):    
+def repeat_times(max_attempts, function, **kwargs):    
     counter = 0
     while counter < max_attempts:
         try:
-            function(*args)
+            function(**kwargs)
         except Exception as e:
             logger.error(f'Error {e} in {function}, attempt {counter}')
             counter += 1
@@ -45,20 +45,10 @@ def repeat_times(max_attempts, function, *args):
         logger.error(f'Error: Max attempts reached in {function}')
         raise Exception("Error: Max attempts reached")
 
-
 def setup_begging_datasets():
 
     if not 'datasets' in os.listdir():
             os.mkdir('datasets')
-
-    if not 'family_offices_UK.csv' in os.listdir():
-        family_offices = pd.read_csv('family_offices.csv')
-        family_offices_UK = family_offices.loc[family_offices.Stato.isin(['England', 'Scotland', 'Ireland'])]
-        family_offices_UK.to_csv('family_offices_UK.csv', index=0)
-        logger.info('family offices has been created')
-    else:
-        family_offices_UK = pd.read_csv('family_offices_UK.csv')
-        logger.info('family offices UK has been read')
 
     try: 
         network_info = pd.read_csv('datasets/network_info.csv')
