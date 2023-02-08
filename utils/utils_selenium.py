@@ -32,6 +32,10 @@ def linkedin_login(profile = None):
     elif profile == 'manuel':
         username = 'rech.manuel.27@gmail.com'
         password = 'micael21'
+    
+    elif profile == 'mounir':
+        username = 'mounirsaib1@gmail.com'
+        password = 'Larache686'
 
     elif profile == 'cappero':
         username = 'capperobello111@gmail.com'
@@ -55,11 +59,11 @@ def linkedin_login(profile = None):
     
     return driver
 
-def send_in_mail_message(sleeps=60):
+def send_in_mail_message(profile, dataset_name, sleeps=60):
 
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')
     submitted_inmail = pd.read_csv('datasets/submitted_inmail.csv')
-    family_offices_UK = pd.read_csv('family_offices_UK.csv')
+    leads_dataset = pd.read_csv(f'{dataset_name}.csv')
     message = pd.read_csv('datasets/message.csv')
 
     si_not_accepted = submitted_invitation[submitted_invitation.accepted_invitation == False]
@@ -72,9 +76,9 @@ def send_in_mail_message(sleeps=60):
         logger.info('no people to target with inmail yet')
         return
     
-    driver = linkedin_login('gianluca')
+    driver = linkedin_login(profile)
 
-    si_to_be_inmailed_fo = pd.merge(si_to_be_inmailed, family_offices_UK, how='left', left_on='profile_id', right_on='LinkedIn')
+    si_to_be_inmailed_fo = pd.merge(si_to_be_inmailed, leads_dataset, how='left', left_on='profile_id', right_on='LinkedIn')
     for name, profile_id, profile_urn in zip(si_to_be_inmailed_fo.Nome, si_to_be_inmailed_fo.profile_id, si_to_be_inmailed_fo.profile_urn):
 
         if submitted_inmail.profile_id.isin([profile_id]).any():
@@ -123,22 +127,28 @@ def send_in_mail_message(sleeps=60):
 
     logger.info('no more people to send inmail for the moment')
 
-def get_new_connections(stopping_id):
+def get_new_connections(profile, dataset_name, stopping_id):
     # stopping id is created just before the campaing starts, creating a cutoff for which we do not need to look more back in time for connections
     # in simple works, the last connection before the campaign starst. 
 
     submitted_invitation = pd.read_csv('datasets/submitted_invitation.csv')    
     network_information = pd.read_csv('datasets/network_info.csv')
-    family_offices_UK = pd.read_csv('family_offices_UK.csv')
+    leads_dataset = pd.read_csv(f'{dataset_name}.csv')
 
-    driver = linkedin_login('gianluca')
+    driver = linkedin_login(profile)
     driver.get("https://www.linkedin.com/mynetwork/invite-connect/connections")
 
-    recently_added_button = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[1]/div[1]/div/button/span')))
+    try:
+        recently_added_button = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[1]/div[1]/div/button/span')))
+    except:
+        recently_added_button = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[6]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[1]/div[1]/div/button/span')))
+    
     assert recently_added_button.text == 'Recently added'
 
-    table_connections = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[2]/div[1]')))
-
+    try:
+        table_connections = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[2]/div[1]')))
+    except:
+        table_connections = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[6]/div[3]/div/div/div/div/div[2]/div/div/main/div/section/div[2]/div[1]')))
 
     found=False
     while found == False:
@@ -170,8 +180,8 @@ def get_new_connections(stopping_id):
             logger.info(f'network info has been updated to 1 for {profile_id}')
             network_information.to_csv('datasets/network_info.csv', index=0)
 
-            if pd.isna(family_offices_UK.loc[family_offices_UK.LinkedIn == profile_id, 'conversation_urn'].iloc[0]):
-                family_offices_UK = utils_api.get_conversation_urn(sleeping_time=60)
+            if pd.isna(leads_dataset.loc[leads_dataset.LinkedIn == profile_id, 'conversation_urn'].iloc[0]):
+                leads_dataset = utils_api.get_conversation_urn(profile = profile, dataset_name = dataset_name, sleeping_time=60)
 
         driver.execute_script("arguments[0].scrollIntoView();", nome)
 
