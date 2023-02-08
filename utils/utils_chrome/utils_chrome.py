@@ -1,4 +1,4 @@
-import os.path
+import os
 import pandas as pd
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -7,13 +7,14 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 
-def add_manual_interaction():
+def add_manual_interaction(sheet_name):
+
     scta = pd.read_csv('datasets/submitted_call_to_action.csv')
     # If modifying these scopes, delete the file token.json.
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
     # The ID and range of a sample spreadsheet.
-    SAMPLE_SPREADSHEET_ID = '1569CbCaM_vQ1sxJWHtPNbOHnbK-nfjMSt5KnUEoXKzE'
+    SAMPLE_SPREADSHEET_ID = sheet_name
     SAMPLE_RANGE_NAME = 'A:A'
     """Shows basic usage of the Sheets API.
     Prints values from a sample spreadsheet.
@@ -22,18 +23,18 @@ def add_manual_interaction():
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
     # time.
-    if os.path.exists('utils/utils_chrome/token.json'):
-        creds = Credentials.from_authorized_user_file('utils/utils_chrome/token.json', SCOPES)
+    if os.path.exists('/Users/manuel/Desktop/Linkedin/utils/utils_chrome/token.json'):
+        creds = Credentials.from_authorized_user_file('/Users/manuel/Desktop/Linkedin/utils/utils_chrome/token.json', SCOPES)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', SCOPES)
+                '/Users/manuel/Desktop/Linkedin/utils/utils_chrome/credentials.json', SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
-        with open('token.json', 'w') as token:
+        with open('/Users/manuel/Desktop/Linkedin/utils/utils_chrome/token.json', 'w') as token:
             token.write(creds.to_json())
 
     try:
