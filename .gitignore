@@ -4,3 +4,10 @@ loggers/*
 loggers/utils_api.log
 loggers/utils_common.log
 loggers/utils_selenium.log
+linkedin_gianluca/loggers/*
+linkedin_gianluca/datasets/*
+linkedin_mounir/*
+utils/__pycache__/utils_api.cpython-311.pyc
+utils/__pycache__/utils_common.cpython-311.pyc
+utils/__pycache__/utils_selenium.cpython-311.pyc
+.DS_Store
