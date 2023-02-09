@@ -54,7 +54,20 @@ def add_manual_interaction(sheet_name):
         print(err)
 
     for link in values:
-        profile_id = link[0].split('/')[-2]
-        print(profile_id)
+        profile_link = link[0]
+        profile_link_split_list = profile_link.split('/')
+        lenght_list_link = len(profile_link_split_list)
+
+        assert lenght_list_link in [5,6] # depending on how they paste the link
+
+        if lenght_list_link == 6: 
+            profile_id = link[0].split('/')[-2]
+
+        
+        elif lenght_list_link == 5: 
+            profile_id = link[0].split('/')[-1]
+        
         scta.loc[len(scta)] = ['', '', str(profile_id), 'manual', False]
+        print('added manual interaction for ', profile_id)
         scta.to_csv('datasets/submitted_call_to_action.csv', index=0)
+            
