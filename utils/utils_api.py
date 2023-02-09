@@ -99,7 +99,6 @@ def send_invitations_note(profile, how_many, dataset_name, sleeping_time=60):
 
         assert connection_level in ('DISTANCE_2', 'DISTANCE_3', 'OUT_OF_NETWORK')
         
-        # logger.info(f"{profile_id} for you is a connection of level {connection_level}")
         network_info.loc[len(network_info)] = utils_common.create_row_network_info(profile_id, connection_level)
         network_info.to_csv('datasets/network_info.csv', index=0)
         logger.info(f"{profile_id} has been updated on network information with connection level {connection_level}")
@@ -119,11 +118,11 @@ def send_invitations_note(profile, how_many, dataset_name, sleeping_time=60):
 
         if result == False:
 
-            logger.info(f"Sent invitation + note to {profile_id}")
+            logger.debug(f"Sent invitation + note to {profile_id}")
             leads_dataset.loc[leads_dataset.LinkedIn == profile_id, 'profile_urn'] = profile_urn
             leads_dataset.loc[leads_dataset.LinkedIn == profile_id, 'troubling_profile'] = False 
             leads_dataset.to_csv(f'{dataset_name}.csv', index=0)
-            logger.debug(f'new profile urn for user {profile_id} has been added')
+            logger.info(f'new profile urn for user {profile_id} has been added')
 
             submitted_invitation.loc[len(submitted_invitation)] = utils_common.create_row_submitted_invitation(profile_id, message_code=code)
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
@@ -134,7 +133,7 @@ def send_invitations_note(profile, how_many, dataset_name, sleeping_time=60):
             logger.error(f"there's been an error while sending a message to {profile_id}")
             leads_dataset.loc[leads_dataset.LinkedIn == profile_id, 'troubling_profile'] = True
             leads_dataset.to_csv(f'{dataset_name}.csv', index=0)
-            logger.info(f"{profile_id} has been added flag troubling profile")
+            logger.info(f"{profile_id} cannot receive invitation + note, maybe reached limit? Add troubling_profile flag")
         
         else:
 
@@ -161,7 +160,7 @@ def get_conversation_urn(profile, dataset_name, sleeping_time=60):
 
             conversation_urn = conversations['elements'][i]['dashEntityUrn'].split(':')[-1]
             leads_dataset.loc[leads_dataset.LinkedIn == pi, 'conversation_urn'] = conversation_urn
-            logger.debug(f"added conversation urn for user {pi}")
+            logger.info(f"added conversation urn for user {pi}")
             leads_dataset.to_csv(f'{dataset_name}.csv', index=0)
             fo_si_merged = pd.merge(submitted_invitation, leads_dataset, how='left', left_on='profile_id', right_on='LinkedIn')
 
@@ -186,7 +185,7 @@ def get_conversation_urn(profile, dataset_name, sleeping_time=60):
 
                 conversation_urn = conversations['elements'][i]['dashEntityUrn'].split(':')[-1]
                 leads_dataset.loc[leads_dataset.LinkedIn == pi, 'conversation_urn'] = conversation_urn
-                logger.debug(f"updated conversation urn for user {pi}")
+                logger.info(f"updated conversation urn for user {pi}")
                 leads_dataset.to_csv(f'{dataset_name}.csv', index=0)
                 fo_si_merged = pd.merge(submitted_invitation, leads_dataset, how='left', left_on='profile_id', right_on='LinkedIn')
     
@@ -236,7 +235,7 @@ def send_message_new_1st_connections(profile, dataset_name, sleeping_time=60):
 
             submitted_call_to_action.loc[len(submitted_call_to_action)] = utils_common.create_row_subitted_cta(profile_id, message_code=code)
             submitted_call_to_action.to_csv('datasets/submitted_call_to_action.csv', index=0)
-            logger.info(f'sent cta message {code} to {profile_id} using {tool}')
+            logger.debug(f'sent cta message {code} to {profile_id} using {tool}')
 
 
 
