@@ -171,7 +171,7 @@ def get_new_connections(profile, dataset_name, stopping_id):
             if submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'].iloc[0] == True:
                 continue
                 
-            print(profile_id)
+            print('new connection', profile_id)
             submitted_invitation.loc[submitted_invitation.profile_id == profile_id, 'accepted_invitation'] = True
             logger.info(f'{profile_id} has accepted invitation, updated column on submitted invitation')
             submitted_invitation.to_csv('datasets/submitted_invitation.csv', index=0)
