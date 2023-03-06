@@ -1,19 +1,4 @@
 import utils_common
-import logging
-import os
-
-
-if not 'loggers' in os.listdir():
-            os.mkdir('loggers')
-
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-file_handler = logging.FileHandler('loggers/message_creation.log')
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
-
 
 utils_common.create_message(type='note', text='Hi {}, I\'m Gianluca, CEO of https://vaiuk.finance/, we work within the alternative and disruptive investments space. Judging from your profile, you have quite the experience in this field, as such I\'d like to join your network to exchange ideas and opportunities. Kind regards, Gianluca', code='n0')
 utils_common.create_message(type='call_to_action', text='Dear {},\nLately it seems the world is jumping from one crisis to the next. From pandemic, to natural disasters, war and economic downturn. Market uncertainty has become the norm, and making resilient investments has become a pertinent challenge for our partners and the wider investment community.\nHowever, we at Virgil Alternative Investments ltd. have dedicated the past few years to study and specialise in uncertain markets and assets, supporting and advising a network of Investors with over $3.5 billion AUM in Alternative Investments.\nWe see opportunity where others see uncertainty, and we’d like you to join our community to share our investment opportunities and services with you.\nPlease feel free to book a call https://calendly.com/vaiuk with us so that we can discuss your suitability and so that you learn more about VAI UK.\nKind regards,\nGianluca', code='c0')
