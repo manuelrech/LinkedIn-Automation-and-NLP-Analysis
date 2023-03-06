@@ -2,6 +2,7 @@ from linkedin_api import Linkedin
 from utils import utils_common
 from time import sleep
 import pandas as pd
+from datetime import datetime
 import logging
 import os
 
@@ -202,6 +203,10 @@ def send_message_new_1st_connections(profile, dataset_name, sleeping_time=60):
 
     si_fo = pd.merge(submitted_invitation, leads_dataset, how='left', left_on='profile_id', right_on='LinkedIn')
     si_fo_accepted_invitation = si_fo[si_fo.accepted_invitation == True]
+
+    seven_days_timestamp = 172_800  
+    current_timestamp = int(datetime.now().timestamp())
+    si_fo_accepted_invitation = si_fo_accepted_invitation[si_fo_accepted_invitation.timestamp + seven_days_timestamp < current_timestamp]
 
     for nome, profile_urn, conversation_urn, profile_id in zip(si_fo_accepted_invitation.Nome, si_fo_accepted_invitation.profile_urn, si_fo_accepted_invitation.conversation_urn, si_fo_accepted_invitation.profile_id):
         
