@@ -26,20 +26,16 @@ def autenticate_linkedin_API(profile = None):
         profile = input('what profile do you want to use gialuca/manuel/cappero? ')
 
     elif profile == 'gianluca':
-        username = 'gianluca@vaiuk.finance'
-        password = '2023.VaiLondon$'
+        username = '...'
+        password = '...'
     
     elif profile == 'mounir':
-        username = 'mounirsaib1@gmail.com'
-        password = 'Larache686'
+        username = '...'
+        password = '...'
 
     elif profile == 'manuel':
-        username = 'rech.manuel.27@gmail.com'
-        password = 'micael21'
-
-    elif profile == 'cappero':
-        username = 'capperobello111@gmail.com'
-        password = 'micael21'
+        username = '...'
+        password = '...'
 
     api = Linkedin(username, password)
     logger.info(f"Logged into API using {profile}'s profile")
