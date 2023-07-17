@@ -26,20 +26,16 @@ def linkedin_login(profile = None):
         profile = input('what profile do you want to use gialuca/manuel/cappero? ')
 
     if profile == 'gianluca':
-        username = 'gianluca@vaiuk.finance'
-        password = '2023.VaiLondon$'
+        username = '...'
+        password = '...'
 
     elif profile == 'manuel':
-        username = 'rech.manuel.27@gmail.com'
-        password = 'micael21'
+        username = '...'
+        password = '...'
     
     elif profile == 'mounir':
-        username = 'mounirsaib1@gmail.com'
-        password = 'Larache686'
-
-    elif profile == 'cappero':
-        username = 'capperobello111@gmail.com'
-        password = 'micael21'
+        username = '...'
+        password = '...'
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     ##### LOGIN SESSION #####
